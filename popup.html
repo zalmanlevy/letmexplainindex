@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -183,4 +184,191 @@
   
   <script src="popup.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 380px;
+      height: 550px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+    }
+    #header-container {
+      text-align: center;
+      padding: 15px 15px 5px;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      flex-shrink: 0;
+    }
+    #logo-link {
+      display: inline-block;
+      text-decoration: none;
+    }
+    #popup-logo {
+      width: 45px;
+      height: auto;
+      display: block;
+      margin: 0 auto 5px;
+    }
+    h3 {
+      margin: 0;
+      color: #202124;
+      font-size: 18px;
+    }
+    #search-container {
+      padding: 10px 15px;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      flex-shrink: 0;
+    }
+    #search-bar {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      font-size: 14px;
+      box-sizing: border-box;
+      outline: none;
+    }
+    #search-bar:focus { border-color: #1a73e8; }
+    #scrollable-content {
+        flex-grow: 1;
+        overflow-y: auto;
+        padding: 15px;
+    }
+    .section-title {
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #5f6368;
+        margin: 15px 0 8px;
+        font-weight: 600;
+    }
+    .section-title:first-child { margin-top: 0; }
+    .class-item {
+      background: white;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      border: 1px solid #eee;
+      overflow: hidden;
+    }
+    .class-header {
+      padding: 12px 15px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      user-select: none;
+      transition: background 0.2s;
+    }
+    .class-header:hover { background: #f1f3f4; }
+    
+    .star-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .class-star { margin-right: 12px; }
+    .mod-star { margin-right: 8px; }
+    
+    .star-icon {
+      color: #dadce0; 
+      fill: none; 
+      transition: all 0.2s ease;
+    }
+    .class-star .star-icon { width: 20px; height: 20px; }
+    .mod-star .star-icon { width: 16px; height: 16px; } 
+    
+    .star-icon:hover { transform: scale(1.15); }
+    .star-icon.is-favorite {
+      color: #fbbc04; 
+      fill: #fbbc04;  
+    }
+
+    .class-title-text { flex-grow: 1; }
+    .modules-container { padding: 0; }
+    .module-item { border-top: 1px solid #f1f3f4; }
+    
+    /* NEW: Visual break for the first non-favorited module */
+    .module-separator {
+      border-top: 4px solid #e8eaed; 
+    }
+    
+    .module-header {
+      padding: 10px 15px 10px 15px;
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+      background: #fafafa;
+      color: #3c4043;
+      user-select: none;
+      display: flex;
+      align-items: center;
+    }
+    .module-header:hover { background: #f1f3f4; }
+    
+    .mod-arrow-container {
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+      color: #777;
+    }
+    .mod-arrow {
+      width: 14px;
+      height: 14px;
+      transition: transform 0.2s ease;
+    }
+    .module-item.expanded .mod-arrow {
+      transform: rotate(90deg);
+    }
+    .module-title-text { flex-grow: 1; }
+
+    .lessons-container {
+      padding: 8px 15px 12px 45px;
+      background: #ffffff;
+      border-top: 1px solid #f8f9fa;
+    }
+    .lesson-item {
+      margin-bottom: 8px;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    .lesson-item a {
+      color: #1a0dab;
+      text-decoration: none;
+      display: block;
+      padding: 2px 0;
+    }
+    .lesson-item a:hover { text-decoration: underline; color: #1a73e8;}
+    .hidden { display: none !important; }
+    #loading, #no-results { text-align: center; padding: 20px; font-style: italic; color: #555; }
+  </style>
+</head>
+<body>
+  <div id="header-container">
+    <a href="https://www.letmeexplain.eu/" target="_blank" id="logo-link" title="Go to LetMeExplain.eu">
+        <img src="images/icon128.png" id="popup-logo" alt="Logo">
+    </a>
+    <h3>CFA Level 1 Index</h3>
+  </div>
+  
+  <div id="search-container">
+      <input type="text" id="search-bar" placeholder="Search classes, modules, or lessons...">
+  </div>
+  
+  <div id="scrollable-content">
+      <div id="loading">Loading Data...</div>
+      <div id="no-results" class="hidden">No results found.</div>
+      <div id="main-container"></div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+>>>>>>> a78d4f31139c29fdb82ac312e7d297d5321bc1ee
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "manifest_version": 3,
   "name": "CFA Video Mapper",
@@ -27,4 +28,33 @@
       "matches": ["<all_urls>"]
     }
   ]
+=======
+{
+  "manifest_version": 3,
+  "name": "CFA Video Mapper",
+  "version": "2.0",
+  "description": "Interactive CFA Level 1 letmeexplain.eu Video Index.",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["CFA_Level1_LetMeExplain_Index.csv"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+>>>>>>> a78d4f31139c29fdb82ac312e7d297d5321bc1ee
 }

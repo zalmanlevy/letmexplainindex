@@ -3,7 +3,7 @@ let favorites = new Set();
 let favModules = new Set(); 
 let currentSearchTerm = '';
 let openState = { classes: new Set(), modules: new Set() };
-let suggested = { className: null, moduleName: null }; // Stores the detected page content
+let suggested = { className: null, moduleName: null }; 
 
 document.addEventListener('DOMContentLoaded', async () => {
   const loading = document.getElementById('loading');
@@ -19,32 +19,58 @@ document.addEventListener('DOMContentLoaded', async () => {
     const text = await response.text();
     fullCfaData = parseCSV(text);
     
-    // --- NEW: SCAN ACTIVE TAB ---
+    // --- SMARTER TAB SCANNER ---
     try {
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
       if (tab.url && tab.url.startsWith("http")) {
         const allGroups = Object.keys(fullCfaData);
         
-        // Inject a script into the page to read the text
         const injectionResults = await chrome.scripting.executeScript({
           target: { tabId: tab.id },
           func: (groups) => {
-            const pageText = document.body.innerText.toLowerCase();
             let foundGroup = null;
             let foundMod = null;
+            
+            const titleText = document.title.toLowerCase();
+            const headingsText = Array.from(document.querySelectorAll('h1, h2, h3'))
+                                      .map(h => h.innerText.toLowerCase())
+                                      .join(' ');
+            const bodyText = document.body.innerText.toLowerCase();
 
-            // Search for Group Name
+            // 1. SMARTER GROUP SEARCH: Check Title, then Headings, then Body
             for (const g of groups) {
-              if (pageText.includes(g.toLowerCase())) {
-                foundGroup = g;
-                break;
+              const lowerG = g.toLowerCase();
+              if (titleText.includes(lowerG)) {
+                foundGroup = g; break;
+              }
+            }
+            if (!foundGroup) {
+              for (const g of groups) {
+                if (headingsText.includes(lowerG)) {
+                  foundGroup = g; break;
+                }
+              }
+            }
+            if (!foundGroup) {
+              for (const g of groups) {
+                if (bodyText.includes(lowerG)) {
+                  foundGroup = g; break;
+                }
               }
             }
             
-            // Search for "Module X"
-            const match = pageText.match(/module\s+(\d+)/);
+            // 2. SMARTER MODULE SEARCH
+            // First look for the explicit phrase "Module X"
+            let match = bodyText.match(/module\s+(\d+)/);
             if (match) {
-              foundMod = "Module " + match[1]; // Normalizes format to match CSV
+              foundMod = "Module " + match[1];
+            } else {
+              // Fallback: Look for "10.04" format and extract the "10"
+              // \b ensures it's a standalone number, \d{1,2} grabs the 10, \.\d{2} grabs the .04
+              match = bodyText.match(/\b(\d{1,2})\.\d{2}\b/);
+              if (match) {
+                foundMod = "Module " + match[1];
+              }
             }
             
             return { className: foundGroup, moduleName: foundMod };
@@ -90,31 +116,26 @@ function renderMain() {
         noResults.classList.add('hidden');
     }
 
-    // --- NEW: RENDER SUGGESTED SECTION ---
-    // Only show suggestions if we aren't actively searching
+    // Render Suggested Section
     if (suggested.className && suggested.moduleName && !currentSearchTerm) {
-      // Verify the module actually exists in our CSV data
       if (fullCfaData[suggested.className] && fullCfaData[suggested.className][suggested.moduleName]) {
         const suggTitle = document.createElement('div');
         suggTitle.className = 'section-title';
         suggTitle.innerText = 'Suggested For This Page';
         container.appendChild(suggTitle);
         
-        // Create a mini data object with just the suggested module
         const suggData = { 
           [suggested.className]: { 
             [suggested.moduleName]: fullCfaData[suggested.className][suggested.moduleName] 
           } 
         };
         
-        // Force the suggested section to be open automatically
         openState.classes.add(suggested.className);
         openState.modules.add(`${suggested.className}-${suggested.moduleName}`);
         
         renderGroup(container, suggData, [suggested.className]);
       }
     }
-    // -------------------------------------
 
     const favClasses = allClassNames.filter(c => favorites.has(c));
     const otherClasses = allClassNames.filter(c => !favorites.has(c));

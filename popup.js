@@ -9,9 +9,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   const loading = document.getElementById('loading');
   const searchBar = document.getElementById('search-bar');
   
-  const result = await chrome.storage.local.get(['cfaFavorites', 'cfaModFavorites']);
+  const result = await chrome.storage.local.get(['cfaFavorites', 'cfaModFavorites', 'youtubeFocusMode']);
   favorites = new Set(result.cfaFavorites || []); 
   favModules = new Set(result.cfaModFavorites || []);
+
+  const ytFocusToggle = document.getElementById('yt-focus-toggle');
+  ytFocusToggle.checked = result.youtubeFocusMode || false;
+
+  ytFocusToggle.addEventListener('change', async (e) => {
+    await chrome.storage.local.set({ youtubeFocusMode: e.target.checked });
+  });
 
   try {
     const response = await fetch('CFA_Level1_LetMeExplain_Index.csv');

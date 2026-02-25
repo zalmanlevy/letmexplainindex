@@ -161,6 +161,66 @@
     .lesson-item a:hover { text-decoration: underline; color: #1a73e8;}
     .hidden { display: none !important; }
     #loading, #no-results { text-align: center; padding: 20px; font-style: italic; color: #555; }
+    
+    /* Toggle Switch Styles */
+    .focus-mode-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 6px;
+      gap: 10px;
+    }
+    .focus-mode-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: #5f6368;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 32px;
+      height: 18px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 14px;
+      width: 14px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      transition: .4s;
+    }
+    input:checked + .slider {
+      background-color: #1a73e8;
+    }
+    input:focus + .slider {
+      box-shadow: 0 0 1px #1a73e8;
+    }
+    input:checked + .slider:before {
+      transform: translateX(14px);
+    }
+    .slider.round {
+      border-radius: 18px;
+    }
+    .slider.round:before {
+      border-radius: 50%;
+    }
   </style>
 </head>
 <body>
@@ -169,6 +229,13 @@
         <img src="images/icon128.png" id="popup-logo" alt="Logo">
     </a>
     <h3>CFA Level 1 Index</h3>
+    <div class="focus-mode-container">
+      <span class="focus-mode-label">YouTube Focus Mode</span>
+      <label class="switch">
+        <input type="checkbox" id="yt-focus-toggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
   </div>
   
   <div id="search-container">

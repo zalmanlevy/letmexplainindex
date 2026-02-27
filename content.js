@@ -30,33 +30,46 @@ function applyFocusMode(enabled) {
                 html, body, ytd-app {
                     background-color: #020617 !important;
                     --ytd-masthead-height: 0px !important; 
+                    overflow: hidden !important; /* No scrolling */
+                    height: 100vh !important;
+                    width: 100vw !important;
+                    margin: 0 !important;
+                    padding: 0 !important;
                 }
 
                 ytd-page-manager {
                     margin-top: 0 !important;
+                    height: 100vh !important;
+                    overflow: hidden !important;
                 }
 
                 /* --- 3. FORCE PROPORTIONAL VIDEO SIZE --- */
                 ytd-watch-flexy {
                     display: flex !important;
+                    flex-direction: column !important;
                     align-items: center !important;
                     justify-content: center !important;
-                    min-height: 100vh !important;
+                    height: 100% !important;
+                    width: 100% !important;
                     background: #020617 !important;
                 }
 
-                ytd-watch-flexy[flexy] #columns.ytd-watch-flexy {
+                ytd-watch-flexy[flexy] #columns.ytd-watch-flexy,
+                ytd-watch-flexy[flexy] #primary.ytd-watch-flexy,
+                #primary-inner {
                     margin: 0 auto !important;
                     display: flex !important;
                     flex-direction: column !important;
                     align-items: center !important;
+                    justify-content: center !important;
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    height: auto !important;
+                    padding: 0 !important;
                 }
 
                 ytd-watch-flexy[flexy] #primary.ytd-watch-flexy {
                     padding: 0 !important;
-                    display: flex !important;
-                    flex-direction: column !important;
-                    align-items: center !important;
                 }
 
                 /* Lock height and force a strict 16:9 aspect ratio */
@@ -65,12 +78,13 @@ function applyFocusMode(enabled) {
                 #player-container, 
                 #ytd-player,
                 .html5-video-player {
-                    height: 90vh !important; 
-                    width: auto !important; /* Let the aspect ratio dictate the width */
+                    width: 100vw !important;
+                    max-width: calc((100vh - 100px) * 16 / 9) !important;
+                    height: auto !important;
+                    max-height: calc(100vh - 100px) !important;
                     aspect-ratio: 16 / 9 !important;
-                    max-width: 96vw !important; /* Safety cap for narrow screens */
                     margin: 0 auto !important;
-                    border-radius: 12px !important;
+                    border-radius: 0 !important; /* Remove curvature from video edge for fully immersive scale */
                     overflow: visible !important; 
                 }
 
@@ -78,7 +92,7 @@ function applyFocusMode(enabled) {
                 .html5-video-container video {
                     width: 100% !important;
                     height: 100% !important;
-                    border-radius: 12px !important;
+                    border-radius: 0 !important;
                 }
 
                 /* --- 4. THE GLOW EFFECT --- */
@@ -93,26 +107,35 @@ function applyFocusMode(enabled) {
                 /* --- 5. CLEAN UP BELOW THE VIDEO (JUST TITLE NOW) --- */
                 #below {
                     width: 100% !important;
-                    margin-top: 30px !important;
+                    margin-top: 15px !important;
                     display: flex !important;
                     justify-content: center !important;
+                    flex-direction: column !important;
+                    align-items: center !important;
                 }
 
                 #above-the-fold {
                     display: flex !important;
-                    flex-direction: row !important;
+                    flex-direction: column !important;
                     align-items: center !important;
                     justify-content: center !important;
                     width: 100% !important;
                 }
 
                 #title h1 {
-                    font-size: 1.4rem !important;
+                    font-size: clamp(0.8rem, 3.5vw, 1.4rem) !important;
                     color: #e2e8f0 !important; 
                     font-weight: 500 !important;
                     margin: 0 !important;
-                    line-height: 1.2 !important;
+                    line-height: 1.3 !important;
                     text-align: center !important;
+                    width: 100% !important;
+                    padding: 0 15px !important;
+                    box-sizing: border-box !important;
+                    display: -webkit-box !important;
+                    -webkit-line-clamp: 2 !important;
+                    -webkit-box-orient: vertical !important;
+                    overflow: hidden !important;
                 }
             `;
             document.head.appendChild(styleEl);

@@ -134,10 +134,20 @@ function applyFocusMode(enabled) {
                 }
             `;
             document.head.appendChild(styleEl);
+
+            // Force YouTube to recalculate the player layout for Focus Mode
+            setTimeout(() => {
+                window.dispatchEvent(new Event('resize'));
+            }, 100);
         }
     } else {
         if (styleEl) {
             styleEl.remove();
+
+            // Force YouTube to recalculate the player layout back to normal
+            setTimeout(() => {
+                window.dispatchEvent(new Event('resize'));
+            }, 100);
         }
     }
 }

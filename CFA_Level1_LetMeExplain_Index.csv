@@ -1,19 +1,19 @@
 Group Name,Module,Lesson,YouTube Link
 Quantitative Methods,Prerequisites,Formatting the Texas Instruments BA II Plus calculator for the CFA exam,https://youtu.be/2BHL9PfyUSU
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � computing future value,https://youtu.be/QPwxWo5GjhA
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � computing present value,https://youtu.be/IXO4L3lVA-4
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � computing the number of periods,https://youtu.be/u02cjdJ10tI
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � computing the rate of interest,https://youtu.be/uCwijJwx2R8
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � annuities,https://youtu.be/E39PqJOZEpQ
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � perpetuities,https://youtu.be/Oz3O6D9BenE
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � unequal cash flows using the CF worksheet,https://youtu.be/B9AxD39BbkA
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � computing PMT,https://youtu.be/Yhz4H5Qfx6o
-Quantitative Methods,Prerequisites,Time Value of Money (TVM) � solving more complex TVM problems,https://youtu.be/FPfHQDpoEO0
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - computing future value,https://youtu.be/QPwxWo5GjhA
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - computing present value,https://youtu.be/IXO4L3lVA-4
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - computing the number of periods,https://youtu.be/u02cjdJ10tI
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - computing the rate of interest,https://youtu.be/uCwijJwx2R8
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - annuities,https://youtu.be/E39PqJOZEpQ
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - perpetuities,https://youtu.be/Oz3O6D9BenE
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - unequal cash flows using the CF worksheet,https://youtu.be/B9AxD39BbkA
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - computing PMT,https://youtu.be/Yhz4H5Qfx6o
+Quantitative Methods,Prerequisites,Time Value of Money (TVM) - solving more complex TVM problems,https://youtu.be/FPfHQDpoEO0
 Quantitative Methods,Module 1,Determinants of interest rates,https://youtu.be/b_VfeLX9yVA
-Quantitative Methods,Module 1,"Rates of return � holding period return, arithmetic and geometric mean",https://youtu.be/DcCa74GHM50
-Quantitative Methods,Module 1,"Dealing with extreme values � harmonic, trimmed and windsorized means",https://youtu.be/4Tr0PP9m3N4
+Quantitative Methods,Module 1,"Rates of return - holding period return, arithmetic and geometric mean",https://youtu.be/DcCa74GHM50
+Quantitative Methods,Module 1,"Dealing with extreme values - harmonic, trimmed and windsorized means",https://youtu.be/4Tr0PP9m3N4
 Quantitative Methods,Module 1,Special return measures,https://youtu.be/Misj1xqAsNU
-Quantitative Methods,Module 1,MWR and TWR � money-weighted and time-weighted rates of return,https://youtu.be/JQNIpJGbhB0
+Quantitative Methods,Module 1,MWR and TWR - money-weighted and time-weighted rates of return,https://youtu.be/JQNIpJGbhB0
 Quantitative Methods,Module 1,Annualized returns,https://youtu.be/Ro6p2Wb9_5M
 Quantitative Methods,Module 3,Properties of the arithmetic mean,https://youtu.be/lxySuPkjq7M
 Quantitative Methods,Module 3,Mode and median,https://youtu.be/Sm4LGWYhxl8
@@ -21,15 +21,15 @@ Quantitative Methods,Module 3,Dealing with outliers,https://youtu.be/kzGibUtrUUE
 Quantitative Methods,Module 3,Quartiles and quintiles,https://youtu.be/XXLl9yG-s0A
 Quantitative Methods,Module 3,Deciles and percentiles,https://youtu.be/6vp_EQmSuhU
 Quantitative Methods,Module 3,Measures of location continued,https://youtu.be/zwJ9UInXkC8
-Quantitative Methods,Module 3,Range and Mean Absolute Deviation � MAD,https://youtu.be/kZblOZOSqQc
+Quantitative Methods,Module 3,Range and Mean Absolute Deviation - MAD,https://youtu.be/kZblOZOSqQc
 Quantitative Methods,Module 3,Sample variance and sample standard deviation,https://youtu.be/D2o_FS9Ma5E
-Quantitative Methods,Module 3,Downside deviation and coefficient of variation � CV,https://youtu.be/7H5d_4XDopo
+Quantitative Methods,Module 3,Downside deviation and coefficient of variation - CV,https://youtu.be/7H5d_4XDopo
 Quantitative Methods,Module 3,Skewness,https://youtu.be/6Yy8jBm8TYk
 Quantitative Methods,Module 3,Kurtosis,https://youtu.be/kWUdGPTj6tY
 Quantitative Methods,Module 3,Correlation,https://youtu.be/bPAM3Nb6ix8
 Quantitative Methods,Module 4,Expected value and variance,https://youtu.be/GP690YGdo8g
 Quantitative Methods,Module 4,Probability trees and conditional expectations,https://youtu.be/G5QFIuQLqVE
-Quantitative Methods,Module 4,Bayes� formula,https://youtu.be/F3L1n1f0k30
+Quantitative Methods,Module 4,Bayes- formula,https://youtu.be/F3L1n1f0k30
 Quantitative Methods,Module 5,Expected portfolio return,https://youtu.be/8-eBkSNFDag
 Quantitative Methods,Module 5,Standard deviation and variance of expected returns,https://youtu.be/fLHwDy_pUM8
 Quantitative Methods,Module 5,Covariance and correlation from a joint probability function,https://youtu.be/lKVU3IF3dmY
@@ -107,12 +107,12 @@ Portfolio Management,Module 2,Systematic risk versus unsystematic risk,https://y
 Portfolio Management,Module 2,Return generating models,https://youtu.be/54-oPF9PM7Y
 Portfolio Management,Module 2,CAPM beta explained,https://youtu.be/QwVb_4hEYjc
 Portfolio Management,Module 2,Capital asset pricing model,https://youtu.be/byKfpFe-XfE
-Portfolio Management,Module 2,CAPM � undervalued and overvalued stocks,https://youtu.be/mT3aroCeitc
+Portfolio Management,Module 2,CAPM - undervalued and overvalued stocks,https://youtu.be/mT3aroCeitc
 Portfolio Management,Module 2,CAPM limitations and extensions,https://youtu.be/SToWqnKGGNY
 Portfolio Management,Module 2,Sharpe ratio,https://youtu.be/C-vje5xTwGY
 Portfolio Management,Module 2,Treynor ratio,https://youtu.be/EL35RgePzHk
 Portfolio Management,Module 2,M-squared (M2) ratio,https://youtu.be/8mP5GzGPGvM
-Portfolio Management,Module 2,Jensen�s alpha,https://youtu.be/v6FrqLGfQns
+Portfolio Management,Module 2,Jensen-s alpha,https://youtu.be/v6FrqLGfQns
 Portfolio Management,Module 3,Portfolio perspective,https://youtu.be/mEue9ilpO0w
 Portfolio Management,Module 3,The portfolio management process,https://youtu.be/GCdnFGjFw9s
 Portfolio Management,Module 3,Types of investors,https://youtu.be/KliJ4ZkQpBM
@@ -123,13 +123,13 @@ Portfolio Management,Module 4,IPS risk and return objectives,https://youtu.be/Wm
 Portfolio Management,Module 4,IPS constraints and client information,https://youtu.be/e_FscldHgKE
 Portfolio Management,Module 4,Portfolio construction,https://youtu.be/fuQAqHjWOlU
 Portfolio Management,Module 4,ESG considerations in portfolio construction,https://youtu.be/U_Vyt0r6lyc
-Portfolio Management,Module 5,Cognitive errors � belief perseverence biases,https://youtu.be/lye0y1Ld8fI
-Portfolio Management,Module 5,Cognitive errors � processing errors,https://youtu.be/1OEWwUWb558
+Portfolio Management,Module 5,Cognitive errors - belief perseverence biases,https://youtu.be/lye0y1Ld8fI
+Portfolio Management,Module 5,Cognitive errors - processing errors,https://youtu.be/1OEWwUWb558
 Portfolio Management,Module 5,Emotional biases,https://youtu.be/qUju1VaXtR8
-Portfolio Management,Module 5,Behavioral finance and market behavior � market anomalies,https://youtu.be/S5gr7SjiYT8
+Portfolio Management,Module 5,Behavioral finance and market behavior - market anomalies,https://youtu.be/S5gr7SjiYT8
 Portfolio Management,Module 6,Risk management process,https://youtu.be/DZ3hc0P_ylY
 Portfolio Management,Module 6,Risk management framework,https://youtu.be/mNm4ZTRWWH0
-Portfolio Management,Module 6,Risk Governance � An Enterprise View,https://youtu.be/ZK8vL3EatcY
+Portfolio Management,Module 6,Risk Governance - An Enterprise View,https://youtu.be/ZK8vL3EatcY
 Portfolio Management,Module 6,Risk Tolerance,https://youtu.be/GrvbF0fXVC8
 Portfolio Management,Module 6,Risk Budgeting,https://youtu.be/yiX6x_ysB28
 Portfolio Management,Module 6,Identification of Risk,https://youtu.be/6nExDDuGzRE
@@ -179,20 +179,20 @@ Financial Statement Analysis,Module 3,Gain on a bargain purchase,https://youtu.b
 Financial Statement Analysis,Module 3,Accounting for financial instruments,https://youtu.be/eKAR2ZcYb-8
 Financial Statement Analysis,Module 3,Non-current liabilities,https://youtu.be/TBa01gBryeA
 Financial Statement Analysis,Module 3,Balance sheet ratios and common-size analysis,https://youtu.be/0Nt2-v6UU7o
-Financial Statement Analysis,Module 4,Cash flows from operating activities � direct method,https://youtu.be/owW695A5nko
-Financial Statement Analysis,Module 4,Cash flows from operating activities � indirect method,https://youtu.be/NsZoZYYz1cU
-Financial Statement Analysis,Module 4,Cash flows from investing activities � purchases of PPE,https://youtu.be/mfpV6gzNr0g
-Financial Statement Analysis,Module 4,Cash flow problems � part 1,https://youtu.be/xRUqTuGsPGU
-Financial Statement Analysis,Module 4,Cash flow problems � part 2,https://youtu.be/2zfNePGNn9o
+Financial Statement Analysis,Module 4,Cash flows from operating activities - direct method,https://youtu.be/owW695A5nko
+Financial Statement Analysis,Module 4,Cash flows from operating activities - indirect method,https://youtu.be/NsZoZYYz1cU
+Financial Statement Analysis,Module 4,Cash flows from investing activities - purchases of PPE,https://youtu.be/mfpV6gzNr0g
+Financial Statement Analysis,Module 4,Cash flow problems - part 1,https://youtu.be/xRUqTuGsPGU
+Financial Statement Analysis,Module 4,Cash flow problems - part 2,https://youtu.be/2zfNePGNn9o
 Financial Statement Analysis,Module 5,Evaluating the sources and uses of cash,https://youtu.be/utMGN3PvwLE
 Financial Statement Analysis,Module 5,Cash flow ratios and common-size analysis,https://youtu.be/cSBVdaPhM1U
-Financial Statement Analysis,Module 6,Inventory � initial measurement,https://youtu.be/Ca0aM513tY8
-Financial Statement Analysis,Module 6,Inventory � cost versus NRV: write-downs,https://youtu.be/M8b7TurBmxs
+Financial Statement Analysis,Module 6,Inventory - initial measurement,https://youtu.be/Ca0aM513tY8
+Financial Statement Analysis,Module 6,Inventory - cost versus NRV: write-downs,https://youtu.be/M8b7TurBmxs
 Financial Statement Analysis,Module 6,Inventory: write-down reversals,https://youtu.be/OGSVHPwmlMc
-Financial Statement Analysis,Module 6,FIFO � First in First Out � inventory valuation,https://youtu.be/CvrlMp5DmT8
-Financial Statement Analysis,Module 6,LIFO � Last In First Out � inventory valation,https://youtu.be/PB-p7ouadiE
-Financial Statement Analysis,Module 6,Weighted average cost (AVCO) � inventory valuation,https://youtu.be/xmW1fjj6HcI
-Financial Statement Analysis,Module 6,Accounting for inventories � overview,https://youtu.be/GqAJNwudknA
+Financial Statement Analysis,Module 6,FIFO - First in First Out - inventory valuation,https://youtu.be/CvrlMp5DmT8
+Financial Statement Analysis,Module 6,LIFO - Last In First Out - inventory valation,https://youtu.be/PB-p7ouadiE
+Financial Statement Analysis,Module 6,Weighted average cost (AVCO) - inventory valuation,https://youtu.be/xmW1fjj6HcI
+Financial Statement Analysis,Module 6,Accounting for inventories - overview,https://youtu.be/GqAJNwudknA
 Financial Statement Analysis,Module 7,Acquisition of intangible assets,https://youtu.be/G72KPutr834
 Financial Statement Analysis,Module 7,Intangible assets,https://youtu.be/qCmSVH3CZas
 Financial Statement Analysis,Module 7,Asset impairment,https://youtu.be/oeddB1LXE-M
@@ -274,8 +274,8 @@ Equity,Module 7,Forecasting CAPEX and capital structure,https://youtu.be/awBbIWi
 Equity,Module 8,"The DDM, GGM and FCFE",https://youtu.be/aVHA0Kiivk8
 Equity,Module 8,Dividend payments explained,https://youtu.be/YXpqIOuYHSc
 Equity,Module 8,Valuing preferred shares,https://youtu.be/9FZTEu1RqaM
-Equity,Module 8,Gordon Growth Model explained � no g term provided,https://youtu.be/7ISitiyiumE
-Equity,Module 8,Gordon Growth Model explained � no current dividend,https://youtu.be/A-CMXZuwYAc
+Equity,Module 8,Gordon Growth Model explained - no g term provided,https://youtu.be/7ISitiyiumE
+Equity,Module 8,Gordon Growth Model explained - no current dividend,https://youtu.be/A-CMXZuwYAc
 Equity,Module 8,Multisgtage dividend discount models,https://youtu.be/HNxOkdzO3rY
 Equity,Module 8,Multiples and comparables,https://youtu.be/4ZLHK4-qy3Y
 Equity,Module 8,Justified forward P/E ratio,https://youtu.be/TxYoo2YUGyE
@@ -285,8 +285,8 @@ Fixed Income,Module 1,"Coupon rate, payment frequency and yield measures",https:
 Fixed Income,Module 1,Bond indenture and covenants,https://youtu.be/oRpQTy_seG8
 Fixed Income,Module 2,Fixed income cash flows and types,https://youtu.be/ev_u96C-0qU
 Fixed Income,Module 2,"Variable interest, zero-coupon and deferred coupon bonds",https://youtu.be/8LNH8MOOGrY
-Fixed Income,Module 2,"Contingency provisions � callable, putable and convertible bonds",https://youtu.be/ZFelNphbHLQ
-Fixed Income,Module 2,"Fixed income � legal, regulatory and tax considerations",https://youtu.be/iBISJI8TB6g
+Fixed Income,Module 2,"Contingency provisions - callable, putable and convertible bonds",https://youtu.be/ZFelNphbHLQ
+Fixed Income,Module 2,"Fixed income - legal, regulatory and tax considerations",https://youtu.be/iBISJI8TB6g
 Fixed Income,Module 3,"Fixed income segments, ratings and indexes",https://youtu.be/5QFXxFgadGA
 Fixed Income,Module 3,Primary and secondary fixed income markets,https://youtu.be/rOiEJ7J_x0w
 Fixed Income,Module 4,Short-term funding alternatives for corporate borrowers,https://youtu.be/SWscnVSuH9w
@@ -308,7 +308,7 @@ Fixed Income,Module 7,Yield to call and yield to worst,https://youtu.be/m7s1Q-3Q
 Fixed Income,Module 7,G-spread,https://youtu.be/BXWoYjXn2V0
 Fixed Income,Module 7,I-spread,https://youtu.be/4WkMBJEmWZM
 Fixed Income,Module 7,Z-spread,https://youtu.be/7QRVBQg2_RQ
-Fixed Income,Module 7,OAS � Option adjusted spread,https://youtu.be/o9R5CrOpzl4
+Fixed Income,Module 7,OAS - Option adjusted spread,https://youtu.be/o9R5CrOpzl4
 Fixed Income,Module 8,Discount margin / required margin,https://youtu.be/AjiHnr_7V3Y
 Fixed Income,Module 8,Yield measures for money market instruments,https://youtu.be/5kKBwL0qkhI
 Fixed Income,Module 9,The term structure of interest rates and spot rates,https://youtu.be/IBl5WfXgfJc
@@ -390,29 +390,29 @@ Alternative Investments,Module 7,Features of digital asset investing,https://you
 Alternative Investments,Module 7,"Digital asset investment forms, risks and rewards",https://youtu.be/WFqt3eCohao
 Ethical and Professional Standards,Module 1,Ethics and Trust in the Investment Profession,https://youtu.be/0x081HGowmo
 Ethical and Professional Standards,Module 2,Code of Ethics and Standards of Professional Conduct,https://youtu.be/zGRPVrEh1Js
-Ethical and Professional Standards,Module 3,Standard I(A): Professionalism � Knowledge of the law,https://youtu.be/syeNuv23LH0
-Ethical and Professional Standards,Module 3,Standard I(B): Professionalism � Independence and Objectivity,https://youtu.be/qay2LwSAxM8
-Ethical and Professional Standards,Module 3,Standard I(C): Professionalism � Misrepresentation,https://youtu.be/IeZIYXP47Xs
-Ethical and Professional Standards,Module 3,Standard I(D): Professionalism � Misconduct,https://youtu.be/ZMcJmBpGq34
-Ethical and Professional Standards,Module 3,Standard I(E): Professionalism � Competence,https://youtu.be/v5URX9c2hOQ
-Ethical and Professional Standards,Module 3,Standard II(A): Integrity of Capital Markets � Material Nonpublic Information,https://youtu.be/Yphbhu9h1Qs
-Ethical and Professional Standards,Module 3,Standard II(B): Integrity of Capital Markets � Market Manipulation,https://youtu.be/IQCNPmjaWvg
-Ethical and Professional Standards,Module 3,"Standard III(A): Duties to Clients � Loyalty, Prudence, and Care",https://youtu.be/LN2kP3q6h1A
-Ethical and Professional Standards,Module 3,Standard III(B): Duties to Clients � Fair Dealing,https://youtu.be/jKyKYmFjnuQ
-Ethical and Professional Standards,Module 3,Standard III(C): Duties to Clients � Suitability,https://youtu.be/JvpNOOErqbc
-Ethical and Professional Standards,Module 3,Standard III(D): Duties to Clients � Performance Presentation,https://youtu.be/Icb4lofpUvw
-Ethical and Professional Standards,Module 3,Standard III(E): Duties to Clients � Preservation of Confidentiality,https://youtu.be/udp_g8LlsVo
-Ethical and Professional Standards,Module 3,Standard IV(A): Duties to Employers � Loyalty,https://youtu.be/l_pW893og3Y
-Ethical and Professional Standards,Module 3,Standard IV(B): Duties to Employers � Additional Compensation Arrangements,https://youtu.be/fXJ2zajasHA
-Ethical and Professional Standards,Module 3,Standard IV(C): Duties to Employers � Responsibilities of Supervisors,https://youtu.be/9H72qI7ZzQo
+Ethical and Professional Standards,Module 3,Standard I(A): Professionalism - Knowledge of the law,https://youtu.be/syeNuv23LH0
+Ethical and Professional Standards,Module 3,Standard I(B): Professionalism - Independence and Objectivity,https://youtu.be/qay2LwSAxM8
+Ethical and Professional Standards,Module 3,Standard I(C): Professionalism - Misrepresentation,https://youtu.be/IeZIYXP47Xs
+Ethical and Professional Standards,Module 3,Standard I(D): Professionalism - Misconduct,https://youtu.be/ZMcJmBpGq34
+Ethical and Professional Standards,Module 3,Standard I(E): Professionalism - Competence,https://youtu.be/v5URX9c2hOQ
+Ethical and Professional Standards,Module 3,Standard II(A): Integrity of Capital Markets - Material Nonpublic Information,https://youtu.be/Yphbhu9h1Qs
+Ethical and Professional Standards,Module 3,Standard II(B): Integrity of Capital Markets - Market Manipulation,https://youtu.be/IQCNPmjaWvg
+Ethical and Professional Standards,Module 3,"Standard III(A): Duties to Clients - Loyalty, Prudence, and Care",https://youtu.be/LN2kP3q6h1A
+Ethical and Professional Standards,Module 3,Standard III(B): Duties to Clients - Fair Dealing,https://youtu.be/jKyKYmFjnuQ
+Ethical and Professional Standards,Module 3,Standard III(C): Duties to Clients - Suitability,https://youtu.be/JvpNOOErqbc
+Ethical and Professional Standards,Module 3,Standard III(D): Duties to Clients - Performance Presentation,https://youtu.be/Icb4lofpUvw
+Ethical and Professional Standards,Module 3,Standard III(E): Duties to Clients - Preservation of Confidentiality,https://youtu.be/udp_g8LlsVo
+Ethical and Professional Standards,Module 3,Standard IV(A): Duties to Employers - Loyalty,https://youtu.be/l_pW893og3Y
+Ethical and Professional Standards,Module 3,Standard IV(B): Duties to Employers - Additional Compensation Arrangements,https://youtu.be/fXJ2zajasHA
+Ethical and Professional Standards,Module 3,Standard IV(C): Duties to Employers - Responsibilities of Supervisors,https://youtu.be/9H72qI7ZzQo
 Ethical and Professional Standards,Module 3,Standard V(A): Diligence and Reasonable Basis,https://youtu.be/3Y2FkRmcFBQ
 Ethical and Professional Standards,Module 3,Standard V(B): Communication with Clients and Prospective Clients,https://youtu.be/adbMP6uZeFU
 Ethical and Professional Standards,Module 3,Standard V(C): Record Retention,https://youtu.be/Vgv9C6lLG1k
-Ethical and Professional Standards,Module 3,Standard VI(A): Conflicts of Interest � Avoid or Disclose Conflicts,https://youtu.be/QtVXQI017ZQ
-Ethical and Professional Standards,Module 3,Standard VI(B): Conflicts of Interest � Priority of Transactions,https://youtu.be/2c0AHvbF2ug
-Ethical and Professional Standards,Module 3,Standard VI(C): Conflicts of Interest � Referral Fees,https://youtu.be/AqCWg8ZrjE4
+Ethical and Professional Standards,Module 3,Standard VI(A): Conflicts of Interest - Avoid or Disclose Conflicts,https://youtu.be/QtVXQI017ZQ
+Ethical and Professional Standards,Module 3,Standard VI(B): Conflicts of Interest - Priority of Transactions,https://youtu.be/2c0AHvbF2ug
+Ethical and Professional Standards,Module 3,Standard VI(C): Conflicts of Interest - Referral Fees,https://youtu.be/AqCWg8ZrjE4
 Ethical and Professional Standards,Module 3,Standard VII(A): Conduct as Participants in CFA Institute Programs,https://youtu.be/4EdBZLoSdM4
-Ethical and Professional Standards,Module 3,Standard VII(B): Reference to CFA Institute �,https://youtu.be/Rgs4DwmLX6c
+Ethical and Professional Standards,Module 3,Standard VII(B): Reference to CFA Institute -,https://youtu.be/Rgs4DwmLX6c
 Ethical and Professional Standards,Module 4,Global Investment Performance Standards (GIPS) basics,https://youtu.be/k6A8b73ZtU0
 Ethical and Professional Standards,Module 5,Ethics application: professionalism,https://youtu.be/ErY-D8ccT2U
 Ethical and Professional Standards,Module 5,Ethics application: integrity of capital markets,https://youtu.be/YVRRlcBttQw

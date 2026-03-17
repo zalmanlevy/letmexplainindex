@@ -22,7 +22,8 @@ function applyFocusMode(enabled) {
                 #actions-inner, 
                 #top-row ytd-video-owner-renderer,
                 #description,
-                #bottom-row { 
+                #bottom-row,
+                #player-full-bleed-container { 
                     display: none !important; 
                 }
 
@@ -30,7 +31,7 @@ function applyFocusMode(enabled) {
                 html, body, ytd-app {
                     background-color: #020617 !important;
                     --ytd-masthead-height: 0px !important; 
-                    overflow: hidden !important; /* No scrolling */
+                    overflow: hidden !important; 
                     height: 100vh !important;
                     width: 100vw !important;
                     margin: 0 !important;
@@ -43,71 +44,65 @@ function applyFocusMode(enabled) {
                     overflow: hidden !important;
                 }
 
-                /* --- 3. FORCE PROPORTIONAL VIDEO SIZE --- */
-                ytd-watch-flexy {
-                    display: flex !important;
-                    flex-direction: column !important;
-                    align-items: center !important;
-                    justify-content: center !important;
-                    height: 100% !important;
-                    width: 100% !important;
-                    background: #020617 !important;
-                }
-
-                ytd-watch-flexy[flexy] #columns.ytd-watch-flexy,
-                ytd-watch-flexy[flexy] #primary.ytd-watch-flexy,
+                /* --- 3. FORCE PERFECT CENTERING --- */
+                /* Detach the primary container and pin it to the dead center of the screen */
                 #primary-inner {
-                    margin: 0 auto !important;
+                    position: fixed !important;
+                    top: 50% !important;
+                    left: 50% !important;
+                    transform: translate(-50%, -50%) !important;
                     display: flex !important;
                     flex-direction: column !important;
                     align-items: center !important;
                     justify-content: center !important;
-                    width: 100% !important;
-                    max-width: 100% !important;
-                    height: auto !important;
+                    width: 100vw !important;
+                    z-index: 9999 !important;
                     padding: 0 !important;
+                    margin: 0 !important;
                 }
 
-                ytd-watch-flexy[flexy] #primary.ytd-watch-flexy {
-                    padding: 0 !important;
-                }
-
-                /* Lock height and force a strict 16:9 aspect ratio */
+                /* --- 4. VIDEO SIZING & RATIO --- */
                 #player-container-outer, 
                 #player-container-inner, 
                 #player-container, 
-                #ytd-player,
-                .html5-video-player {
+                #ytd-player {
+                    position: relative !important; /* Overrides YT's inline absolute positioning */
                     width: 100vw !important;
                     max-width: calc((100vh - 100px) * 16 / 9) !important;
                     height: auto !important;
-                    max-height: calc(100vh - 100px) !important;
                     aspect-ratio: 16 / 9 !important;
                     margin: 0 auto !important;
-                    border-radius: 0 !important; /* Remove curvature from video edge for fully immersive scale */
-                    overflow: visible !important; 
+                    padding: 0 !important;
+                    border-radius: 0 !important;
+                }
+
+                .html5-video-player {
+                    width: 100% !important;
+                    height: 100% !important;
                 }
 
                 .html5-video-container, 
                 .html5-video-container video {
                     width: 100% !important;
                     height: 100% !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    left: 0 !important;
                     border-radius: 0 !important;
                 }
 
-                /* --- 4. THE GLOW EFFECT --- */
+                /* --- 5. THE GLOW EFFECT --- */
                 #ytd-player {
                     box-shadow: 
                         0 0 60px 10px rgba(56, 189, 248, 0.15),
                         0 0 150px 40px rgba(15, 23, 42, 0.50),
                         0 0 300px 100px rgba(11, 40, 42, 0.40) !important;
-                    z-index: 10;
                 }
 
-                /* --- 5. CLEAN UP BELOW THE VIDEO (JUST TITLE NOW) --- */
+                /* --- 6. CLEAN UP BELOW THE VIDEO (JUST TITLE NOW) --- */
                 #below {
                     width: 100% !important;
-                    margin-top: 15px !important;
+                    margin-top: 20px !important;
                     display: flex !important;
                     justify-content: center !important;
                     flex-direction: column !important;
@@ -123,7 +118,7 @@ function applyFocusMode(enabled) {
                 }
 
                 #title h1 {
-                    font-size: clamp(0.8rem, 3.5vw, 1.4rem) !important;
+                    font-size: clamp(1rem, 2.5vw, 1.4rem) !important;
                     color: #e2e8f0 !important; 
                     font-weight: 500 !important;
                     margin: 0 !important;

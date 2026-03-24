@@ -21,16 +21,6 @@
     "activeTab",
     "scripting"
   ],
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "CFA_Level1_LetMeExplain_Index.csv"
-      ],
-      "matches": [
-        "<all_urls>"
-      ]
-    }
-  ],
   "content_scripts": [
     {
       "matches": [

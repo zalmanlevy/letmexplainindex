@@ -29,6 +29,14 @@
       "js": [
         "content.js"
       ]
+    },
+    {
+      "matches": [
+        "*://learn.cfainstitute.org/*"
+      ],
+      "css": [
+        "cfa.css"
+      ]
     }
   ]
 }

@@ -221,6 +221,64 @@
     .slider.round:before {
       border-radius: 50%;
     }
+
+    /* Search help tooltip */
+    .search-help {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      margin-top: 5px;
+      font-size: 12px;
+      color: #5f6368;
+      cursor: default;
+      position: relative;
+    }
+    .search-help-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #5f6368;
+      color: white;
+      font-size: 10px;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .search-help-tooltip {
+      display: none;
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: #3c4043;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1.5;
+      padding: 8px 11px;
+      border-radius: 6px;
+      width: 240px;
+      text-align: left;
+      pointer-events: none;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .search-help-tooltip::after {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 5px solid transparent;
+      border-bottom-color: #3c4043;
+    }
+    .search-help:hover .search-help-tooltip {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -236,8 +294,20 @@
         <span class="slider round"></span>
       </label>
     </div>
+    <div class="search-help">
+      <i class="search-help-icon">i</i>
+      <span>How Search Works</span>
+      <div class="search-help-tooltip">
+        Type anything to search across all groups, modules, and lessons.<br><br>
+        Use <b>commas</b> to filter step by step:<br>
+        <b>group, module, lesson</b><br><br>
+        Example: <b>alt, 3, equity</b><br>
+        &rarr; Alternative Investments &rarr; Module 3 &rarr; lessons with "equity"<br><br>
+        Any part can be left blank, e.g. <b>, 3,</b> shows Module 3 in all groups.
+      </div>
+    </div>
   </div>
-  
+
   <div id="search-container">
       <input type="text" id="search-bar" placeholder="Search classes, modules, or lessons...">
   </div>

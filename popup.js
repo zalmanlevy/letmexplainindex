@@ -2,6 +2,7 @@ let fullCfaData = {};
 let favorites = new Set();
 let favModules = new Set();
 let currentSearchTerm = '';
+let currentHighlightTerm = '';
 let openState = { classes: new Set(), modules: new Set() };
 let suggested = { className: null, moduleName: null };
 
@@ -62,7 +63,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const lessonLower = lesson.name.toLowerCase().trim();
 
                 // Only match if lesson string has some length (prevents matching single tiny words)
-                if (lessonLower.length > 5 && combinedTitle.includes(lessonLower)) {
+                if (lessonLower.length > 10 && combinedTitle.includes(lessonLower)) {
                   foundGroup = className;
                   foundMod = moduleName;
                   foundByLesson = true;
@@ -133,6 +134,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   searchBar.addEventListener('input', (e) => {
     currentSearchTerm = e.target.value.toLowerCase().trim();
+    const parts = currentSearchTerm.split(',').map(p => p.trim());
+    currentHighlightTerm = parts.length > 1 ? (parts[2] || '') : currentSearchTerm;
     renderMain();
   });
 });
@@ -329,7 +332,7 @@ function renderGroup(container, dataObj, sortedKeys) {
         const link = document.createElement('a');
         link.href = lesson.url;
         link.target = '_blank';
-        link.innerHTML = highlightTerm(lesson.name, currentSearchTerm);
+        link.innerHTML = highlightTerm(lesson.name, currentHighlightTerm);
         lessonDiv.appendChild(link);
         lessonsContainer.appendChild(lessonDiv);
       });
@@ -357,29 +360,68 @@ function highlightTerm(text, term) {
 
 function filterData(data, term) {
   if (!term) return data;
+
+  const parts = term.split(',').map(p => p.trim());
+
+  if (parts.length === 1) {
+    const result = {};
+    Object.keys(data).forEach(className => {
+      const modules = data[className];
+      const matchingModules = {};
+      let classHasMatch = false;
+
+      if (className.toLowerCase().includes(term)) {
+        result[className] = modules;
+        return;
+      }
+
+      Object.keys(modules).forEach(modName => {
+        const lessons = modules[modName];
+        if (modName.toLowerCase().includes(term)) {
+          matchingModules[modName] = lessons;
+          classHasMatch = true;
+          return;
+        }
+
+        const matchingLessons = lessons.filter(l => l.name.toLowerCase().includes(term));
+        if (matchingLessons.length > 0) {
+          matchingModules[modName] = matchingLessons;
+          classHasMatch = true;
+        }
+      });
+
+      if (classHasMatch) {
+        result[className] = matchingModules;
+      }
+    });
+    return result;
+  }
+
+  // Comma-separated: [groupTerm, moduleTerm, lessonTerm]
+  const groupTerm = parts[0];
+  const moduleTerm = parts[1];
+  const lessonTerm = parts[2] || '';
   const result = {};
 
   Object.keys(data).forEach(className => {
+    if (groupTerm && !className.toLowerCase().includes(groupTerm)) return;
+
     const modules = data[className];
     const matchingModules = {};
     let classHasMatch = false;
 
-    if (className.toLowerCase().includes(term)) {
-      result[className] = modules;
-      return;
-    }
-
     Object.keys(modules).forEach(modName => {
-      const lessons = modules[modName];
-      if (modName.toLowerCase().includes(term)) {
-        matchingModules[modName] = lessons;
-        classHasMatch = true;
-        return;
-      }
+      if (moduleTerm && !modName.toLowerCase().includes(moduleTerm)) return;
 
-      const matchingLessons = lessons.filter(l => l.name.toLowerCase().includes(term));
-      if (matchingLessons.length > 0) {
-        matchingModules[modName] = matchingLessons;
+      const lessons = modules[modName];
+      if (lessonTerm) {
+        const matchingLessons = lessons.filter(l => l.name.toLowerCase().includes(lessonTerm));
+        if (matchingLessons.length > 0) {
+          matchingModules[modName] = matchingLessons;
+          classHasMatch = true;
+        }
+      } else {
+        matchingModules[modName] = lessons;
         classHasMatch = true;
       }
     });

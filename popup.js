@@ -237,8 +237,23 @@ function renderGroup(container, dataObj, sortedKeys) {
     title.className = 'class-title-text';
     title.innerText = className;
 
+    let classDuration = 0;
+    if (dataObj[className]) {
+      Object.values(dataObj[className]).forEach(lessons => {
+        lessons.forEach(l => classDuration += (l.duration || 0));
+      });
+    }
+
     header.appendChild(starBtn);
     header.appendChild(title);
+    
+    if (classDuration > 0) {
+      const classBadge = document.createElement('span');
+      classBadge.className = 'duration-badge class-duration';
+      classBadge.innerText = formatDuration(classDuration);
+      header.appendChild(classBadge);
+    }
+    
     classDiv.appendChild(header);
 
     const isClassOpen = openState.classes.has(className) || currentSearchTerm.length > 0;
@@ -313,9 +328,21 @@ function renderGroup(container, dataObj, sortedKeys) {
       modTitle.className = 'module-title-text';
       modTitle.innerText = modName;
 
+      let moduleDuration = 0;
+      if (dataObj[className] && dataObj[className][modName]) {
+        dataObj[className][modName].forEach(l => moduleDuration += (l.duration || 0));
+      }
+
       modHeader.appendChild(modStarBtn);
       modHeader.appendChild(arrowIcon);
       modHeader.appendChild(modTitle);
+      
+      if (moduleDuration > 0) {
+        const modBadge = document.createElement('span');
+        modBadge.className = 'duration-badge module-duration';
+        modBadge.innerText = formatDuration(moduleDuration);
+        modHeader.appendChild(modBadge);
+      }
 
       const lessonsContainer = document.createElement('div');
       lessonsContainer.className = `lessons-container ${isModOpen ? '' : 'hidden'}`;
@@ -332,7 +359,19 @@ function renderGroup(container, dataObj, sortedKeys) {
         const link = document.createElement('a');
         link.href = lesson.url;
         link.target = '_blank';
-        link.innerHTML = highlightTerm(lesson.name, currentHighlightTerm);
+        
+        const titleSpan = document.createElement('span');
+        titleSpan.className = 'lesson-title-text';
+        titleSpan.innerHTML = highlightTerm(lesson.name, currentHighlightTerm);
+        link.appendChild(titleSpan);
+
+        if (lesson.duration > 0) {
+          const badge = document.createElement('span');
+          badge.className = 'duration-badge lesson-duration';
+          badge.innerText = formatDuration(lesson.duration);
+          link.appendChild(badge);
+        }
+
         lessonDiv.appendChild(link);
         lessonsContainer.appendChild(lessonDiv);
       });
@@ -451,15 +490,28 @@ function parseCSV(text) {
   return data;
 }
 
+function formatDuration(seconds) {
+  if (!seconds) return '';
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = seconds % 60;
+  if (h > 0) {
+    return `${h}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  } else {
+    return `${m}:${s.toString().padStart(2, '0')}`;
+  }
+}
+
 function addIfValid(row, data) {
   if (row.length >= 4 && !row[0].includes('Group Name') && row[0].trim() !== '') {
     const group = row[0];
     const module = row[1];
     const lesson = row[2];
     const link = row[3];
+    const duration = row.length >= 5 ? parseInt(row[4]) || 0 : 0;
 
     if (!data[group]) data[group] = {};
     if (!data[group][module]) data[group][module] = [];
-    data[group][module].push({ name: lesson, url: link });
+    data[group][module].push({ name: lesson, url: link, duration: duration });
   }
 }

@@ -119,7 +119,7 @@ function applyFocusMode(enabled) {
 
                 #title h1 {
                     font-size: clamp(1rem, 2.5vw, 1.4rem) !important;
-                    color: #e2e8f0 !important; 
+                    color: #e2e8f0 !important;
                     font-weight: 500 !important;
                     margin: 0 !important;
                     line-height: 1.3 !important;
@@ -131,6 +131,25 @@ function applyFocusMode(enabled) {
                     -webkit-line-clamp: 2 !important;
                     -webkit-box-orient: vertical !important;
                     overflow: hidden !important;
+                }
+
+                /* --- 7. HIDE END-OF-VIDEO SUGGESTION OVERLAYS --- */
+                .ytp-fullscreen-grid-stills-container,
+                .ytp-modern-videowall-still,
+                .ytp-suggestion-set,
+                .ytp-endscreen-content,
+                .ytp-ce-element,
+                .ytp-ce-covering-overlay,
+                .ytp-ce-element-shadow,
+                .ytp-pause-overlay,
+                .ytp-pause-overlay-container,
+                .ytp-scroll-min.ytp-pause-overlay,
+                .ytp-upnext,
+                .ytp-autonav-endscreen-upnext-container {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
                 }
             `;
             document.head.appendChild(styleEl);

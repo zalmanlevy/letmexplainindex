@@ -165,6 +165,14 @@
       padding-right: 8px;
     }
     .lesson-item a:hover { text-decoration: underline; color: #1a73e8;}
+    /* Lessons without a video link (Level 2) */
+    .lesson-text {
+      color: #3c4043;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 2px 0;
+    }
     .duration-badge {
       font-size: 11px;
       font-weight: 500;
@@ -182,6 +190,32 @@
     .hidden { display: none !important; }
     #loading, #no-results { text-align: center; padding: 20px; font-style: italic; color: #555; }
     
+    /* Level 1 / Level 2 Switch */
+    .level-switch {
+      display: inline-flex;
+      margin-top: 8px;
+      padding: 2px;
+      background: #f1f3f4;
+      border-radius: 16px;
+    }
+    .level-btn {
+      border: none;
+      background: transparent;
+      color: #5f6368;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 14px;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .level-btn:hover { color: #202124; }
+    .level-btn.active {
+      background: #1a73e8;
+      color: #fff;
+    }
+
     /* Toggle Switch Styles */
     .focus-mode-container {
       display: flex;
@@ -306,7 +340,11 @@
     <a href="https://www.letmeexplain.eu/" target="_blank" id="logo-link" title="Go to LetMeExplain.eu">
         <img src="images/icon128.png" id="popup-logo" alt="Logo">
     </a>
-    <h3>CFA Level 1 Index</h3>
+    <h3 id="level-title">CFA Level 1 Index</h3>
+    <div class="level-switch">
+      <button type="button" class="level-btn active" data-level="1" aria-pressed="true">Level 1</button>
+      <button type="button" class="level-btn" data-level="2" aria-pressed="false">Level 2</button>
+    </div>
     <div class="focus-mode-container">
       <span class="focus-mode-label">YouTube Focus Mode</span>
       <label class="switch">

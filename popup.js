@@ -1,3 +1,10 @@
+// Each level has its own index file and its own favorites
+const LEVELS = {
+  '1': { title: 'CFA Level 1 Index', csv: 'CFA_Level1_LetMeExplain_Index.csv', favKey: 'cfaFavorites', modFavKey: 'cfaModFavorites' },
+  '2': { title: 'CFA Level 2 Index', csv: 'CFA_Level2_Index.csv', favKey: 'cfaFavoritesL2', modFavKey: 'cfaModFavoritesL2' }
+};
+
+let currentLevel = '1';
 let fullCfaData = {};
 let favorites = new Set();
 let favModules = new Set();
@@ -7,12 +14,9 @@ let openState = { classes: new Set(), modules: new Set() };
 let suggested = { className: null, moduleName: null };
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const loading = document.getElementById('loading');
   const searchBar = document.getElementById('search-bar');
 
-  const result = await chrome.storage.local.get(['cfaFavorites', 'cfaModFavorites', 'youtubeFocusMode']);
-  favorites = new Set(result.cfaFavorites || []);
-  favModules = new Set(result.cfaModFavorites || []);
+  const result = await chrome.storage.local.get(['cfaLevel', 'youtubeFocusMode']);
 
   const ytFocusToggle = document.getElementById('yt-focus-toggle');
   ytFocusToggle.checked = result.youtubeFocusMode || false;
@@ -21,116 +25,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     await chrome.storage.local.set({ youtubeFocusMode: e.target.checked });
   });
 
-  try {
-    const response = await fetch('CFA_Level1_LetMeExplain_Index.csv');
-    if (!response.ok) throw new Error("CSV missing");
-    const text = await response.text();
-    fullCfaData = parseCSV(text);
+  // The chosen level is saved in local storage, so it only applies to this device
+  document.querySelectorAll('.level-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const level = btn.dataset.level;
+      if (level === currentLevel) return;
+      chrome.storage.local.set({ cfaLevel: level });
+      loadLevel(level);
+    });
+  });
 
-    // --- SMARTER TAB SCANNER ---
-    try {
-      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-      if (tab.url && tab.url.startsWith("http")) {
-
-        // Extract the page text FIRST, then process it in the popup
-        const injectionResults = await chrome.scripting.executeScript({
-          target: { tabId: tab.id },
-          func: () => {
-            const titleText = document.title.toLowerCase();
-            const h1Element = document.querySelector('h1');
-            const h1Text = h1Element ? h1Element.innerText.toLowerCase() : "";
-            const combinedTitle = titleText + " " + h1Text;
-
-            const headingsText = Array.from(document.querySelectorAll('h2, h3'))
-              .map(h => h.innerText.toLowerCase())
-              .join(' ');
-            const bodyText = document.body.innerText.toLowerCase();
-
-            return { combinedTitle, headingsText, bodyText };
-          }
-        });
-
-        if (injectionResults && injectionResults[0].result) {
-          const { combinedTitle, headingsText, bodyText } = injectionResults[0].result;
-          let foundGroup = null;
-          let foundMod = null;
-          let foundByLesson = false;
-
-          // STRATEGY 1: Reverse Lookup - Check if a CSV Lesson Name is inside the YouTube Title
-          for (const className in fullCfaData) {
-            for (const moduleName in fullCfaData[className]) {
-              for (const lesson of fullCfaData[className][moduleName]) {
-                const lessonLower = lesson.name.toLowerCase().trim();
-
-                // Only match if lesson string has some length (prevents matching single tiny words)
-                if (lessonLower.length > 10 && combinedTitle.includes(lessonLower)) {
-                  foundGroup = className;
-                  foundMod = moduleName;
-                  foundByLesson = true;
-                  break;
-                }
-              }
-              if (foundByLesson) break;
-            }
-            if (foundByLesson) break;
-          }
-
-          // STRATEGY 2: Fallback to the old logic (searching for "Module X" explicitly) if no lesson matches
-          if (!foundByLesson) {
-            const allGroups = Object.keys(fullCfaData);
-
-            // Find Group
-            for (const g of allGroups) {
-              const lowerG = g.toLowerCase();
-              if (combinedTitle.includes(lowerG)) { foundGroup = g; break; }
-            }
-            if (!foundGroup) {
-              for (const g of allGroups) {
-                const lowerG = g.toLowerCase();
-                if (headingsText.includes(lowerG)) { foundGroup = g; break; }
-              }
-            }
-            if (!foundGroup) {
-              for (const g of allGroups) {
-                const lowerG = g.toLowerCase();
-                if (bodyText.includes(lowerG)) { foundGroup = g; break; }
-              }
-            }
-
-            // Find Module
-            let match = combinedTitle.match(/module\s*(\d+)/) || combinedTitle.match(/mod\s*(\d+)/);
-            if (!match) {
-              match = bodyText.match(/module\s*(\d+)/) || bodyText.match(/mod\s*(\d+)/);
-            }
-
-            if (match) {
-              foundMod = "Module " + match[1];
-            } else {
-              match = combinedTitle.match(/\b(\d{1,2})\.\d{2}\b/) || bodyText.match(/\b(\d{1,2})\.\d{2}\b/);
-              if (match) {
-                foundMod = "Module " + match[1];
-              }
-            }
-          }
-
-          // If we found a match using either strategy, set it!
-          if (foundGroup && foundMod) {
-            suggested = { className: foundGroup, moduleName: foundMod };
-          }
-        }
-      }
-    } catch (tabError) {
-      console.log("Could not scan tab content:", tabError);
-    }
-    // ----------------------------
-
-    loading.classList.add('hidden');
-    renderMain();
-  } catch (error) {
-    loading.innerText = 'Error loading CSV. Check folder.';
-    loading.style.color = 'red';
-    console.error(error);
-  }
+  await loadLevel(LEVELS[result.cfaLevel] ? result.cfaLevel : '1');
 
   searchBar.addEventListener('input', (e) => {
     currentSearchTerm = e.target.value.toLowerCase().trim();
@@ -139,6 +44,154 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderMain();
   });
 });
+
+async function loadLevel(level) {
+  const config = LEVELS[level];
+  const loading = document.getElementById('loading');
+  currentLevel = level;
+
+  document.getElementById('level-title').innerText = config.title;
+  document.querySelectorAll('.level-btn').forEach(btn => {
+    const isActive = btn.dataset.level === level;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-pressed', isActive);
+  });
+
+  document.getElementById('main-container').innerHTML = '';
+  document.getElementById('no-results').classList.add('hidden');
+  loading.innerText = 'Loading Data...';
+  loading.style.color = '';
+  loading.classList.remove('hidden');
+
+  try {
+    const stored = await chrome.storage.local.get([config.favKey, config.modFavKey]);
+    const response = await fetch(config.csv);
+    if (!response.ok) throw new Error("CSV missing");
+    const text = await response.text();
+    if (level !== currentLevel) return; // Switched level while this one was loading
+
+    favorites = new Set(stored[config.favKey] || []);
+    favModules = new Set(stored[config.modFavKey] || []);
+    fullCfaData = parseCSV(text);
+    openState = { classes: new Set(), modules: new Set() };
+    suggested = { className: null, moduleName: null };
+
+    // "Suggested For This Page" only covers Level 1 for now
+    if (level === '1') {
+      const found = await findSuggestionForActiveTab();
+      if (level !== currentLevel) return;
+      if (found) suggested = found;
+    }
+
+    loading.classList.add('hidden');
+    renderMain();
+  } catch (error) {
+    if (level !== currentLevel) return;
+    loading.innerText = 'Error loading CSV. Check folder.';
+    loading.style.color = 'red';
+    console.error(error);
+  }
+}
+
+// Scans the active tab and returns the group and module it matches, or null
+async function findSuggestionForActiveTab() {
+  // --- SMARTER TAB SCANNER ---
+  try {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (tab.url && tab.url.startsWith("http")) {
+
+      // Extract the page text FIRST, then process it in the popup
+      const injectionResults = await chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        func: () => {
+          const titleText = document.title.toLowerCase();
+          const h1Element = document.querySelector('h1');
+          const h1Text = h1Element ? h1Element.innerText.toLowerCase() : "";
+          const combinedTitle = titleText + " " + h1Text;
+
+          const headingsText = Array.from(document.querySelectorAll('h2, h3'))
+            .map(h => h.innerText.toLowerCase())
+            .join(' ');
+          const bodyText = document.body.innerText.toLowerCase();
+
+          return { combinedTitle, headingsText, bodyText };
+        }
+      });
+
+      if (injectionResults && injectionResults[0].result) {
+        const { combinedTitle, headingsText, bodyText } = injectionResults[0].result;
+        let foundGroup = null;
+        let foundMod = null;
+        let foundByLesson = false;
+
+        // STRATEGY 1: Reverse Lookup - Check if a CSV Lesson Name is inside the YouTube Title
+        for (const className in fullCfaData) {
+          for (const moduleName in fullCfaData[className]) {
+            for (const lesson of fullCfaData[className][moduleName]) {
+              const lessonLower = lesson.name.toLowerCase().trim();
+
+              // Only match if lesson string has some length (prevents matching single tiny words)
+              if (lessonLower.length > 10 && combinedTitle.includes(lessonLower)) {
+                foundGroup = className;
+                foundMod = moduleName;
+                foundByLesson = true;
+                break;
+              }
+            }
+            if (foundByLesson) break;
+          }
+          if (foundByLesson) break;
+        }
+
+        // STRATEGY 2: Fallback to the old logic (searching for "Module X" explicitly) if no lesson matches
+        if (!foundByLesson) {
+          const allGroups = Object.keys(fullCfaData);
+
+          // Find Group
+          for (const g of allGroups) {
+            const lowerG = g.toLowerCase();
+            if (combinedTitle.includes(lowerG)) { foundGroup = g; break; }
+          }
+          if (!foundGroup) {
+            for (const g of allGroups) {
+              const lowerG = g.toLowerCase();
+              if (headingsText.includes(lowerG)) { foundGroup = g; break; }
+            }
+          }
+          if (!foundGroup) {
+            for (const g of allGroups) {
+              const lowerG = g.toLowerCase();
+              if (bodyText.includes(lowerG)) { foundGroup = g; break; }
+            }
+          }
+
+          // Find Module
+          let match = combinedTitle.match(/module\s*(\d+)/) || combinedTitle.match(/mod\s*(\d+)/);
+          if (!match) {
+            match = bodyText.match(/module\s*(\d+)/) || bodyText.match(/mod\s*(\d+)/);
+          }
+
+          if (match) {
+            foundMod = "Module " + match[1];
+          } else {
+            match = combinedTitle.match(/\b(\d{1,2})\.\d{2}\b/) || bodyText.match(/\b(\d{1,2})\.\d{2}\b/);
+            if (match) {
+              foundMod = "Module " + match[1];
+            }
+          }
+        }
+
+        // If we found a match using either strategy, return it!
+        if (foundGroup && foundMod) {
+          return { className: foundGroup, moduleName: foundMod };
+        }
+      }
+    }
+  } catch (tabError) {
+    console.log("Could not scan tab content:", tabError);
+  }
+  return null;
+}
 
 function renderMain() {
   const container = document.getElementById('main-container');
@@ -229,7 +282,7 @@ function renderGroup(container, dataObj, sortedKeys) {
       } else {
         favorites.add(className);
       }
-      await chrome.storage.local.set({ cfaFavorites: Array.from(favorites) });
+      await chrome.storage.local.set({ [LEVELS[currentLevel].favKey]: Array.from(favorites) });
       renderMain();
     };
 
@@ -312,7 +365,7 @@ function renderGroup(container, dataObj, sortedKeys) {
         e.stopPropagation();
         if (favModules.has(modKey)) favModules.delete(modKey);
         else favModules.add(modKey);
-        await chrome.storage.local.set({ cfaModFavorites: Array.from(favModules) });
+        await chrome.storage.local.set({ [LEVELS[currentLevel].modFavKey]: Array.from(favModules) });
         renderMain();
       };
 
@@ -356,23 +409,34 @@ function renderGroup(container, dataObj, sortedKeys) {
       dataObj[className][modName].forEach(lesson => {
         const lessonDiv = document.createElement('div');
         lessonDiv.className = 'lesson-item';
-        const link = document.createElement('a');
-        link.href = lesson.url;
-        link.target = '_blank';
-        
+        // Lessons without a video link (Level 2) are shown as plain text
+        const row = document.createElement(lesson.url ? 'a' : 'div');
+        if (lesson.url) {
+          row.href = lesson.url;
+          row.target = '_blank';
+        } else {
+          row.className = 'lesson-text';
+        }
+
         const titleSpan = document.createElement('span');
         titleSpan.className = 'lesson-title-text';
         titleSpan.innerHTML = highlightTerm(lesson.name, currentHighlightTerm);
-        link.appendChild(titleSpan);
+        row.appendChild(titleSpan);
 
         if (lesson.duration > 0) {
           const badge = document.createElement('span');
           badge.className = 'duration-badge lesson-duration';
           badge.innerText = formatDuration(lesson.duration);
-          link.appendChild(badge);
+          row.appendChild(badge);
+        } else if (lesson.page > 0) {
+          const badge = document.createElement('span');
+          badge.className = 'duration-badge lesson-duration';
+          badge.title = 'Curriculum page';
+          badge.innerText = `p. ${lesson.page}`;
+          row.appendChild(badge);
         }
 
-        lessonDiv.appendChild(link);
+        lessonDiv.appendChild(row);
         lessonsContainer.appendChild(lessonDiv);
       });
 
@@ -393,7 +457,8 @@ function toggleState(set, key) {
 
 function highlightTerm(text, term) {
   if (!term) return text;
-  const regex = new RegExp(`(${term})`, 'gi');
+  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'gi');
   return text.replace(regex, '<b>$1</b>');
 }
 
@@ -509,9 +574,10 @@ function addIfValid(row, data) {
     const lesson = row[2];
     const link = row[3];
     const duration = row.length >= 5 ? parseInt(row[4]) || 0 : 0;
+    const page = row.length >= 6 ? parseInt(row[5]) || 0 : 0;
 
     if (!data[group]) data[group] = {};
     if (!data[group][module]) data[group][module] = [];
-    data[group][module].push({ name: lesson, url: link, duration: duration });
+    data[group][module].push({ name: lesson, url: link, duration: duration, page: page });
   }
 }

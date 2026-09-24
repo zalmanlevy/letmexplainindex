@@ -1,0 +1,474 @@
+Group Name,Module,Lesson,YouTube Link,Duration,Page
+Quantitative Methods,Module 1: Basics of Multiple Regression and Underlying Assumptions,Uses of Multiple Linear Regression,,,12
+Quantitative Methods,Module 1: Basics of Multiple Regression and Underlying Assumptions,The Basics of Multiple Regression,,,15
+Quantitative Methods,Module 1: Basics of Multiple Regression and Underlying Assumptions,Assumptions Underlying Multiple Linear Regression,,,18
+Quantitative Methods,Module 2: Evaluating Regression Model Fit and Interpreting Model Results,Goodness of Fit,,,33
+Quantitative Methods,Module 2: Evaluating Regression Model Fit and Interpreting Model Results,Testing Joint Hypotheses for Coefficients,,,40
+Quantitative Methods,Module 2: Evaluating Regression Model Fit and Interpreting Model Results,Forecasting Using Multiple Regression,,,50
+Quantitative Methods,Module 3: Model Misspecification,Model Specification Errors,,,57
+Quantitative Methods,Module 3: Model Misspecification,Misspecified Functional Form,,,58
+Quantitative Methods,Module 3: Model Misspecification,Violations of Regression Assumptions: Heteroskedasticity,,,62
+Quantitative Methods,Module 3: Model Misspecification,Violations of Regression Assumptions: Serial Correlation,,,68
+Quantitative Methods,Module 3: Model Misspecification,Violations of Regression Assumptions: Multicollinearity,,,73
+Quantitative Methods,Module 4: Extensions of Multiple Regression,Influence Analysis,,,83
+Quantitative Methods,Module 4: Extensions of Multiple Regression,Dummy Variables in a Multiple Linear Regression,,,90
+Quantitative Methods,Module 4: Extensions of Multiple Regression,Multiple Linear Regression with Qualitative Dependent Variables,,,98
+Quantitative Methods,Module 5: Time-Series Analysis,Linear Trend Models,,,121
+Quantitative Methods,Module 5: Time-Series Analysis,Log-Linear Trend Models,,,124
+Quantitative Methods,Module 5: Time-Series Analysis,Trend Models and Testing for Correlated Errors,,,129
+Quantitative Methods,Module 5: Time-Series Analysis,AR Time-Series Models and Covariance-Stationary Series,,,130
+Quantitative Methods,Module 5: Time-Series Analysis,Detecting Serially Correlated Errors in an AR Model,,,132
+Quantitative Methods,Module 5: Time-Series Analysis,Mean Reversion and Multiperiod Forecasts,,,135
+Quantitative Methods,Module 5: Time-Series Analysis,Comparing Forecast Model Performance,,,139
+Quantitative Methods,Module 5: Time-Series Analysis,Instability of Regression Coefficients,,,142
+Quantitative Methods,Module 5: Time-Series Analysis,Random Walks,,,144
+Quantitative Methods,Module 5: Time-Series Analysis,The Unit Root Test of Nonstationarity,,,148
+Quantitative Methods,Module 5: Time-Series Analysis,Moving-Average Time-Series Models,,,153
+Quantitative Methods,Module 5: Time-Series Analysis,Seasonality in Time-Series Models,,,157
+Quantitative Methods,Module 5: Time-Series Analysis,AR Moving-Average Models and ARCH Models,,,163
+Quantitative Methods,Module 5: Time-Series Analysis,Regressions with More Than One Time Series,,,167
+Quantitative Methods,Module 5: Time-Series Analysis,Other Issues in Time Series,,,171
+Quantitative Methods,Module 6: Machine Learning,What Is Machine Learning,,,207
+Quantitative Methods,Module 6: Machine Learning,Evaluating ML Algorithm Performance,,,211
+Quantitative Methods,Module 6: Machine Learning,Supervised ML Algorithms: Penalized Regression,,,217
+Quantitative Methods,Module 6: Machine Learning,Support Vector Machine,,,219
+Quantitative Methods,Module 6: Machine Learning,K-Nearest Neighbor,,,221
+Quantitative Methods,Module 6: Machine Learning,Classification and Regression Tree,,,222
+Quantitative Methods,Module 6: Machine Learning,Ensemble Learning and Random Forest,,,226
+Quantitative Methods,Module 6: Machine Learning,Case Study: Classification of Winning and Losing Funds,,,232
+Quantitative Methods,Module 6: Machine Learning,Unsupervised ML Algorithms and Principal Component Analysis,,,240
+Quantitative Methods,Module 6: Machine Learning,Clustering,,,243
+Quantitative Methods,Module 6: Machine Learning,K-Means Clustering,,,245
+Quantitative Methods,Module 6: Machine Learning,Hierarchical Clustering,,,247
+Quantitative Methods,Module 6: Machine Learning,Case Study: Clustering Stocks Based on Co-Movement Similarity,,,251
+Quantitative Methods,Module 6: Machine Learning,"Neural Networks, Deep Learning Nets, and Reinforcement Learning",,,256
+Quantitative Methods,Module 6: Machine Learning,Deep Neural Networks,,,260
+Quantitative Methods,Module 6: Machine Learning,Case Study: Deep Neural Network-Based Equity Factor Model,,,262
+Quantitative Methods,Module 6: Machine Learning,Choosing an Appropriate ML Algorithm,,,271
+Quantitative Methods,Module 7: Big Data Projects,Executing a Data Analysis Project,,,285
+Quantitative Methods,Module 7: Big Data Projects,Data Preparation and Wrangling,,,289
+Quantitative Methods,Module 7: Big Data Projects,Unstructured (Text) Data,,,296
+Quantitative Methods,Module 7: Big Data Projects,Data Exploration Objectives and Methods,,,303
+Quantitative Methods,Module 7: Big Data Projects,Unstructured Data: Text Exploration,,,309
+Quantitative Methods,Module 7: Big Data Projects,"Model Training, Structured vs. Unstructured Data, and Method Selection",,,316
+Quantitative Methods,Module 7: Big Data Projects,Performance Evaluation,,,320
+Quantitative Methods,Module 7: Big Data Projects,Tuning,,,324
+Quantitative Methods,Module 7: Big Data Projects,Financial Forecasting Project,,,326
+Quantitative Methods,Module 7: Big Data Projects,Data Exploration,,,330
+Quantitative Methods,Module 7: Big Data Projects,Model Training,,,340
+Quantitative Methods,Module 7: Big Data Projects,Results and Interpretation,,,346
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Foreign Exchange Market Concepts,,,10
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Arbitrage Constraints on Spot Exchange Rate Quotes,,,14
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Forward Markets,,,19
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,The Mark-to-Market Value of a Forward Contract,,,22
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,International Parity Conditions,,,27
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Covered and Uncovered Interest Rate Parity and Forward Rate Parity,,,28
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Purchasing Power Parity,,,35
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,"The Fisher Effect, Real Interest Rate Parity, and International Parity Conditions",,,38
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,The Carry Trade,,,43
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,The Impact of Balance of Payments Flows,,,46
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Capital Flows,,,50
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Monetary and Fiscal Policies,,,54
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Exchange Rate Management: Intervention and Controls,,,62
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Warning Signs of a Currency Crisis,,,64
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Appendix,,,72
+Economics,Module 2: Economic Growth,Factors Favoring and Limiting Economic Growth,,,92
+Economics,Module 2: Economic Growth,Why Potential Growth Matters to Investors,,,98
+Economics,Module 2: Economic Growth,Production Function and Growth Accounting,,,103
+Economics,Module 2: Economic Growth,Capital Deepening vs. Technological Progress,,,107
+Economics,Module 2: Economic Growth,Natural Resources,,,109
+Economics,Module 2: Economic Growth,Labor Supply,,,111
+Economics,Module 2: Economic Growth,"ICT, Non-ICT, and Technology and Public Infrastructure",,,117
+Economics,Module 2: Economic Growth,Summary of Economic Growth Determinants,,,123
+Economics,Module 2: Economic Growth,Theories of Growth,,,129
+Economics,Module 2: Economic Growth,Implications of Neoclassical Model,,,136
+Economics,Module 2: Economic Growth,Extension of Neoclassical Model,,,141
+Economics,Module 2: Economic Growth,Endogenous Growth Model,,,142
+Economics,Module 2: Economic Growth,Convergence Hypotheses,,,144
+Economics,Module 2: Economic Growth,Growth in an Open Economy,,,148
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Dividends: Forms and Effects on Shareholder Wealth and Financial Ratios,,,12
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Dividend Policy and Company Value: Theories,,,18
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Other Theoretical Issues: Signaling,,,21
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Other Theoretical Issues: Summary,,,27
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Factors Affecting Dividend Policy in Practice,,,27
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Payout Policies,,,34
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Share Repurchases,,,39
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Valuation Equivalence of Cash Dividends and Share Repurchase,,,45
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,The Dividend versus Share Repurchase Decision,,,47
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Analysis of Dividend Safety,,,55
+Corporate Finance,"Module 2: Environmental, Social, and Governance (ESG) Considerations in Investment Analysis",Ownership Structures and Their Effects on Corporate Governance,,,76
+Corporate Finance,"Module 2: Environmental, Social, and Governance (ESG) Considerations in Investment Analysis",Evaluating Corporate Governance Policies and Procedures,,,82
+Corporate Finance,"Module 2: Environmental, Social, and Governance (ESG) Considerations in Investment Analysis",Identifying ESG-Related Risks and Opportunities,,,85
+Corporate Finance,"Module 2: Environmental, Social, and Governance (ESG) Considerations in Investment Analysis",Evaluating ESG-Related Risks and Opportunities,,,91
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,Cost of Capital Factors,,,110
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,Estimating the Cost of Debt,,,121
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,The ERP,,,127
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,The Cost of Equity (Required Return on Equity),,,137
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,Mini-Case 1,,,150
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,Mini-Case 2,,,156
+Corporate Finance,Module 4: Corporate Restructuring,"Corporate Evolution, Actions, and Motivations",,,166
+Corporate Finance,Module 4: Corporate Restructuring,Evaluating Corporate Restructurings,,,183
+Corporate Finance,Module 4: Corporate Restructuring,Modeling and Valuation,,,192
+Corporate Finance,Module 4: Corporate Restructuring,Evaluating Investment Actions,,,199
+Corporate Finance,Module 4: Corporate Restructuring,Evaluating Divestment Actions,,,211
+Corporate Finance,Module 4: Corporate Restructuring,Evaluating Restructuring Actions,,,218
+Financial Statement Analysis,Module 1: Intercorporate Investments,Basic Corporate Investment Categories,,,14
+Financial Statement Analysis,Module 1: Intercorporate Investments,Investments In Financial Assets: IFRS 9,,,16
+Financial Statement Analysis,Module 1: Intercorporate Investments,Investments In Associates And Joint Ventures,,,20
+Financial Statement Analysis,Module 1: Intercorporate Investments,"Amortization of Excess Purchase Price, Fair Value Option, and Impairment",,,25
+Financial Statement Analysis,Module 1: Intercorporate Investments,Transactions with Associates and Disclosure,,,29
+Financial Statement Analysis,Module 1: Intercorporate Investments,Acquisition Method,,,34
+Financial Statement Analysis,Module 1: Intercorporate Investments,The Consolidation Process,,,40
+Financial Statement Analysis,Module 1: Intercorporate Investments,Financial Statement Presentation,,,46
+Financial Statement Analysis,Module 1: Intercorporate Investments,Variable Interest and Special Purpose Entities,,,49
+Financial Statement Analysis,Module 1: Intercorporate Investments,Additional Issues in Business Combinations That impair Comparability,,,53
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Types of Employee Compensation,,,77
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Financial Reporting for Share-Based Compensation,,,81
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,"Share-Based Compensation Tax and Share Count Effects, Note Disclosures",,,89
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Share-Based Compensation and Financial Statement Modeling,,,96
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Financial Reporting for Post-Employment Benefits,,,100
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Financial Modeling and Valuation Considerations for Post-Employment Benefits,,,112
+Financial Statement Analysis,Module 3: Multinational Operations,Disclosures Related to Foreign Currency Transaction Gains and Losses,,,136
+Financial Statement Analysis,Module 3: Multinational Operations,Translation of Foreign Currency Financial Statements,,,142
+Financial Statement Analysis,Module 3: Multinational Operations,Translation Methods,,,146
+Financial Statement Analysis,Module 3: Multinational Operations,Illustration of Translation Methods,,,155
+Financial Statement Analysis,Module 3: Multinational Operations,Translation Analytical Issues,,,159
+Financial Statement Analysis,Module 3: Multinational Operations,Translation in an Hyperinflationary Economy,,,169
+Financial Statement Analysis,Module 3: Multinational Operations,Using Both Translation Methods,,,174
+Financial Statement Analysis,Module 3: Multinational Operations,Multinational Operations and a Company's Effective Tax Rate,,,181
+Financial Statement Analysis,Module 3: Multinational Operations,Additional Disclosures on the Effects of Foreign Currency,,,183
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Analyzing a Bank: the CAMELS Approach,,,220
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Analyzing a Bank: non-CAMELS Factors,,,238
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Analyzing a Bank: Example of CAMELS Approach,,,242
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Analyzing Property and Casualty Insurance Companies,,,264
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Analyzing Life and Health Insurance Companies,,,273
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Conceptual Framework,,,299
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Potential Problems,,,301
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Classification,,,304
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,M&A Issues and Divergence from Economic Reality,,,309
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,General Steps of Evaluation,,,314
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Quantitative Tools to Assess the Likelihood of Misreporting,,,316
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Earnings Quality Indicators,,,319
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Earnings Persistence and Related Measures of Accruals,,,323
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Mean Reversion in Earnings,,,327
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Revenue Recognition Case: Sunbeam Corporation,,,329
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,"Revenue Recognition Case: MicroStrategy, Inc.",,,334
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Cost Capitalization Case: WorldCom Corp.,,,338
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Bankruptcy Prediction Models,,,341
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Cash Flow Quality,,,342
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Balance Sheet Quality,,,352
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Sources of Information about Risk,,,355
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Risk-Related Disclosures in the Notes,,,360
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,"Management Commentary, Other Required Disclosures, and the Financial Press",,,364
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Case Study 1,,,383
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 and 4: DuPont Analysis,,,384
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 and 4: DuPont Decomposition,,,390
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 and 4: Adjusting for Unusual Charges,,,393
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 and 4: Asset Base Composition,,,396
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 and 4: Capital Structure Analysis,,,397
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 and 4: Earnings and Capital,,,399
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 and 4: Cash Flow and Capital,,,401
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 & 4: Segment Analysis by Product Group,,,404
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 & 4: Accruals and Earnings Quality,,,408
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 & 4: Cash Flow Relationships,,,410
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 3 & 4: Decomposition and Analysis of the Company's Valuation,,,413
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Phases 5 and 6: Conclusions and Follow-up,,,415
+Equities,Module 1: Equity Valuation: Applications and Processes,Applications of Equity Valuation,,,15
+Equities,Module 1: Equity Valuation: Applications and Processes,Understanding the Business,,,18
+Equities,Module 1: Equity Valuation: Applications and Processes,Analysis of Financial Reports and Sources of Information,,,21
+Equities,Module 1: Equity Valuation: Applications and Processes,Considerations in Using Accounting Information,,,25
+Equities,Module 1: Equity Valuation: Applications and Processes,Selecting the Appropriate Valuation Method,,,31
+Equities,Module 1: Equity Valuation: Applications and Processes,Issues in Model Selection and Interpretation,,,35
+Equities,Module 1: Equity Valuation: Applications and Processes,The Analyst's Role and Responsibilities,,,38
+Equities,Module 1: Equity Valuation: Applications and Processes,Communicating Valuation Results,,,41
+Equities,Module 2: Discounted Dividend Valuation,The Dividend Discount Model,,,67
+Equities,Module 2: Discounted Dividend Valuation,The Gordon Growth Model,,,71
+Equities,Module 2: Discounted Dividend Valuation,Share Repurchases and The Implied Dividend Growth Rate,,,79
+Equities,Module 2: Discounted Dividend Valuation,The Gordon Growth Model: Other Issues,,,81
+Equities,Module 2: Discounted Dividend Valuation,Multistage Dividend Discount Models,,,86
+Equities,Module 2: Discounted Dividend Valuation,The H-Model and Three-Stage Dividend Discount Models,,,91
+Equities,Module 2: Discounted Dividend Valuation,General Modeling and Estimating a Required Return Using Any DDM,,,98
+Equities,Module 2: Discounted Dividend Valuation,The Financial Determinants of Growth Rates,,,102
+Equities,Module 2: Discounted Dividend Valuation,Financial Models and Dividends,,,107
+Equities,Module 3: Free Cash Flow Valuation,Forecasting Free Cash Flow and Computing FCFF from Net Income,,,140
+Equities,Module 3: Free Cash Flow Valuation,Computing FCFF from the Cash Flow Statement,,,144
+Equities,Module 3: Free Cash Flow Valuation,Additional Considerations in Computing FCFF,,,146
+Equities,Module 3: Free Cash Flow Valuation,Computing FCFE from FCFF,,,150
+Equities,Module 3: Free Cash Flow Valuation,Finding FCFF and FCFE from EBITA or EBITDA,,,156
+Equities,Module 3: Free Cash Flow Valuation,FCFF and FCFE on a Uses-of-Free-Cash-Flow Basis,,,158
+Equities,Module 3: Free Cash Flow Valuation,Forecasting FCFF and FCFE,,,160
+Equities,Module 3: Free Cash Flow Valuation,Other Issues in Free Cash Flow Analysis,,,164
+Equities,Module 3: Free Cash Flow Valuation,Free Cash Flow Model Variations,,,170
+Equities,Module 3: Free Cash Flow Valuation,Two-Stage Free Cash Flow Models,,,173
+Equities,Module 3: Free Cash Flow Valuation,Three-Stage Free Cash Flow Models,,,181
+Equities,Module 3: Free Cash Flow Valuation,Integrating ESG in Free Cash Flow Models,,,183
+Equities,Module 3: Free Cash Flow Valuation,Non-operating Assets and Firm Value,,,186
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Earnings: the Basics,,,236
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Earnings: Valuation based on Forecasted Fundamentals,,,248
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Earnings: Using the P/E in Valuation,,,251
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Book Value,,,267
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Sales,,,277
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Cash Flow,,,284
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Dividends and Dividend Yield,,,290
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Enterprise Value/EBITDA,,,293
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Other Enterprise Value Multiples,,,299
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,International Considerations when Using Multiples,,,301
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Momentum Valuation Indicators,,,303
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Valuation Indicators: Issues in Practice,,,309
+Equities,Module 5: Residual Income Valuation,The Residual Income Model,,,353
+Equities,Module 5: Residual Income Valuation,Single-Stage and Multistage Residual Income Valuation,,,361
+Equities,Module 5: Residual Income Valuation,Relationship to Other Approaches,,,368
+Equities,Module 5: Residual Income Valuation,Accounting and International Considerations,,,372
+Equities,Module 5: Residual Income Valuation,Accounting Considerations: Other,,,382
+Equities,Module 6: Private Company Valuation,Public vs. Private Company Valuation,,,416
+Equities,Module 6: Private Company Valuation,Private Company Valuation Uses and Areas of Focus,,,419
+Equities,Module 6: Private Company Valuation,Earnings Normalization and Cash Flow Estimation,,,423
+Equities,Module 6: Private Company Valuation,Private Company Discount Rates and Required Rates of Return,,,432
+Equities,Module 6: Private Company Valuation,Valuation Discounts and Premiums,,,439
+Equities,Module 6: Private Company Valuation,Private Company Valuation Approaches,,,444
+Equities,Module 6: Private Company Valuation,Private Company Valuation: Income-Based Approach,,,456
+Equities,Module 6: Private Company Valuation,Private Company Valuation: Market-Based Approach,,,461
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,"Spot Rates, Forward Rates, and the Forward Rate Model",,,12
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,YTM in Relation to Spot and Forward Rates,,,22
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Active Bond Portfolio Management,,,26
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,The Swap Rate Curve,,,31
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,The Swap Spread and Spreads as a Price Quotation Convention,,,34
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Traditional Theories of the Term Structure of Interest Rates,,,38
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Yield Curve Factor Models,,,43
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,The Maturity Structure of Yield Curve Volatilities,,,46
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Developing Interest Rate Views Using Macroeconomic Variables,,,50
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Arbitrage-Free Valuation for an Option-Free Bond,,,81
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Creating a Binomial Interest Rate Tree,,,87
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Calibrating the Binomial Interest Rate Tree to the Term Structure,,,90
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Valuing an Option-Free Bond with a Binomial Tree,,,97
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Valuing an Option-Free Bond with Pathwise Valuation,,,99
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,The Monte Carlo Method,,,102
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Term Structure Models,,,104
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Callable and Putable Bonds,,,134
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Effect of Interest Rate Volatility,,,140
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Valuation of Default-Free Callable and Putable Bonds with Interest Rate Volatility,,,146
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Valuation of Risky Callable and Putable Bonds,,,154
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Bonds with Embedded Options: Effective Duration,,,160
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,One-Sided and Key Rate Duration,,,164
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Effective Convexity,,,167
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Capped and Floored Floating-Rate Bonds,,,171
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Convertible Bonds,,,175
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Comparison of Risk-Return Characteristics,,,181
+Fixed Income,Module 4: Credit Analysis Models,Modeling Credit Risk and the Credit Valuation Adjustment,,,210
+Fixed Income,Module 4: Credit Analysis Models,Credit Scores and Credit Ratings,,,218
+Fixed Income,Module 4: Credit Analysis Models,Structural and Reduced-Form Credit Models,,,223
+Fixed Income,Module 4: Credit Analysis Models,Valuing Risky Bonds in an Arbitrage-Free Framework,,,227
+Fixed Income,Module 4: Credit Analysis Models,Interpreting Changes in Credit Spreads,,,242
+Fixed Income,Module 4: Credit Analysis Models,The Term Structure of Credit Spreads,,,248
+Fixed Income,Module 4: Credit Analysis Models,Credit Analysis for Securitized Debt,,,254
+Fixed Income,Module 5: Credit Default Swaps,Basic Definitions and Concepts,,,287
+Fixed Income,Module 5: Credit Default Swaps,Important Features of CDS Markets,,,290
+Fixed Income,Module 5: Credit Default Swaps,Basics of Valuation and Pricing,,,297
+Fixed Income,Module 5: Credit Default Swaps,Applications of CDS,,,304
+Fixed Income,Module 5: Credit Default Swaps,Valuation Differences and Basis Trading,,,309
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Carry Arbitrage,,,16
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing Equity Forwards and Futures,,,27
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing Fixed-Income Forward and Futures Contracts,,,39
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and Valuing Swap Contracts,,,45
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and Valuing Currency Swap Contracts,,,54
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and Valuing Equity Swap Contracts,,,62
+Derivatives,Module 2: Valuation of Contingent Claims,Binomial Option Valuation Model,,,90
+Derivatives,Module 2: Valuation of Contingent Claims,One-Period Binomial Model,,,92
+Derivatives,Module 2: Valuation of Contingent Claims,Two-Period Binomial Model: Call Options,,,99
+Derivatives,Module 2: Valuation of Contingent Claims,Two-Period Binomial Model: Put Options,,,103
+Derivatives,Module 2: Valuation of Contingent Claims,Two-Period Binomial Model: Role of Dividends,,,106
+Derivatives,Module 2: Valuation of Contingent Claims,Interest Rate Options and Multiperiod Model,,,112
+Derivatives,Module 2: Valuation of Contingent Claims,Black-Scholes-Merton (BSM) Option Valuation Model,,,115
+Derivatives,Module 2: Valuation of Contingent Claims,BSM Model: Components,,,118
+Derivatives,Module 2: Valuation of Contingent Claims,BSM Model: Carry Benefits and Applications,,,122
+Derivatives,Module 2: Valuation of Contingent Claims,Black Option Valuation Model and European Options on Futures,,,126
+Derivatives,Module 2: Valuation of Contingent Claims,Interest Rate Options,,,128
+Derivatives,Module 2: Valuation of Contingent Claims,Swaptions,,,132
+Derivatives,Module 2: Valuation of Contingent Claims,Option Greeks and Implied Volatility: Delta,,,134
+Derivatives,Module 2: Valuation of Contingent Claims,Gamma,,,138
+Derivatives,Module 2: Valuation of Contingent Claims,Theta,,,141
+Derivatives,Module 2: Valuation of Contingent Claims,Vega,,,142
+Derivatives,Module 2: Valuation of Contingent Claims,Rho,,,143
+Derivatives,Module 2: Valuation of Contingent Claims,Implied Volatility,,,144
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity Sectors,,,13
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Life Cycle of Commodities,,,16
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Valuation of Commodities,,,22
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodities Futures Markets: Participants,,,24
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity Spot and Futures Pricing,,,28
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Theories of Futures Returns,,,33
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Components of Futures Returns,,,39
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,"Contango, Backwardation, and the Roll Return",,,44
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity Swaps,,,47
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity Indexes,,,51
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Real Estate Investment Features,,,72
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Economic Value Drivers and Portfolio Characteristics of Real Estate Investments,,,86
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Commercial Property Investment Characteristics,,,91
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Real Estate Due Diligence and Valuation Approaches,,,97
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Real Estate Indexes,,,108
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Types of Publicly Traded Real Estate Securities,,,130
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Valuation: Net Asset Value Approach,,,133
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Valuation: Relative Value (Price Multiple) Approach,,,139
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,REIT Mini Case Study: Example of Disclosures and Valuation Analysis,,,143
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Private vs. Public: A Comparison,,,151
+Alternative Investments,Module 4: Hedge Fund Strategies,Introduction and Classification of Hedge Fund Strategies,,,173
+Alternative Investments,Module 4: Hedge Fund Strategies,Equity Strategies: Long/Short Equity,,,179
+Alternative Investments,Module 4: Hedge Fund Strategies,Equity Strategies: Dedicated Short Selling and Short-Biased,,,183
+Alternative Investments,Module 4: Hedge Fund Strategies,Equity Strategies: Equity Market Neutral,,,187
+Alternative Investments,Module 4: Hedge Fund Strategies,Event-Driven Strategies: Merger Arbitrage,,,191
+Alternative Investments,Module 4: Hedge Fund Strategies,Event-Driven Strategies: Distressed Securities,,,195
+Alternative Investments,Module 4: Hedge Fund Strategies,Relative Value Strategies: Fixed-Income Arbitrage,,,199
+Alternative Investments,Module 4: Hedge Fund Strategies,Relative Value Strategies: Convertible Bond Arbitrage,,,203
+Alternative Investments,Module 4: Hedge Fund Strategies,Opportunistic Strategies: Global Macro Strategies,,,208
+Alternative Investments,Module 4: Hedge Fund Strategies,Opportunistic Strategies: Managed Futures,,,211
+Alternative Investments,Module 4: Hedge Fund Strategies,Specialist Strategies,,,216
+Alternative Investments,Module 4: Hedge Fund Strategies,Multi-Manager Strategies,,,223
+Alternative Investments,Module 4: Hedge Fund Strategies,Analysis of Hedge Fund Strategies Using a Conditional Factor Risk Model,,,230
+Alternative Investments,Module 4: Hedge Fund Strategies,Evaluating Equity Hedge Fund Strategies: Application,,,235
+Alternative Investments,Module 4: Hedge Fund Strategies,Evaluating Multi-Manager Hedge Fund Strategies: Application,,,240
+Alternative Investments,Module 4: Hedge Fund Strategies,Portfolio Contribution of Hedge Fund Strategies,,,243
+Portfolio Construction,Module 1: Economics and Investment Markets,The Present Value Model,,,12
+Portfolio Construction,Module 1: Economics and Investment Markets,Expectations and Asset Values,,,14
+Portfolio Construction,Module 1: Economics and Investment Markets,The Discount Rate on Real Default-Free Bonds: Interest Rates,,,15
+Portfolio Construction,Module 1: Economics and Investment Markets,The Discount Rate on Real Default-Free Bonds: Uncertainty and Risk Premiums,,,19
+Portfolio Construction,Module 1: Economics and Investment Markets,The Discount Rate on Real Default-Free Bonds: Risk Premiums on Risky Assets,,,21
+Portfolio Construction,Module 1: Economics and Investment Markets,Default-Free Interest Rates and Economic Growth,,,25
+Portfolio Construction,Module 1: Economics and Investment Markets,Real Default-Free Interest Rates and the Business Cycle,,,28
+Portfolio Construction,Module 1: Economics and Investment Markets,The Yield Curve and the Business Cycle,,,34
+Portfolio Construction,Module 1: Economics and Investment Markets,Treasury Bills and the Business Cycle,,,36
+Portfolio Construction,Module 1: Economics and Investment Markets,Conventional Government Bonds and Break-even Inflation Rates,,,40
+Portfolio Construction,Module 1: Economics and Investment Markets,The Default-Free Yield Curve and the Business Cycle,,,44
+Portfolio Construction,Module 1: Economics and Investment Markets,The Slope of the Yield Curve and the Term Spread,,,48
+Portfolio Construction,Module 1: Economics and Investment Markets,Evidence on Risk Premiums for Default-Free Bonds,,,51
+Portfolio Construction,Module 1: Economics and Investment Markets,Other Factors,,,54
+Portfolio Construction,Module 1: Economics and Investment Markets,Credit Premiums and the Business Cycle,,,56
+Portfolio Construction,Module 1: Economics and Investment Markets,Industry- and Company-Specific Credit Quality,,,61
+Portfolio Construction,Module 1: Economics and Investment Markets,Sovereign Credit Risk,,,64
+Portfolio Construction,Module 1: Economics and Investment Markets,Equities and the Equity Risk Premium,,,67
+Portfolio Construction,Module 1: Economics and Investment Markets,Earnings Growth and the Economic Cycle,,,69
+Portfolio Construction,Module 1: Economics and Investment Markets,How Big is the Equity Risk Premium?,,,74
+Portfolio Construction,Module 1: Economics and Investment Markets,Valuation Multiples,,,75
+Portfolio Construction,Module 1: Economics and Investment Markets,Commercial Real Estate,,,77
+Portfolio Construction,Module 1: Economics and Investment Markets,Commercial Real Estate and the Business Cycle,,,81
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Active Management and Value Added,,,98
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,The Sharpe Ratio and The Information Ratio,,,103
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Constructing Optimal Portfolios,,,109
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Active Security Returns and The Fundamental Law of Active Management,,,114
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,The Full Fundamental Law,,,120
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Applications of the Fundamental Law and Global Equity Strategy,,,125
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Fixed-Income Strategies,,,132
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Practical Limitations,,,138
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,ETF Mechanics,,,162
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,Understanding ETFs,,,168
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,ETF Risks,,,183
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,ETFs in Portfolio Management,,,188
+Portfolio Construction,Module 4: Using Multifactor Models,Background and Uses,,,209
+Portfolio Construction,Module 4: Using Multifactor Models,Arbitrage Pricing Theory and Multifactor Models,,,211
+Portfolio Construction,Module 4: Using Multifactor Models,Types of Multifactor Models,,,217
+Portfolio Construction,Module 4: Using Multifactor Models,Macroeconomic Factor Models,,,223
+Portfolio Construction,Module 4: Using Multifactor Models,Fundamental Factor Models,,,227
+Portfolio Construction,Module 4: Using Multifactor Models,Factor Models in Return Attribution,,,229
+Portfolio Construction,Module 4: Using Multifactor Models,Factor Models in Risk Attribution,,,232
+Portfolio Construction,Module 4: Using Multifactor Models,Factor Models in Portfolio Construction,,,237
+Portfolio Construction,Module 4: Using Multifactor Models,Factor Models in Strategic Portfolio Decisions,,,242
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Estimating VaR,,,262
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,The Parametric Method of VaR Estimation,,,264
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,The Historical Simulation Method of VaR Estimation,,,268
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,The Monte Carlo Simulation Method of VaR Estimation,,,271
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,"Advantages, Limitations, and Extensions of VaR",,,274
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Other Key Risk Measures,,,280
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Scenario Risk Measures,,,284
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Sensitivity and Scenario Risk Measures and VaR,,,290
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Using Constraints in Market Risk Management,,,294
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Market Participants and the Risk Measures They Use,,,299
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Pension Funds and Insurers,,,305
+Portfolio Construction,Module 6: Backtesting and Simulation,The Objectives of Backtesting,,,330
+Portfolio Construction,Module 6: Backtesting and Simulation,The Backtesting Process,,,331
+Portfolio Construction,Module 6: Backtesting and Simulation,Backtesting Multifactor Models,,,338
+Portfolio Construction,Module 6: Backtesting and Simulation,Common Problems in Backtesting,,,348
+Portfolio Construction,Module 6: Backtesting and Simulation,Historical Scenario Analysis,,,358
+Portfolio Construction,Module 6: Backtesting and Simulation,Simulation Analysis,,,361
+Portfolio Construction,Module 6: Backtesting and Simulation,Sensitivity Analysis,,,371
+Ethical and Professional Standards,Module 1: Code of Ethics and Standards of Professional Conduct,Preface,,,17
+Ethical and Professional Standards,Module 1: Code of Ethics and Standards of Professional Conduct,Ethics and the Investment Industry,,,23
+Ethical and Professional Standards,Module 1: Code of Ethics and Standards of Professional Conduct,CFA Institute Code of Ethics and Standards of Professional Conduct,,,27
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I: Professionalism,,,37
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(A): Knowledge of the Law,,,38
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(A) Compliance Practices,,,42
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(A) Application of the Standard,,,43
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(B): Independence and Objectivity,,,45
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(B) Compliance Practices,,,49
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(B) Application of the Standard,,,49
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(C): Misrepresentation,,,54
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(C) Compliance Practices,,,58
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(C) Application of the Standard,,,58
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(D): Misconduct,,,66
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(D) Compliance Practices,,,67
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(D) Application of the Standard,,,67
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(E): Competence,,,70
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(E) Compliance Practices,,,71
+Ethical and Professional Standards,Module 2: Guidance for Standard I: Professionalism,Standard I(E) Application of the Standard,,,71
+Ethical and Professional Standards,Module 3: Guidance for Standard II: Integrity of Capital Markets,Standard II: Integrity of Capital Markets,,,81
+Ethical and Professional Standards,Module 3: Guidance for Standard II: Integrity of Capital Markets,Standard II(A): Material Nonpublic Information,,,82
+Ethical and Professional Standards,Module 3: Guidance for Standard II: Integrity of Capital Markets,Standard II(A) Compliance Practices,,,85
+Ethical and Professional Standards,Module 3: Guidance for Standard II: Integrity of Capital Markets,Standard II(A) Application of the Standard,,,87
+Ethical and Professional Standards,Module 3: Guidance for Standard II: Integrity of Capital Markets,Standard II(B): Market Manipulation,,,91
+Ethical and Professional Standards,Module 3: Guidance for Standard II: Integrity of Capital Markets,Standard II(B) Compliance Practices,,,92
+Ethical and Professional Standards,Module 3: Guidance for Standard II: Integrity of Capital Markets,Standard II(B) Application of the Standard,,,93
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III: Duties to Clients,,,105
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,"Standard III(A): Loyalty, Prudence, and Care",,,106
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(A) Compliance Practices,,,110
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(A) Application of the Standard,,,111
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(B): Fair Dealing,,,115
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(B) Compliance Practices,,,117
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(B) Application of the Standard,,,119
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(C): Suitability,,,123
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(C) Compliance Practices,,,126
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(C) Application of the Standard,,,127
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(D): Performance Presentation,,,130
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(D) Compliance Practices,,,130
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(D) Application of the Standard,,,131
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(E): Preservation of Confidentiality,,,133
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(E) Compliance Practices,,,135
+Ethical and Professional Standards,Module 4: Guidance for Standard III: Duties to Clients,Standard III(E) Application of the Standard,,,136
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV: Duties to Employers,,,151
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(A): Loyalty,,,152
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(A) Compliance Practices,,,155
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(A) Application of the Standard,,,155
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(B): Additional Compensation Arrangements,,,159
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(B) Compliance Practices,,,160
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(B) Application of the Standard,,,160
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(C): Responsibilities of Supervisors,,,161
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(C) Compliance Practices,,,163
+Ethical and Professional Standards,Module 5: Guidance for Standard IV: Duties to Employers,Standard IV(C) Application of the Standard,,,165
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions","Standard V: Investment Analysis, Recommendations, and Actions",,,177
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(A): Diligence and Reasonable Basis,,,178
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(A) Compliance Practices,,,181
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(A) Application of the Standard,,,182
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(B): Communication with Clients and Prospective Clients,,,187
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(B) Compliance Practices,,,191
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(B) Application of the Standard,,,191
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(C): Record Retention,,,196
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(C) Compliance Practices,,,197
+Ethical and Professional Standards,"Module 6: Guidance for Standard V: Investment Analysis, Recommendations, and Actions",Standard V(C) Application of the Standard,,,198
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI: Conflicts of Interest,,,207
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(A): Avoid or Disclose Conflicts,,,208
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(A) Application of the Standard,,,211
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(B): Priority of Transactions,,,213
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(B) Compliance Practices,,,214
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(B) Application of the Standard,,,216
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(C): Referral Fees,,,217
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(C) Compliance Practices,,,218
+Ethical and Professional Standards,Module 7: Guidance for Standard VI: Conflicts of Interest,Standard VI(C) Application of the Standard,,,218
+Ethical and Professional Standards,Module 8: Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate,Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate,,,223
+Ethical and Professional Standards,Module 8: Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate,Standard VII(A): Conduct as Participants in CFA Institute Programs,,,224
+Ethical and Professional Standards,Module 8: Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate,Standard VII(A) Application of the Standard,,,225
+Ethical and Professional Standards,Module 8: Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate,"Standard VII(B): Reference to CFA Institute, the CFA Designation, and the CFA Program",,,229
+Ethical and Professional Standards,Module 8: Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate,Standard VII(B) Compliance Practices,,,231
+Ethical and Professional Standards,Module 8: Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate,Standard VII(B) Application of the Standard,,,232
+Ethical and Professional Standards,Module 9: Application of the Code and Standards: Level II,Serengeti Advisory Services,,,238
+Ethical and Professional Standards,Module 9: Application of the Code and Standards: Level II,Banco Libertad,,,250
+Ethical and Professional Standards,Module 9: Application of the Code and Standards: Level II,QuantHouse,,,257
+Ethical and Professional Standards,Module 9: Application of the Code and Standards: Level II,"Jacobs, Riccio, and Associates",,,262
+Ethical and Professional Standards,Module 9: Application of the Code and Standards: Level II,Magadi Asset Management,,,269
+Ethical and Professional Standards,Module 9: Application of the Code and Standards: Level II,Syyark,,,276
+Ethical and Professional Standards,Module 9: Application of the Code and Standards: Level II,Agarway,,,282

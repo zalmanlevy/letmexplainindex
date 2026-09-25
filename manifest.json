@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "CFA Level 1 & 2 Let Me Explain Auto Video Index & YouTube Focus Mode",
-  "version": "2.8",
+  "version": "2.9",
   "description": "Interactive CFA Level 1 & 2 letmeexplain.eu Video Index.",
   "icons": {
     "16": "images/icon16.png",

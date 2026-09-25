@@ -1,0 +1,2117 @@
+[
+  {
+    "name": "Quantitative Methods",
+    "modules": [
+      {
+        "name": "Module 1: Basics of multiple regression and underlying assumptions",
+        "lessons": [
+          {
+            "title": "Multiple regression basics",
+            "url": "https://youtu.be/PpvX00rldNQ",
+            "duration": 1232
+          },
+          {
+            "title": "Multiple regression assumptions",
+            "url": "https://youtu.be/rBOSoPQW5Lk",
+            "duration": 1157
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Evaluating regression model fit and interpreting model results",
+        "lessons": [
+          {
+            "title": "Goodness of fit",
+            "url": "https://youtu.be/xtOJeg4xrlM",
+            "duration": 3185
+          },
+          {
+            "title": "Testing joint hypotheses for coefficients",
+            "url": "https://youtu.be/1BfgFuLhRcc",
+            "duration": 1717
+          },
+          {
+            "title": "Forecasting using multiple regression",
+            "url": "https://youtu.be/A3uXg31sTM0",
+            "duration": 340
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Model misspecification",
+        "lessons": [
+          {
+            "title": "Misspecified functional form",
+            "url": "https://youtu.be/tQhMn35WE_4",
+            "duration": 902
+          },
+          {
+            "title": "Heteroskedasticity",
+            "url": "https://youtu.be/tLOm8gDhWRM",
+            "duration": 1559
+          },
+          {
+            "title": "Serial correlation",
+            "url": "https://youtu.be/F88-ONEjCwo",
+            "duration": 1342
+          },
+          {
+            "title": "Multicollinearity",
+            "url": "https://youtu.be/8G3C-TnxyZo",
+            "duration": 927
+          }
+        ]
+      },
+      {
+        "name": "Module 4: Extensions of multiple regression",
+        "lessons": [
+          {
+            "title": "Influence analysis",
+            "url": "https://youtu.be/0x4a8Q8ib3o",
+            "duration": 1682
+          },
+          {
+            "title": "Dummy variables",
+            "url": "https://youtu.be/iVA1zPWoWOs",
+            "duration": 794
+          },
+          {
+            "title": "Qualitative dependent variables",
+            "url": "https://youtu.be/a05U9dOfmZw",
+            "duration": 1659
+          }
+        ]
+      },
+      {
+        "name": "Module 5: Time-series analysis",
+        "lessons": [
+          {
+            "title": "Linear and log-linear trend models",
+            "url": "https://youtu.be/WMBedbYQNiE",
+            "duration": 1023
+          },
+          {
+            "title": "Trend models and testing for correlated errors",
+            "url": "https://youtu.be/I27fxc8g1Eo",
+            "duration": 813
+          },
+          {
+            "title": "AR time-series models and covariance-stationary series",
+            "url": "https://youtu.be/mt52JEI3nDg",
+            "duration": 1154
+          },
+          {
+            "title": "Detecting serially correlated errors in an AR model",
+            "url": "https://youtu.be/QptUNNmjC4Y",
+            "duration": 1172
+          },
+          {
+            "title": "Mean reversion and multiperiod forecasts",
+            "url": "https://youtu.be/YAu2mRnQyho",
+            "duration": 600
+          },
+          {
+            "title": "Comparing forecast model performance",
+            "url": "https://youtu.be/2mMOfD6irkc",
+            "duration": 412
+          },
+          {
+            "title": "Instability of regression coefficients",
+            "url": "https://youtu.be/6uPiZnI1T68",
+            "duration": 200
+          },
+          {
+            "title": "Random walks",
+            "url": "https://youtu.be/d_8DeNFL-JA",
+            "duration": 662
+          },
+          {
+            "title": "Unit root test of nonstationarity",
+            "url": "https://youtu.be/DftFuJunmiI",
+            "duration": 569
+          },
+          {
+            "title": "Moving-average time-series models",
+            "url": "https://youtu.be/cWb86BDDm3c",
+            "duration": 799
+          },
+          {
+            "title": "Seasonality in time-series models",
+            "url": "https://youtu.be/a4nW6q5kwPg",
+            "duration": 447
+          },
+          {
+            "title": "ARMA and ARCH models",
+            "url": "https://youtu.be/RzSJ4UF7WcQ",
+            "duration": 770
+          },
+          {
+            "title": "Regressions with more than one time series",
+            "url": "https://youtu.be/ipVXG3U4mO0",
+            "duration": 696
+          }
+        ]
+      },
+      {
+        "name": "Module 6: Machine learning",
+        "lessons": [
+          {
+            "title": "Machine learning basics",
+            "url": "https://youtu.be/CmBHcfvRJVc",
+            "duration": 1311
+          },
+          {
+            "title": "Evaluating ML algorithm performance",
+            "url": "https://youtu.be/Y0i_fq226Ic",
+            "duration": 2145
+          },
+          {
+            "title": "Supervised ML algorithm: penalized regression",
+            "url": "https://youtu.be/Dc6DnuLem_0",
+            "duration": 1083
+          },
+          {
+            "title": "Support vector machine",
+            "url": "https://youtu.be/AZxKxUwcoPQ",
+            "duration": 765
+          },
+          {
+            "title": "K-nearest neighbor",
+            "url": "https://youtu.be/Qf_mNYjdmm8",
+            "duration": 949
+          },
+          {
+            "title": "Classification and regression tree",
+            "url": "https://youtu.be/oSFuMh6fR8E",
+            "duration": 1177
+          },
+          {
+            "title": "Ensemble learning and random forest",
+            "url": "https://youtu.be/Goigtz9tEOA",
+            "duration": 1010
+          },
+          {
+            "title": "Classificaton of winning and losing funds case study",
+            "url": "https://youtu.be/xUusOK9eAnQ",
+            "duration": 1295
+          },
+          {
+            "title": "Unsupervised ML algorithms and principal component analysis",
+            "url": "https://youtu.be/vGnfxW2Vlgo",
+            "duration": 1255
+          },
+          {
+            "title": "Clustering",
+            "url": "https://youtu.be/5qkG5sZkf1A",
+            "duration": 387
+          },
+          {
+            "title": "K-means clustering",
+            "url": "https://youtu.be/BeF1Smum7pk",
+            "duration": 1118
+          },
+          {
+            "title": "Hierarchical clustering",
+            "url": "https://youtu.be/t4NXBBVDDm8",
+            "duration": 1369
+          },
+          {
+            "title": "Clustering stocks based on co-movement similarity case study",
+            "url": "https://youtu.be/KHrYurcmCUk",
+            "duration": 317
+          },
+          {
+            "title": "Neural networks",
+            "url": "https://youtu.be/IiiVNgV-Ewc",
+            "duration": 1510
+          },
+          {
+            "title": "Deep neural networks",
+            "url": "https://youtu.be/6jasGb0TVsM",
+            "duration": 568
+          },
+          {
+            "title": "Deep neural network-based equity factor model case study",
+            "url": "https://youtu.be/M66QnIqxV-A",
+            "duration": 371
+          },
+          {
+            "title": "Choosing an appropriate ML algorithm",
+            "url": "https://youtu.be/XI3fIEkmNMk",
+            "duration": 621
+          }
+        ]
+      },
+      {
+        "name": "Module 7: Big data projects",
+        "lessons": [
+          {
+            "title": "Executing a data analysis project",
+            "url": "https://youtu.be/q1HNFXfe9BE",
+            "duration": 1126
+          },
+          {
+            "title": "Data preparation and wrangling",
+            "url": "https://youtu.be/CyuyK9uHo0E",
+            "duration": 3284
+          },
+          {
+            "title": "Unstructered (text) data",
+            "url": "https://youtu.be/Zg_qawq2RTk",
+            "duration": 1775
+          },
+          {
+            "title": "Data exploration objectives and methods",
+            "url": "https://youtu.be/gKAF68_i3Cw",
+            "duration": 1529
+          },
+          {
+            "title": "Unstructered data: text exploration",
+            "url": "https://youtu.be/u6qSVQqs3U4",
+            "duration": 1608
+          },
+          {
+            "title": "Model training, structured vs. unstructured data, and method selection",
+            "url": "https://youtu.be/jJMQ7m7IVDs",
+            "duration": 1048
+          },
+          {
+            "title": "Performance evaluation",
+            "url": "https://youtu.be/yuRMsSGk1pU",
+            "duration": 2182
+          },
+          {
+            "title": "Tuning",
+            "url": "https://youtu.be/IpajA08LBi0",
+            "duration": 1219
+          },
+          {
+            "title": "Financial forecasting project",
+            "url": "https://youtu.be/B2hiGoqDpXc",
+            "duration": 821
+          },
+          {
+            "title": "Financial forecasting project – data exploration",
+            "url": "https://youtu.be/so0xQ0swq3w",
+            "duration": 686
+          },
+          {
+            "title": "Financial forecasting project – model training",
+            "url": "https://youtu.be/tOngKzco4WA",
+            "duration": 1026
+          },
+          {
+            "title": "Financial forecasting project – results and interpretation",
+            "url": "https://youtu.be/ZLwr5bKmncw",
+            "duration": 206
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Economics",
+    "modules": [
+      {
+        "name": "Module 1: Currency Exchange Rates: Understanding Equilibrium Value",
+        "lessons": [
+          {
+            "title": "FX market concepts",
+            "url": "https://youtu.be/z6fyRc56P0U",
+            "duration": 2665
+          },
+          {
+            "title": "Arbitrage constraints on spot exchange rate quotes",
+            "url": "https://youtu.be/5le6NnqodCU",
+            "duration": 4873
+          },
+          {
+            "title": "Forward markets",
+            "url": "https://youtu.be/BpBlGQ5hZ8w",
+            "duration": 2623
+          },
+          {
+            "title": "The MtM value of a forward contract",
+            "url": "https://youtu.be/3uXk7Ab3sOs",
+            "duration": 1138
+          },
+          {
+            "title": "Uncovered interest rate parity",
+            "url": "https://youtu.be/xjrQXIOudaQ",
+            "duration": 887
+          },
+          {
+            "title": "Forward rate parity",
+            "url": "https://youtu.be/ExQ3imMZ7Ts",
+            "duration": 507
+          },
+          {
+            "title": "Purchasing power parity",
+            "url": "https://youtu.be/jBD_7Wb4LMI",
+            "duration": 1214
+          },
+          {
+            "title": "The international Fischer effect",
+            "url": "https://youtu.be/7GFXVikXlFA",
+            "duration": 1299
+          },
+          {
+            "title": "The carry trade",
+            "url": "https://youtu.be/D5fqVwSyLpY",
+            "duration": 970
+          },
+          {
+            "title": "The impact of balance of payment flows",
+            "url": "https://youtu.be/NNc3UBhYyjU",
+            "duration": 1756
+          },
+          {
+            "title": "Capital flows",
+            "url": "https://youtu.be/OviWEhXZ3AY",
+            "duration": 650
+          },
+          {
+            "title": "Monetary and fiscal policies",
+            "url": "https://youtu.be/E2zrfFlgYms",
+            "duration": 2728
+          },
+          {
+            "title": "Exchange rate management: intervention and controls",
+            "url": "https://youtu.be/X5J2MgTq7VE",
+            "duration": 1093
+          },
+          {
+            "title": "Warning signs of a currency crisis",
+            "url": "https://youtu.be/UqG47YsYPv4",
+            "duration": 474
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Economic Growth",
+        "lessons": [
+          {
+            "title": "Factors favoring and limiting economic growth",
+            "url": "https://youtu.be/isSqx1aVXxA",
+            "duration": 898
+          },
+          {
+            "title": "Why potential growth matters to investors",
+            "url": "https://youtu.be/QZ4cLQfryds",
+            "duration": 1228
+          },
+          {
+            "title": "Production function and growth accounting",
+            "url": "https://youtu.be/h5xFZ1urW7k",
+            "duration": 1964
+          },
+          {
+            "title": "Capital deepening versus technological progress",
+            "url": "https://youtu.be/dwgQFZTRVvY",
+            "duration": 762
+          },
+          {
+            "title": "Natural resources",
+            "url": "https://youtu.be/FGDK0i-beho",
+            "duration": 543
+          },
+          {
+            "title": "Labor supply",
+            "url": "https://youtu.be/dd7CmxnIOyY",
+            "duration": 558
+          },
+          {
+            "title": "ICT, non-ICT, and technology and public infrastructure",
+            "url": "https://youtu.be/c3A_XIkhnDA",
+            "duration": 836
+          },
+          {
+            "title": "Thoeries of growth",
+            "url": "https://youtu.be/PWqP5G1QqoA",
+            "duration": 2545
+          },
+          {
+            "title": "Implications of the neoclassical model",
+            "url": "https://youtu.be/8IR6-LdbILU",
+            "duration": 776
+          },
+          {
+            "title": "Extensions of the neoclassical model",
+            "url": "https://youtu.be/XQ-T9M5W2R8",
+            "duration": 579
+          },
+          {
+            "title": "Endogenous growth model",
+            "url": "https://youtu.be/BhHTvNwbKrg",
+            "duration": 1776
+          },
+          {
+            "title": "Convergence hypothesis",
+            "url": "https://youtu.be/YxA2bML9R2A",
+            "duration": 1281
+          },
+          {
+            "title": "Growth in an open economy",
+            "url": "https://youtu.be/SOVaaPnbQKM",
+            "duration": 1202
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Corporate Finance",
+    "modules": [
+      {
+        "name": "Module 1: Analysis of Dividends and Share Repurchases",
+        "lessons": [
+          {
+            "title": "Dividends: forms and effects on shareholder wealth and financial ratios",
+            "url": "https://youtu.be/V2iVEsPbrWc",
+            "duration": 2668
+          },
+          {
+            "title": "Dividend policy and company value: theories",
+            "url": "https://youtu.be/UM8M6QYljb4",
+            "duration": 1622
+          },
+          {
+            "title": "Dividend signaling",
+            "url": "https://youtu.be/Dj0HLkqvDCg",
+            "duration": 1339
+          },
+          {
+            "title": "Factors affecting dividend policy in practice",
+            "url": "https://youtu.be/J0mwU-li9Sg",
+            "duration": 2241
+          },
+          {
+            "title": "Payout policies",
+            "url": "https://youtu.be/15n5ds6Hq_4",
+            "duration": 824
+          },
+          {
+            "title": "Share repurchases",
+            "url": "https://youtu.be/s601GQM4f2I",
+            "duration": 2188
+          },
+          {
+            "title": "The dividend versus share repurchase decision",
+            "url": "https://youtu.be/jGyLe5R6Asc",
+            "duration": 1093
+          },
+          {
+            "title": "Analysis of dividend safety",
+            "url": "https://youtu.be/QAyQFebFHeU",
+            "duration": 536
+          }
+        ]
+      },
+      {
+        "name": "Module 2: ESG Considerations in Investmenty Analysis",
+        "lessons": [
+          {
+            "title": "Ownership structures and their effects on corporate governance",
+            "url": "https://youtu.be/fA6_Zk-vT4M",
+            "duration": 2286
+          },
+          {
+            "title": "Evaluating corporate governance policies and procedures",
+            "url": "https://youtu.be/FoRA-bUJuIo",
+            "duration": 532
+          },
+          {
+            "title": "ESG-related risks and opportunities",
+            "url": "https://youtu.be/ivz0ayMM8lM",
+            "duration": 595
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Cost of Capital: Advanced Topics",
+        "lessons": [
+          {
+            "title": "Cost of capital factors",
+            "url": "https://youtu.be/8aKVzioANaQ",
+            "duration": 2246
+          },
+          {
+            "title": "Estimating the cost of debt",
+            "url": "https://youtu.be/miJNhz7jhRA",
+            "duration": 779
+          },
+          {
+            "title": "The ERP",
+            "url": "https://youtu.be/D4Lm0T1AHBo",
+            "duration": 2475
+          },
+          {
+            "title": "The cost of equity",
+            "url": "https://youtu.be/fuzQeyFUi-U",
+            "duration": 2646
+          }
+        ]
+      },
+      {
+        "name": "Module 4: Corporate Restructuring",
+        "lessons": [
+          {
+            "title": "Corporate evolution, actions, and motivations",
+            "url": "https://youtu.be/q-D6fTqRqzc",
+            "duration": 3498
+          },
+          {
+            "title": "Evaluating corporate restructurings",
+            "url": "https://youtu.be/9It4-7tE7cI",
+            "duration": 1290
+          },
+          {
+            "title": "Modeling and valuation",
+            "url": "https://youtu.be/1MKeJ5M_W2M",
+            "duration": 673
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Financial Statement Analysis",
+    "modules": [
+      {
+        "name": "Module 1: Intercorporate investments",
+        "lessons": [
+          {
+            "title": "Corporate investment categories and financial assets",
+            "url": "https://youtu.be/c_VFrxTdS-o",
+            "duration": 1800
+          },
+          {
+            "title": "Investments in associates and joint ventures",
+            "url": "https://youtu.be/xuig4nC8GhE",
+            "duration": 1624
+          },
+          {
+            "title": "Associates – amortization of excess purchase price",
+            "url": "https://youtu.be/ZP74BsZHYeQ",
+            "duration": 2445
+          },
+          {
+            "title": "Transactions with associates",
+            "url": "https://youtu.be/3QnzKFyMxpw",
+            "duration": 1375
+          },
+          {
+            "title": "Acquisition method – full and partial goodwill",
+            "url": "https://youtu.be/Y86HQj2MgOk",
+            "duration": 2478
+          },
+          {
+            "title": "Acquisition method and the consolidation process",
+            "url": "https://youtu.be/pzYehwHG0m4",
+            "duration": 2667
+          },
+          {
+            "title": "Variable interest and special purpose entities",
+            "url": "https://youtu.be/fe5J_2Meacc",
+            "duration": 1029
+          },
+          {
+            "title": "Additional issues in business combinations",
+            "url": "https://youtu.be/BcFCWwJX2UQ",
+            "duration": 1655
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Employee compensation: post-employment and share-based payment",
+        "lessons": [
+          {
+            "title": "Types of employee compensation",
+            "url": "https://youtu.be/wswEaSVsjxI",
+            "duration": 1402
+          },
+          {
+            "title": "Financial reporting for share-based compensation",
+            "url": "https://youtu.be/LMbMTjiy7Tw",
+            "duration": 2504
+          },
+          {
+            "title": "Share-based compensation: tax and share count effects",
+            "url": "https://youtu.be/z3mKeoCXvwY",
+            "duration": 2109
+          },
+          {
+            "title": "Share-based compensation: financial statement modeling",
+            "url": "https://youtu.be/5_CZiu-hNUw",
+            "duration": 1365
+          },
+          {
+            "title": "Financial reporting for DC plans",
+            "url": "https://youtu.be/cX3H5kigRo8",
+            "duration": 1290
+          },
+          {
+            "title": "Financial reporting for DB plans under IFRS",
+            "url": "https://youtu.be/S8mpsBSBLlc",
+            "duration": 4971
+          },
+          {
+            "title": "Financial reporting for DB plans under US GAAP",
+            "url": "https://youtu.be/sisQz-pqDYM",
+            "duration": 2051
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Multinational operations",
+        "lessons": [
+          {
+            "title": "Foreign currency transactions",
+            "url": "https://youtu.be/yQeWC1zw9_8",
+            "duration": 1538
+          },
+          {
+            "title": "Current rate method",
+            "url": "https://youtu.be/rpWv4-N4rq8",
+            "duration": 1741
+          },
+          {
+            "title": "Temporal method",
+            "url": "https://youtu.be/N5QlT_xQ1co",
+            "duration": 2457
+          },
+          {
+            "title": "Translation in an hyperinflationary economy",
+            "url": "https://youtu.be/_Hr0ubx2L8s",
+            "duration": 2951
+          },
+          {
+            "title": "Translation analytical issues",
+            "url": "https://youtu.be/QEeobYPvdtI",
+            "duration": 1508
+          }
+        ]
+      },
+      {
+        "name": "Module 4: Analysis of Financial Institutions",
+        "lessons": [
+          {
+            "title": "What makes financial institutions different",
+            "url": "https://youtu.be/5DJaRLe6wNU",
+            "duration": 1362
+          },
+          {
+            "title": "The CAMELS approach to bank analysis",
+            "url": "https://youtu.be/WiJAcys5hmg",
+            "duration": 2512
+          },
+          {
+            "title": "Non-CAMELS factors",
+            "url": "https://youtu.be/NaK9bN5nCcE",
+            "duration": 1458
+          },
+          {
+            "title": "Analyzing property and casualty insurers",
+            "url": "https://youtu.be/c_vPJsjJEns",
+            "duration": 2054
+          },
+          {
+            "title": "Analyzing life and health insurers",
+            "url": "https://youtu.be/_B-LP5Xnlls",
+            "duration": 712
+          }
+        ]
+      },
+      {
+        "name": "Module 5: Evaluating Quality of Financial Reports",
+        "lessons": [
+          {
+            "title": "Conceptual framework for assessing financial reporting quality",
+            "url": "https://youtu.be/8DXV4JFH5ss",
+            "duration": 1276
+          },
+          {
+            "title": "M&A issues and divergence from economic reality",
+            "url": "https://youtu.be/LCdUXN8ChkE",
+            "duration": 1216
+          },
+          {
+            "title": "General steps of evaluation",
+            "url": "https://youtu.be/11TDfT7IQyI",
+            "duration": 660
+          },
+          {
+            "title": "Quantitative tools to assess the likelihood of misreporting",
+            "url": "https://youtu.be/7BFRW2N5X4E",
+            "duration": 954
+          },
+          {
+            "title": "Earnings quality indicators",
+            "url": "https://youtu.be/CpiGxMBmvdw",
+            "duration": 508
+          },
+          {
+            "title": "Earnings persistence",
+            "url": "https://youtu.be/WQydNoiEPLg",
+            "duration": 770
+          },
+          {
+            "title": "Mean reversion in earnings",
+            "url": "https://youtu.be/3EuGXZgYNns",
+            "duration": 609
+          },
+          {
+            "title": "Bankruptcy prediction models",
+            "url": "https://youtu.be/Aitx7Htlgfw",
+            "duration": 541
+          },
+          {
+            "title": "Cash flow quality",
+            "url": "https://youtu.be/QHitJuN98KA",
+            "duration": 856
+          },
+          {
+            "title": "Balance sheet quality",
+            "url": "https://youtu.be/_luJx5NnShQ",
+            "duration": 1517
+          },
+          {
+            "title": "Sources of information about risk",
+            "url": "https://youtu.be/GG3L990HXAM",
+            "duration": 922
+          }
+        ]
+      },
+      {
+        "name": "Module 6: Integretaion of Financial Statement Analysis Techniques",
+        "lessons": [
+          {
+            "title": "Companion to the Nestle case study",
+            "url": "https://youtu.be/LF9AgYgSkfk",
+            "duration": 953
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Equities",
+    "modules": [
+      {
+        "name": "Module 1: Equity Valuation: Applications and Processes",
+        "lessons": [
+          {
+            "title": "Applications of equity valuation",
+            "url": "https://youtu.be/VTU9hSppO2A",
+            "duration": 1486
+          },
+          {
+            "title": "Understanding the business",
+            "url": "https://youtu.be/7tkiCqvub1g",
+            "duration": 630
+          },
+          {
+            "title": "Analysis of financial reports and sources of information",
+            "url": "https://youtu.be/16eEuM_lalY",
+            "duration": 1204
+          },
+          {
+            "title": "Selecting the appropriate valuation method",
+            "url": "https://youtu.be/EWntWh51rms",
+            "duration": 1355
+          },
+          {
+            "title": "Issues in model selection and interpretation",
+            "url": "https://youtu.be/yh3S7zVss6E",
+            "duration": 1037
+          },
+          {
+            "title": "The analyst’s role and responsibilities",
+            "url": "https://youtu.be/kAOeL9FCv00",
+            "duration": 942
+          },
+          {
+            "title": "Communicating valuation results",
+            "url": "https://youtu.be/mccw1ecpi38",
+            "duration": 579
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Discounted Dividend Valuation",
+        "lessons": [
+          {
+            "title": "Present value models overview",
+            "url": "https://youtu.be/_uJRCCvdw1w",
+            "duration": 2529
+          },
+          {
+            "title": "The dividend discount model",
+            "url": "https://youtu.be/HXC_rTXTlYc",
+            "duration": 707
+          },
+          {
+            "title": "The Gordon growth model",
+            "url": "https://youtu.be/efThQaWSqm4",
+            "duration": 1158
+          },
+          {
+            "title": "Share repurchases and the implied dividend growth rate",
+            "url": "https://youtu.be/do1mfY1toWs",
+            "duration": 807
+          },
+          {
+            "title": "The Gordon growth model: other issues",
+            "url": "https://youtu.be/YPutJOo7hB8",
+            "duration": 1769
+          },
+          {
+            "title": "Multistage dividend discount models",
+            "url": "https://youtu.be/4cG-SMuRkPY",
+            "duration": 1180
+          },
+          {
+            "title": "The H-model and three-stage DDMs",
+            "url": "https://youtu.be/HVYls2Al4SU",
+            "duration": 1882
+          },
+          {
+            "title": "Estimating the required rate of return",
+            "url": "https://youtu.be/L5SnCiJXdVY",
+            "duration": 452
+          },
+          {
+            "title": "The financial determinants of growth rates",
+            "url": "https://youtu.be/h8S68GedHHs",
+            "duration": 865
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Free Cash Flow Valuation",
+        "lessons": [
+          {
+            "title": "FCFF and FCFE valuation",
+            "url": "https://youtu.be/ru1TeYafVUo",
+            "duration": 1080
+          },
+          {
+            "title": "Computing FCFF from Net Income and the cash flow statement",
+            "url": "https://youtu.be/m4Fw1sOo4Vw",
+            "duration": 1326
+          },
+          {
+            "title": "Additional considerations in computing FCFF",
+            "url": "https://youtu.be/hJzJ6C4Kuj4",
+            "duration": 761
+          },
+          {
+            "title": "Computing FCFE from FCFF",
+            "url": "https://youtu.be/OU1_wwm6mu0",
+            "duration": 589
+          },
+          {
+            "title": "Finding FCFF and FCFE from EBITA or EBITDA",
+            "url": "https://youtu.be/_CMxnQkuijo",
+            "duration": 956
+          },
+          {
+            "title": "FCFF and FCFE on uses-of-free-cash-flow basis",
+            "url": "https://youtu.be/N3UsFa1pzlo",
+            "duration": 589
+          },
+          {
+            "title": "Forecasting FCFF and FCFE",
+            "url": "https://youtu.be/xWkWghMOF18",
+            "duration": 1019
+          },
+          {
+            "title": "Other issues in free cash flow analysis",
+            "url": "https://youtu.be/PJGLuFzhFWA",
+            "duration": 1259
+          },
+          {
+            "title": "Free cash flow model variations",
+            "url": "https://youtu.be/tR1epZg1xkQ",
+            "duration": 419
+          },
+          {
+            "title": "Two- and three-stage free cash flow models",
+            "url": "https://youtu.be/Yb9qlTEAwr0",
+            "duration": 1765
+          },
+          {
+            "title": "Integrating ESG in free cash flow models and non-operating assets",
+            "url": "https://youtu.be/-f7Betim6eU",
+            "duration": 428
+          }
+        ]
+      },
+      {
+        "name": "Module 4: Market-Based Valuation: Price and Enterprise Value Multiples",
+        "lessons": [
+          {
+            "title": "Price and enterprise value multiples",
+            "url": "https://youtu.be/gCEdndb9FZU",
+            "duration": 654
+          },
+          {
+            "title": "Price/Earnings: the basics",
+            "url": "https://youtu.be/pX9GojEKzYM",
+            "duration": 2044
+          },
+          {
+            "title": "Price/Earnings: valuation based on forecasted fundamentals",
+            "url": "https://youtu.be/w0VjYaDruks",
+            "duration": 787
+          },
+          {
+            "title": "Price/Earnings: using the P/E in valuation",
+            "url": "https://youtu.be/oDMKTNNgmkM",
+            "duration": 2694
+          },
+          {
+            "title": "Price/Book value",
+            "url": "https://youtu.be/_qIHcF4ng-w",
+            "duration": 1937
+          },
+          {
+            "title": "Price/Sales",
+            "url": "https://youtu.be/BTzLI-aZzAw",
+            "duration": 854
+          },
+          {
+            "title": "Price/Cash Flow",
+            "url": "https://youtu.be/R2Zw1s8LADA",
+            "duration": 1039
+          },
+          {
+            "title": "Price/Dividends and dividend yield",
+            "url": "https://youtu.be/lE5l_yhxgTk",
+            "duration": 1024
+          },
+          {
+            "title": "Enterprise value/EBITDA",
+            "url": "https://youtu.be/m8VWcb6oFaI",
+            "duration": 1222
+          },
+          {
+            "title": "Other enterprise value multiples",
+            "url": "https://youtu.be/tg6fQ8j9USc",
+            "duration": 528
+          },
+          {
+            "title": "International considerations when using multiples",
+            "url": "https://youtu.be/6Amn4mY3DXk",
+            "duration": 282
+          },
+          {
+            "title": "Momentum valuation indicators",
+            "url": "https://youtu.be/TRRPOL-rU6Q",
+            "duration": 589
+          },
+          {
+            "title": "Valuation indicators: issues in practice",
+            "url": "https://youtu.be/a6b-Wjhugtw",
+            "duration": 843
+          }
+        ]
+      },
+      {
+        "name": "Module 5: Residual Income Valuation",
+        "lessons": [
+          {
+            "title": "Residual income",
+            "url": "https://youtu.be/RzTY7VFYwrU",
+            "duration": 1649
+          },
+          {
+            "title": "The residual income model",
+            "url": "https://youtu.be/bmLIPGaNhKw",
+            "duration": 1030
+          },
+          {
+            "title": "Single-stage and multistage residual income valuation",
+            "url": "https://youtu.be/LhJL8iFYUO8",
+            "duration": 3310
+          },
+          {
+            "title": "Relationship to other approaches",
+            "url": "https://youtu.be/zrdOkdDNA5g",
+            "duration": 852
+          },
+          {
+            "title": "Accounting and international considerations",
+            "url": "https://youtu.be/PLItlH_CQHI",
+            "duration": 899
+          }
+        ]
+      },
+      {
+        "name": "Module 6: Private Company Valuation",
+        "lessons": [
+          {
+            "title": "Public versus private company valuation",
+            "url": "https://youtu.be/TrXjozUN1YQ",
+            "duration": 498
+          },
+          {
+            "title": "Private company valuation uses and areas of focus",
+            "url": "https://youtu.be/JSx4paR8xZk",
+            "duration": 414
+          },
+          {
+            "title": "Earnings normalization and cash flow estimation",
+            "url": "https://youtu.be/LiyFV1cbGYY",
+            "duration": 1354
+          },
+          {
+            "title": "Private company discount rates and required rates of return",
+            "url": "https://youtu.be/Y_SaQQq0Ti0",
+            "duration": 916
+          },
+          {
+            "title": "Valuation discounts and premiums",
+            "url": "https://youtu.be/dNQOt5IfJ7g",
+            "duration": 1077
+          },
+          {
+            "title": "Private company valuation: income-based approach",
+            "url": "https://youtu.be/h1htkdT6mlQ",
+            "duration": 1385
+          },
+          {
+            "title": "Private company valuation: market-based approach",
+            "url": "https://youtu.be/XRJWiKCAqPc",
+            "duration": 997
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fixed Income",
+    "modules": [
+      {
+        "name": "Module 1: The Term Structure and Interest Rate Dynamics",
+        "lessons": [
+          {
+            "title": "Spot rates, forward rates, and the forward rate model",
+            "url": "https://youtu.be/eYQD5ZKPu8Y",
+            "duration": 3884
+          },
+          {
+            "title": "YTM in relation to spot and forward rates",
+            "url": "https://youtu.be/yoBtKPaUqD0",
+            "duration": 2266
+          },
+          {
+            "title": "Active bond portfolio management",
+            "url": "https://youtu.be/iHW4RkvEamo",
+            "duration": 1525
+          },
+          {
+            "title": "The swap rate curve",
+            "url": "https://youtu.be/kfuaL9IzOg8",
+            "duration": 1467
+          },
+          {
+            "title": "The swap spread and spreads as a price quotation convention",
+            "url": "https://youtu.be/x8Q2keOscmc",
+            "duration": 901
+          },
+          {
+            "title": "Traditional theories of the term structure of interest rates",
+            "url": "https://youtu.be/P7WhMsDkXwk",
+            "duration": 1505
+          },
+          {
+            "title": "Yield curve factor models",
+            "url": "https://youtu.be/M6wuO1El86o",
+            "duration": 499
+          },
+          {
+            "title": "The maturity structure of yield curve volatilities",
+            "url": "https://youtu.be/_HpYqmGb-NM",
+            "duration": 695
+          },
+          {
+            "title": "Developing interest rate views using macroeconomic variables",
+            "url": "https://youtu.be/7D-E6BKjcGg",
+            "duration": 1648
+          }
+        ]
+      },
+      {
+        "name": "Module 2: The Arbitrage-Free Valuation Framework",
+        "lessons": [
+          {
+            "title": "Arbitrage-free valuation for an option-free bond",
+            "url": "https://youtu.be/64FqDdNQOk0",
+            "duration": 3403
+          },
+          {
+            "title": "Valuing an option-free bond with a binomial tree",
+            "url": "https://youtu.be/PVEsXHdhi1c",
+            "duration": 935
+          },
+          {
+            "title": "Calibrating the binomial interest rate tree to the term structure",
+            "url": "https://youtu.be/xB9qggbXRc0",
+            "duration": 633
+          },
+          {
+            "title": "Valuing an option-free bond with pathwise valuation",
+            "url": "https://youtu.be/nCz6ax0t-W0",
+            "duration": 869
+          },
+          {
+            "title": "The Monte Carlo method",
+            "url": "https://youtu.be/sAPCR68a8QU",
+            "duration": 757
+          },
+          {
+            "title": "Term structure models",
+            "url": "https://youtu.be/38pCgRWNiQw",
+            "duration": 2236
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Valuation and Analysis of Bonds with Embedded Options",
+        "lessons": [
+          {
+            "title": "Overview of embedded options",
+            "url": "https://youtu.be/ZOACa84j0HQ",
+            "duration": 1721
+          },
+          {
+            "title": "Callable and putable bonds",
+            "url": "https://youtu.be/rtZJGJkpp28",
+            "duration": 1428
+          },
+          {
+            "title": "Effects of interest rate volatility",
+            "url": "https://youtu.be/FezBmr_H6Q4",
+            "duration": 631
+          },
+          {
+            "title": "Valuation of default-free callable and putable bonds with interest rate volatility",
+            "url": "https://youtu.be/z4k48G44zy4",
+            "duration": 1176
+          },
+          {
+            "title": "Valuation of risky callable and putable bonds",
+            "url": "https://youtu.be/K44e_VfI6P4",
+            "duration": 875
+          },
+          {
+            "title": "Bonds with embedded duration: effective duration",
+            "url": "https://youtu.be/-4swYAml-5g",
+            "duration": 1412
+          },
+          {
+            "title": "One-sided and key rate duration",
+            "url": "https://youtu.be/agMXvKMClYg",
+            "duration": 593
+          },
+          {
+            "title": "Effective convexity",
+            "url": "https://youtu.be/Goe15_SDzgY",
+            "duration": 314
+          },
+          {
+            "title": "Capped and floored floating-rate bonds",
+            "url": "https://youtu.be/gMJgwytLp2I",
+            "duration": 1003
+          },
+          {
+            "title": "Convertible bonds",
+            "url": "https://youtu.be/4iGq36SIfXY",
+            "duration": 2782
+          },
+          {
+            "title": "Comparison of risk-return characteristics",
+            "url": "https://youtu.be/HDn1vXALt1s",
+            "duration": 774
+          }
+        ]
+      },
+      {
+        "name": "Module 4: Credit Analysis Models",
+        "lessons": [
+          {
+            "title": "Modeling credit risk and the credit valuation adjustment",
+            "url": "https://youtu.be/I0ZWgP5irEw",
+            "duration": 2277
+          },
+          {
+            "title": "Credit scores and credit ratings",
+            "url": "https://youtu.be/5wGFpfqIkMM",
+            "duration": 952
+          },
+          {
+            "title": "Structural and reduced-form credit models",
+            "url": "https://youtu.be/gpthnXGxQBA",
+            "duration": 1592
+          },
+          {
+            "title": "Valuing risky bonds in an arbitrage-free framework",
+            "url": "https://youtu.be/mKZh1hbPJ6E",
+            "duration": 4975
+          },
+          {
+            "title": "Interpreting changes in credit spreads",
+            "url": "https://youtu.be/DfZubYcxov8",
+            "duration": 479
+          },
+          {
+            "title": "The term structure of credit spreads",
+            "url": "https://youtu.be/PB1ZooUoBOg",
+            "duration": 1107
+          },
+          {
+            "title": "Credit analysis for securitized debt",
+            "url": "https://youtu.be/ZUIUqe0PtoY",
+            "duration": 1384
+          }
+        ]
+      },
+      {
+        "name": "Module 5: Credit Default Swaps",
+        "lessons": [
+          {
+            "title": "CDS overview",
+            "url": "https://youtu.be/Tmg2whqiSyM",
+            "duration": 1373
+          },
+          {
+            "title": "Important features of CDS markets",
+            "url": "https://youtu.be/xEuk8Brd2JI",
+            "duration": 2430
+          },
+          {
+            "title": "Basics of CDS valuation and pricing",
+            "url": "https://youtu.be/K-Jsh6dwhJc",
+            "duration": 1157
+          },
+          {
+            "title": "Applications of CDS",
+            "url": "https://youtu.be/6r0o8L30oTw",
+            "duration": 733
+          },
+          {
+            "title": "Valuation differences and basis trading",
+            "url": "https://youtu.be/u5MqSw0houI",
+            "duration": 357
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Derivatives",
+    "modules": [
+      {
+        "name": "Module 1: Pricing and valuation of forward commitments",
+        "lessons": [
+          {
+            "title": "Pricing and valuation of generic forward and futures contracts",
+            "url": "https://youtu.be/Mquns3J9_Os",
+            "duration": 1464
+          },
+          {
+            "title": "Carry arbitrage",
+            "url": "https://youtu.be/qfPnEmVZdBg",
+            "duration": 2926
+          },
+          {
+            "title": "Pricing and valuing equity and interest rate forwards",
+            "url": "https://youtu.be/_dx1gco4V6E",
+            "duration": 3508
+          },
+          {
+            "title": "Pricing fixed-income forward and futures contracts",
+            "url": "https://youtu.be/2jGZhAtJXPI",
+            "duration": 2157
+          },
+          {
+            "title": "Pricing and valuing swap contracts",
+            "url": "https://youtu.be/aL0zPKD4wcI",
+            "duration": 1454
+          },
+          {
+            "title": "Pricing and valuing currency swap contracts",
+            "url": "https://youtu.be/DcPEKbzO3Jw",
+            "duration": 1288
+          },
+          {
+            "title": "Pricing and valuing equity swap contracts",
+            "url": "https://youtu.be/qtuwmCx84LU",
+            "duration": 1951
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Valuation of contingent claims",
+        "lessons": [
+          {
+            "title": "Binomial option valuation model",
+            "url": "https://youtu.be/yv1DXp575tA",
+            "duration": 507
+          },
+          {
+            "title": "One-period binomial model",
+            "url": "https://youtu.be/IMLKL2coPPg",
+            "duration": 3001
+          },
+          {
+            "title": "Two-period binomial model: call options",
+            "url": "https://youtu.be/7cNTkVwq2X4",
+            "duration": 996
+          },
+          {
+            "title": "Two-period binomial model: put options",
+            "url": "https://youtu.be/pL1tU06i58k",
+            "duration": 503
+          },
+          {
+            "title": "Two -period binomial model: role of dividends",
+            "url": "https://youtu.be/w1GRrfDsjng",
+            "duration": 342
+          },
+          {
+            "title": "Interest rate options and multiperiod model",
+            "url": "https://youtu.be/zDWnmsCn9dY",
+            "duration": 806
+          },
+          {
+            "title": "BSM option valuation model",
+            "url": "https://youtu.be/W6ydy7gHVtI",
+            "duration": 644
+          },
+          {
+            "title": "BSM model: components",
+            "url": "https://youtu.be/oZMm2rscATo",
+            "duration": 1885
+          },
+          {
+            "title": "BSM model: carry benefits and applications",
+            "url": "https://youtu.be/q2ChgyXwj3Y",
+            "duration": 977
+          },
+          {
+            "title": "Black option valuation model and European options on futures",
+            "url": "https://youtu.be/4bWb3qqhskA",
+            "duration": 385
+          },
+          {
+            "title": "Interest rate options",
+            "url": "https://youtu.be/pj6DCIvpS5Q",
+            "duration": 1257
+          },
+          {
+            "title": "Swaptions",
+            "url": "https://youtu.be/dfZTbR-GUgQ",
+            "duration": 686
+          },
+          {
+            "title": "Delta",
+            "url": "https://youtu.be/mm46a70veOI",
+            "duration": 1112
+          },
+          {
+            "title": "Gamma",
+            "url": "https://youtu.be/xV_3XDXD9aA",
+            "duration": 936
+          },
+          {
+            "title": "Theta",
+            "url": "https://youtu.be/4xWVU3CcMe8",
+            "duration": 376
+          },
+          {
+            "title": "Vega",
+            "url": "https://youtu.be/j_5Y3VZxIqQ",
+            "duration": 345
+          },
+          {
+            "title": "Rho",
+            "url": "https://youtu.be/clkDZPtloiA",
+            "duration": 461
+          },
+          {
+            "title": "Implied volatility",
+            "url": "https://youtu.be/uCmAFasfF1k",
+            "duration": 655
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alternative Investments",
+    "modules": [
+      {
+        "name": "Module 1: Introduction to Commodities and Commodity Derivatives",
+        "lessons": [
+          {
+            "title": "Commodity sectors",
+            "url": "https://youtu.be/4kuVb5v15VE",
+            "duration": 1679
+          },
+          {
+            "title": "Life cycle of commodities",
+            "url": "https://youtu.be/hK2RatbIeJA",
+            "duration": 1334
+          },
+          {
+            "title": "Valuation of commodities",
+            "url": "https://youtu.be/eio2whKdeX4",
+            "duration": 376
+          },
+          {
+            "title": "Commodities futures markets: participants",
+            "url": "https://youtu.be/2ngoWJ_fVuY",
+            "duration": 587
+          },
+          {
+            "title": "Commodity spot and futures pricing",
+            "url": "https://youtu.be/37VzuodedPQ",
+            "duration": 505
+          },
+          {
+            "title": "Theories of futures returns",
+            "url": "https://youtu.be/m_GeHEkW2z4",
+            "duration": 1648
+          },
+          {
+            "title": "Components of futures returns",
+            "url": "https://youtu.be/MwKTijNWFSw",
+            "duration": 876
+          },
+          {
+            "title": "Commodity swaps",
+            "url": "https://youtu.be/35QO_rPAnGE",
+            "duration": 1105
+          },
+          {
+            "title": "Commodity indexes",
+            "url": "https://youtu.be/J8m_5sjRamk",
+            "duration": 926
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Overview of Types of Real Estate Investments",
+        "lessons": [
+          {
+            "title": "Real estate investment features",
+            "url": "https://youtu.be/RNh2rnsn7Kg",
+            "duration": 1786
+          },
+          {
+            "title": "Economic value drivers and portfolio characteristics of real estate investments",
+            "url": "https://youtu.be/PWogRAdN_7E",
+            "duration": 1653
+          },
+          {
+            "title": "Commercial property investment characteristics",
+            "url": "https://youtu.be/RM7vqvzAUHo",
+            "duration": 718
+          },
+          {
+            "title": "Real estate due diligence and valuation approaches",
+            "url": "https://youtu.be/11BIPgOO9Rs",
+            "duration": 1400
+          },
+          {
+            "title": "Real estate indexes",
+            "url": "https://youtu.be/WBZG3Gs6IbA",
+            "duration": 1507
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Investments in Real Estate through Publicly Traded Securities",
+        "lessons": [
+          {
+            "title": "Types of publicly traded real estate securities",
+            "url": "https://youtu.be/9aVTv5YQcNo",
+            "duration": 1619
+          },
+          {
+            "title": "Valuation: net asset value approach",
+            "url": "https://youtu.be/m3bF8JiKy_A",
+            "duration": 1343
+          },
+          {
+            "title": "Valuation: relative value (price multiple) approach",
+            "url": "https://youtu.be/x6IpAhHavOE",
+            "duration": 947
+          },
+          {
+            "title": "Private versus public: a comparison",
+            "url": "https://youtu.be/xZav3foL0oM",
+            "duration": 726
+          }
+        ]
+      },
+      {
+        "name": "Module 4: Hedge Fund Strategies",
+        "lessons": [
+          {
+            "title": "Classification of hedge fund strategies",
+            "url": "https://youtu.be/MZArw7RNJNA",
+            "duration": 1265
+          },
+          {
+            "title": "Equity strategies: long/short equity",
+            "url": "https://youtu.be/J1mk9AgfRg0",
+            "duration": 534
+          },
+          {
+            "title": "Equity strategies: dedicated short selling and short-biased",
+            "url": "https://youtu.be/QcCWpV8J8MQ",
+            "duration": 686
+          },
+          {
+            "title": "Equity strategies: equity market neutral",
+            "url": "https://youtu.be/W-uhc3pp2xI",
+            "duration": 1114
+          },
+          {
+            "title": "Event-driven strategies: merger arbitrage",
+            "url": "https://youtu.be/uBdFq7lDp0E",
+            "duration": 1249
+          },
+          {
+            "title": "Event-driven strategies: distressed securities",
+            "url": "https://youtu.be/gM2xgAbpLg8",
+            "duration": 847
+          },
+          {
+            "title": "Relative value strategies: fixed-income arbitrage",
+            "url": "https://youtu.be/8SI4xBtQ9wU",
+            "duration": 793
+          },
+          {
+            "title": "Relative value strategies: convertible bond arbitrage",
+            "url": "https://youtu.be/J0Q6SeYTvjU",
+            "duration": 690
+          },
+          {
+            "title": "Opportunistic strategies: global macro stategies",
+            "url": "https://youtu.be/8_79tSmc3_A",
+            "duration": 632
+          },
+          {
+            "title": "Opportunistic strategies: managed futures",
+            "url": "https://youtu.be/usrTg47evTA",
+            "duration": 531
+          },
+          {
+            "title": "Specialist strategies",
+            "url": "https://youtu.be/MDivkOpF3lM",
+            "duration": 1539
+          },
+          {
+            "title": "Multi-manager strategies",
+            "url": "https://youtu.be/HrWdINiA93w",
+            "duration": 852
+          },
+          {
+            "title": "Analysis of hedge fund strategies using a conditional risk factor model",
+            "url": "https://youtu.be/nSgQOikE7cw",
+            "duration": 908
+          },
+          {
+            "title": "Portfolio contribution of hedge fund strategies",
+            "url": "https://youtu.be/zVXiJZJpZmE",
+            "duration": 432
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Portfolio Construction",
+    "modules": [
+      {
+        "name": "Module 1: Economics and Investment Markets",
+        "lessons": [
+          {
+            "title": "The present value model",
+            "url": "https://youtu.be/7UaTmsQ7lD0",
+            "duration": 457
+          },
+          {
+            "title": "Expectations and asset values",
+            "url": "https://youtu.be/9Qxaz_8zyZA",
+            "duration": 423
+          },
+          {
+            "title": "The discount rate on real default-free bonds: interest rates",
+            "url": "https://youtu.be/trT12T7nnE0",
+            "duration": 990
+          },
+          {
+            "title": "The discount rate on real default-free bonds: uncertainty and risk premiums",
+            "url": "https://youtu.be/9KGFMV9nijI",
+            "duration": 287
+          },
+          {
+            "title": "The discount rate on real default-free bonds: risk premiums on risky assets",
+            "url": "https://youtu.be/nnaF4MkcVpo",
+            "duration": 235
+          },
+          {
+            "title": "Default-free interest rates and economic growth",
+            "url": "https://youtu.be/axaGzxfhxxU",
+            "duration": 431
+          },
+          {
+            "title": "The yield curve and the business cycle",
+            "url": "https://youtu.be/PBezqzL0EHI",
+            "duration": 490
+          },
+          {
+            "title": "Treasury bills and the business cycle",
+            "url": "https://youtu.be/gt5lEbW_U3g",
+            "duration": 986
+          },
+          {
+            "title": "Conventional government bonds and break-even inflation rates",
+            "url": "https://youtu.be/PhSDBslgCKI",
+            "duration": 208
+          },
+          {
+            "title": "The default-free yield curve and the business cycle",
+            "url": "https://youtu.be/XNC0-4dgjqI",
+            "duration": 250
+          },
+          {
+            "title": "The slope of the yield curve and the term spread",
+            "url": "https://youtu.be/y5CdFnvm80Q",
+            "duration": 552
+          },
+          {
+            "title": "Evidence on risk premiums for default-free bonds",
+            "url": "https://youtu.be/bgSP8hF4Yqs",
+            "duration": 351
+          },
+          {
+            "title": "Other factors",
+            "url": "https://youtu.be/wZOygACu5d8",
+            "duration": 369
+          },
+          {
+            "title": "Credit premiums and the business cycle",
+            "url": "https://youtu.be/LdgGVfCh7YA",
+            "duration": 491
+          },
+          {
+            "title": "Industry- and company-specific credit quality",
+            "url": "https://youtu.be/s2MQAr14_2Y",
+            "duration": 307
+          },
+          {
+            "title": "Sovereign credit risk",
+            "url": "https://youtu.be/XPIgjZetyJI",
+            "duration": 230
+          },
+          {
+            "title": "Equities and the equity risk premium",
+            "url": "https://youtu.be/CAZZ95xYb4I",
+            "duration": 536
+          },
+          {
+            "title": "Earnings growth and the economic cycle",
+            "url": "https://youtu.be/ikgLzfG9xa0",
+            "duration": 240
+          },
+          {
+            "title": "How big is the equity risk premium?",
+            "url": "https://youtu.be/1sZQzQUvbYo",
+            "duration": 198
+          },
+          {
+            "title": "Valuation multiples",
+            "url": "https://youtu.be/m7kXPuEjmI0",
+            "duration": 407
+          },
+          {
+            "title": "Commercial real estate",
+            "url": "https://youtu.be/G4BeSfbywmg",
+            "duration": 645
+          },
+          {
+            "title": "Commercial real estate and the business cycle",
+            "url": "https://youtu.be/WIhwA7XaehE",
+            "duration": 336
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Analysis of Active Portfolio Management",
+        "lessons": [
+          {
+            "title": "Active management and value added",
+            "url": "https://youtu.be/SWQNt5h-o1c",
+            "duration": 2940
+          },
+          {
+            "title": "The Sharpe ratio and the information ratio",
+            "url": "https://youtu.be/P_h-UBohVbY",
+            "duration": 1612
+          },
+          {
+            "title": "Constructing optimal portfolios",
+            "url": "https://youtu.be/-nMwTAcLXLA",
+            "duration": 1041
+          },
+          {
+            "title": "Active security returns and the fundamental law of active management",
+            "url": "https://youtu.be/ob8bWEXKF1o",
+            "duration": 2023
+          },
+          {
+            "title": "The full fundamental law",
+            "url": "https://youtu.be/hQ2VQiSQXLo",
+            "duration": 2429
+          },
+          {
+            "title": "Applications of the fundamental law",
+            "url": "https://youtu.be/CLlPQVY9x3M",
+            "duration": 591
+          },
+          {
+            "title": "Practical limitations",
+            "url": "https://youtu.be/prjGaKamEAs",
+            "duration": 417
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Exchange-Traded Funds: Mechanics and Applications",
+        "lessons": [
+          {
+            "title": "ETF mechanics",
+            "url": "https://youtu.be/0qxO-v0uprA",
+            "duration": 4196
+          },
+          {
+            "title": "Understanding ETFs",
+            "url": "https://youtu.be/rRT_5UVGF1Y",
+            "duration": 2376
+          },
+          {
+            "title": "ETF risks",
+            "url": "https://youtu.be/LkvgVhYlY9I",
+            "duration": 957
+          },
+          {
+            "title": "ETFs in portfolio management",
+            "url": "https://youtu.be/2k_1XE5XlTc",
+            "duration": 1099
+          }
+        ]
+      },
+      {
+        "name": "Module 4: Using Multifactor Models",
+        "lessons": [
+          {
+            "title": "Arbitrage pricing theory and multifactor models",
+            "url": "https://youtu.be/f4lxS6gdhZE",
+            "duration": 1047
+          },
+          {
+            "title": "Types of multifactor models",
+            "url": "https://youtu.be/l_VuhMeFPBU",
+            "duration": 1551
+          },
+          {
+            "title": "Factor models in return attribution",
+            "url": "https://youtu.be/0DltxMglXyI",
+            "duration": 364
+          },
+          {
+            "title": "Factor models in risk attribution",
+            "url": "https://youtu.be/gpYuzQcp1Qk",
+            "duration": 664
+          },
+          {
+            "title": "Factor models in portfolio construction",
+            "url": "https://youtu.be/nanDgQSxlYU",
+            "duration": 388
+          }
+        ]
+      },
+      {
+        "name": "Module 5: Understaing and Managing Market Risk",
+        "lessons": [
+          {
+            "title": "Understanding VaR",
+            "url": "https://youtu.be/pSco7tlQGEY",
+            "duration": 368
+          },
+          {
+            "title": "Estimating VaR",
+            "url": "https://youtu.be/348JLCA3iHA",
+            "duration": 506
+          },
+          {
+            "title": "The parametric method of VaR estimation",
+            "url": "https://youtu.be/QeCtN5D1yus",
+            "duration": 1325
+          },
+          {
+            "title": "The historical simulation method of VaR estimation",
+            "url": "https://youtu.be/r3FaFx41g0o",
+            "duration": 427
+          },
+          {
+            "title": "The Monte Carlo simluation method of VaR estimation",
+            "url": "https://youtu.be/BGH3m4xF6d4",
+            "duration": 309
+          },
+          {
+            "title": "Advantages, limitations, and extensions of VaR",
+            "url": "https://youtu.be/bZVK_aggRBM",
+            "duration": 1328
+          },
+          {
+            "title": "Other key risk measures",
+            "url": "https://youtu.be/ShxQCK9OkrA",
+            "duration": 840
+          },
+          {
+            "title": "Scenario risk measures",
+            "url": "https://youtu.be/fSycg5j57xo",
+            "duration": 511
+          },
+          {
+            "title": "Sensitivity and scenario risk measures and VAR",
+            "url": "https://youtu.be/nuNNiQ0O72E",
+            "duration": 1262
+          },
+          {
+            "title": "Using constraints in market risk management",
+            "url": "https://youtu.be/LxTFn7vQycs",
+            "duration": 935
+          },
+          {
+            "title": "Market participants and the risk measures they use",
+            "url": "https://youtu.be/RLv5kdjgBN4",
+            "duration": 1226
+          },
+          {
+            "title": "Pension funds and insurers",
+            "url": "https://youtu.be/TYVGQ8VTUoQ",
+            "duration": 958
+          }
+        ]
+      },
+      {
+        "name": "Module 6: Backtesting and Simulation",
+        "lessons": [
+          {
+            "title": "The backtesting process",
+            "url": "https://youtu.be/XTlul57SYww",
+            "duration": 1353
+          },
+          {
+            "title": "Common problems in backtesting",
+            "url": "https://youtu.be/VmDmi4l2t6M",
+            "duration": 758
+          },
+          {
+            "title": "Historical scenario and simulation analysis",
+            "url": "https://youtu.be/xutddPaojpU",
+            "duration": 1192
+          },
+          {
+            "title": "Sensitivity analysis",
+            "url": "https://youtu.be/cfSqwleCx-Q",
+            "duration": 443
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ethics and Professional Standards",
+    "modules": [
+      {
+        "name": "Module 1: Code of Ethics and Standards of Professional Conduct",
+        "lessons": [
+          {
+            "title": "Code of Ethics and Standards of Professional Conduct",
+            "url": "https://youtu.be/zGRPVrEh1Js",
+            "duration": 970
+          }
+        ]
+      },
+      {
+        "name": "Module 2: Guidance for Standards I–VII and Ethics Application",
+        "lessons": [
+          {
+            "title": "Standard I(A): Professionalism – Knowledge of the law",
+            "url": "https://youtu.be/syeNuv23LH0",
+            "duration": 2258
+          },
+          {
+            "title": "Standard I(B): Professionalism – Independence and Objectivity",
+            "url": "https://youtu.be/qay2LwSAxM8",
+            "duration": 2033
+          },
+          {
+            "title": "Standard I(C): Professionalism – Misrepresentation",
+            "url": "https://youtu.be/IeZIYXP47Xs",
+            "duration": 1115
+          },
+          {
+            "title": "Standard I(D): Professionalism – Misconduct",
+            "url": "https://youtu.be/ZMcJmBpGq34",
+            "duration": 539
+          },
+          {
+            "title": "Standard I(E): Professionalism – Competence",
+            "url": "https://youtu.be/v5URX9c2hOQ",
+            "duration": 454
+          },
+          {
+            "title": "Standard II(A): Integrity of Capital Markets – Material Nonpublic Information",
+            "url": "https://youtu.be/Yphbhu9h1Qs",
+            "duration": 2547
+          },
+          {
+            "title": "Standard II(B): Integrity of Capital Markets – Market Manipulation",
+            "url": "https://youtu.be/IQCNPmjaWvg",
+            "duration": 447
+          },
+          {
+            "title": "Standard III(A): Duties to Clients – Loyalty, Prudence, and Care",
+            "url": "https://youtu.be/LN2kP3q6h1A",
+            "duration": 901
+          },
+          {
+            "title": "Standard III(B): Duties to Clients – Fair Dealing",
+            "url": "https://youtu.be/jKyKYmFjnuQ",
+            "duration": 779
+          },
+          {
+            "title": "Standard III(C): Duties to Clients – Suitability",
+            "url": "https://youtu.be/JvpNOOErqbc",
+            "duration": 499
+          },
+          {
+            "title": "Standard III(D): Duties to Clients – Performance Presentation",
+            "url": "https://youtu.be/Icb4lofpUvw",
+            "duration": 547
+          },
+          {
+            "title": "Standard III(E): Duties to Clients – Preservation of Confidentiality",
+            "url": "https://youtu.be/udp_g8LlsVo",
+            "duration": 550
+          },
+          {
+            "title": "Standard IV(A): Duties to Employers – Loyalty",
+            "url": "https://youtu.be/l_pW893og3Y",
+            "duration": 1509
+          },
+          {
+            "title": "Standard IV(B): Duties to Employers – Additional Compensation Arrangements",
+            "url": "https://youtu.be/fXJ2zajasHA",
+            "duration": 254
+          },
+          {
+            "title": "Standard IV(C): Duties to Employers – Responsibilities of Supervisors",
+            "url": "https://youtu.be/9H72qI7ZzQo",
+            "duration": 312
+          },
+          {
+            "title": "Standard V(A): Diligence and Reasonable Basis",
+            "url": "https://youtu.be/3Y2FkRmcFBQ",
+            "duration": 872
+          },
+          {
+            "title": "Standard V(B): Communication with Clients and Prospective Clients",
+            "url": "https://youtu.be/adbMP6uZeFU",
+            "duration": 382
+          },
+          {
+            "title": "Standard V(C): Record Retention",
+            "url": "https://youtu.be/Vgv9C6lLG1k",
+            "duration": 264
+          },
+          {
+            "title": "Standard VI(A): Conflicts of Interest – Avoid or Disclose Conflicts",
+            "url": "https://youtu.be/QtVXQI017ZQ",
+            "duration": 683
+          },
+          {
+            "title": "Standard VI(B): Conflicts of Interest – Priority of Transactions",
+            "url": "https://youtu.be/2c0AHvbF2ug",
+            "duration": 562
+          },
+          {
+            "title": "Standard VI(C): Conflicts of Interest – Referral Fees",
+            "url": "https://youtu.be/AqCWg8ZrjE4",
+            "duration": 161
+          },
+          {
+            "title": "Standard VII(A): Conduct as Participants in CFA Institute Programs",
+            "url": "https://youtu.be/4EdBZLoSdM4",
+            "duration": 386
+          },
+          {
+            "title": "Standard VII(B): Reference to CFA Institute",
+            "url": "https://youtu.be/Rgs4DwmLX6c",
+            "duration": 662
+          }
+        ]
+      },
+      {
+        "name": "Module 3: Application of the Code and Standards",
+        "lessons": [
+          {
+            "title": "Serengeti Advisory Services",
+            "url": "https://youtu.be/WkXzNvwL_oU",
+            "duration": 1141
+          },
+          {
+            "title": "Banco Libertad",
+            "url": "https://youtu.be/yhdvS7L4lro",
+            "duration": 521
+          },
+          {
+            "title": "QuantHouse",
+            "url": "https://youtu.be/9IPQZ0xb_fk",
+            "duration": 358
+          },
+          {
+            "title": "Jacobs, Riccio, and Associates",
+            "url": "https://youtu.be/dkZO6TCBuzI",
+            "duration": 442
+          },
+          {
+            "title": "Magadi Asset Management",
+            "url": "https://youtu.be/q5yGsn_4Im0",
+            "duration": 338
+          },
+          {
+            "title": "Syyark",
+            "url": "https://youtu.be/8pZT2oToxdA",
+            "duration": 647
+          },
+          {
+            "title": "Agarway",
+            "url": "https://youtu.be/7_NDHTVBY3U",
+            "duration": 373
+          }
+        ]
+      }
+    ]
+  }
+]

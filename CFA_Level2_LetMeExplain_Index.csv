@@ -1,0 +1,369 @@
+Group Name,Module,Lesson,YouTube Link,Duration
+Quantitative Methods,Module 1: Basics of Multiple Regression and Underlying Assumptions,Multiple regression basics,https://youtu.be/PpvX00rldNQ,1232
+Quantitative Methods,Module 1: Basics of Multiple Regression and Underlying Assumptions,Multiple regression assumptions,https://youtu.be/rBOSoPQW5Lk,1157
+Quantitative Methods,Module 2: Evaluating Regression Model Fit and Interpreting Model Results,Goodness of fit,https://youtu.be/xtOJeg4xrlM,3185
+Quantitative Methods,Module 2: Evaluating Regression Model Fit and Interpreting Model Results,Testing joint hypotheses for coefficients,https://youtu.be/1BfgFuLhRcc,1717
+Quantitative Methods,Module 2: Evaluating Regression Model Fit and Interpreting Model Results,Forecasting using multiple regression,https://youtu.be/A3uXg31sTM0,340
+Quantitative Methods,Module 3: Model Misspecification,Misspecified functional form,https://youtu.be/tQhMn35WE_4,902
+Quantitative Methods,Module 3: Model Misspecification,Heteroskedasticity,https://youtu.be/tLOm8gDhWRM,1559
+Quantitative Methods,Module 3: Model Misspecification,Serial correlation,https://youtu.be/F88-ONEjCwo,1342
+Quantitative Methods,Module 3: Model Misspecification,Multicollinearity,https://youtu.be/8G3C-TnxyZo,927
+Quantitative Methods,Module 4: Extensions of Multiple Regression,Influence analysis,https://youtu.be/0x4a8Q8ib3o,1682
+Quantitative Methods,Module 4: Extensions of Multiple Regression,Dummy variables,https://youtu.be/iVA1zPWoWOs,794
+Quantitative Methods,Module 4: Extensions of Multiple Regression,Qualitative dependent variables,https://youtu.be/a05U9dOfmZw,1659
+Quantitative Methods,Module 5: Time-Series Analysis,Linear and log-linear trend models,https://youtu.be/WMBedbYQNiE,1023
+Quantitative Methods,Module 5: Time-Series Analysis,Trend models and testing for correlated errors,https://youtu.be/I27fxc8g1Eo,813
+Quantitative Methods,Module 5: Time-Series Analysis,AR time-series models and covariance-stationary series,https://youtu.be/mt52JEI3nDg,1154
+Quantitative Methods,Module 5: Time-Series Analysis,Detecting serially correlated errors in an AR model,https://youtu.be/QptUNNmjC4Y,1172
+Quantitative Methods,Module 5: Time-Series Analysis,Mean reversion and multiperiod forecasts,https://youtu.be/YAu2mRnQyho,600
+Quantitative Methods,Module 5: Time-Series Analysis,Comparing forecast model performance,https://youtu.be/2mMOfD6irkc,412
+Quantitative Methods,Module 5: Time-Series Analysis,Instability of regression coefficients,https://youtu.be/6uPiZnI1T68,200
+Quantitative Methods,Module 5: Time-Series Analysis,Random walks,https://youtu.be/d_8DeNFL-JA,662
+Quantitative Methods,Module 5: Time-Series Analysis,Unit root test of nonstationarity,https://youtu.be/DftFuJunmiI,569
+Quantitative Methods,Module 5: Time-Series Analysis,Moving-average time-series models,https://youtu.be/cWb86BDDm3c,799
+Quantitative Methods,Module 5: Time-Series Analysis,Seasonality in time-series models,https://youtu.be/a4nW6q5kwPg,447
+Quantitative Methods,Module 5: Time-Series Analysis,ARMA and ARCH models,https://youtu.be/RzSJ4UF7WcQ,770
+Quantitative Methods,Module 5: Time-Series Analysis,Regressions with more than one time series,https://youtu.be/ipVXG3U4mO0,696
+Quantitative Methods,Module 6: Machine Learning,Machine learning basics,https://youtu.be/CmBHcfvRJVc,1311
+Quantitative Methods,Module 6: Machine Learning,Evaluating ML algorithm performance,https://youtu.be/Y0i_fq226Ic,2145
+Quantitative Methods,Module 6: Machine Learning,Supervised ML algorithm: penalized regression,https://youtu.be/Dc6DnuLem_0,1083
+Quantitative Methods,Module 6: Machine Learning,Support vector machine,https://youtu.be/AZxKxUwcoPQ,765
+Quantitative Methods,Module 6: Machine Learning,K-nearest neighbor,https://youtu.be/Qf_mNYjdmm8,949
+Quantitative Methods,Module 6: Machine Learning,Classification and regression tree,https://youtu.be/oSFuMh6fR8E,1177
+Quantitative Methods,Module 6: Machine Learning,Ensemble learning and random forest,https://youtu.be/Goigtz9tEOA,1010
+Quantitative Methods,Module 6: Machine Learning,Classification of winning and losing funds case study,https://youtu.be/xUusOK9eAnQ,1295
+Quantitative Methods,Module 6: Machine Learning,Unsupervised ML algorithms and principal component analysis,https://youtu.be/vGnfxW2Vlgo,1255
+Quantitative Methods,Module 6: Machine Learning,Clustering,https://youtu.be/5qkG5sZkf1A,387
+Quantitative Methods,Module 6: Machine Learning,K-means clustering,https://youtu.be/BeF1Smum7pk,1118
+Quantitative Methods,Module 6: Machine Learning,Hierarchical clustering,https://youtu.be/t4NXBBVDDm8,1369
+Quantitative Methods,Module 6: Machine Learning,Clustering stocks based on co-movement similarity case study,https://youtu.be/KHrYurcmCUk,317
+Quantitative Methods,Module 6: Machine Learning,Neural networks,https://youtu.be/IiiVNgV-Ewc,1510
+Quantitative Methods,Module 6: Machine Learning,Deep neural networks,https://youtu.be/6jasGb0TVsM,568
+Quantitative Methods,Module 6: Machine Learning,Deep neural network-based equity factor model case study,https://youtu.be/M66QnIqxV-A,371
+Quantitative Methods,Module 6: Machine Learning,Choosing an appropriate ML algorithm,https://youtu.be/XI3fIEkmNMk,621
+Quantitative Methods,Module 7: Big Data Projects,Executing a data analysis project,https://youtu.be/q1HNFXfe9BE,1126
+Quantitative Methods,Module 7: Big Data Projects,Data preparation and wrangling,https://youtu.be/CyuyK9uHo0E,3284
+Quantitative Methods,Module 7: Big Data Projects,Unstructured (text) data,https://youtu.be/Zg_qawq2RTk,1775
+Quantitative Methods,Module 7: Big Data Projects,Data exploration objectives and methods,https://youtu.be/gKAF68_i3Cw,1529
+Quantitative Methods,Module 7: Big Data Projects,Unstructured data: text exploration,https://youtu.be/u6qSVQqs3U4,1608
+Quantitative Methods,Module 7: Big Data Projects,"Model training, structured vs. unstructured data, and method selection",https://youtu.be/jJMQ7m7IVDs,1048
+Quantitative Methods,Module 7: Big Data Projects,Performance evaluation,https://youtu.be/yuRMsSGk1pU,2182
+Quantitative Methods,Module 7: Big Data Projects,Tuning,https://youtu.be/IpajA08LBi0,1219
+Quantitative Methods,Module 7: Big Data Projects,Financial forecasting project,https://youtu.be/B2hiGoqDpXc,821
+Quantitative Methods,Module 7: Big Data Projects,Financial forecasting project - data exploration,https://youtu.be/so0xQ0swq3w,686
+Quantitative Methods,Module 7: Big Data Projects,Financial forecasting project - model training,https://youtu.be/tOngKzco4WA,1026
+Quantitative Methods,Module 7: Big Data Projects,Financial forecasting project - results and interpretation,https://youtu.be/ZLwr5bKmncw,206
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,FX market concepts,https://youtu.be/z6fyRc56P0U,2665
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Arbitrage constraints on spot exchange rate quotes,https://youtu.be/5le6NnqodCU,4873
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Forward markets,https://youtu.be/BpBlGQ5hZ8w,2623
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,The MtM value of a forward contract,https://youtu.be/3uXk7Ab3sOs,1138
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Uncovered interest rate parity,https://youtu.be/xjrQXIOudaQ,887
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Forward rate parity,https://youtu.be/ExQ3imMZ7Ts,507
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Purchasing power parity,https://youtu.be/jBD_7Wb4LMI,1214
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,The international Fisher effect,https://youtu.be/7GFXVikXlFA,1299
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,The carry trade,https://youtu.be/D5fqVwSyLpY,970
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,The impact of balance of payment flows,https://youtu.be/NNc3UBhYyjU,1756
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Capital flows,https://youtu.be/OviWEhXZ3AY,650
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Monetary and fiscal policies,https://youtu.be/E2zrfFlgYms,2728
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Exchange rate management: intervention and controls,https://youtu.be/X5J2MgTq7VE,1093
+Economics,Module 1: Currency Exchange Rates: Understanding Equilibrium Value,Warning signs of a currency crisis,https://youtu.be/UqG47YsYPv4,474
+Economics,Module 2: Economic Growth,Factors favoring and limiting economic growth,https://youtu.be/isSqx1aVXxA,898
+Economics,Module 2: Economic Growth,Why potential growth matters to investors,https://youtu.be/QZ4cLQfryds,1228
+Economics,Module 2: Economic Growth,Production function and growth accounting,https://youtu.be/h5xFZ1urW7k,1964
+Economics,Module 2: Economic Growth,Capital deepening versus technological progress,https://youtu.be/dwgQFZTRVvY,762
+Economics,Module 2: Economic Growth,Natural resources,https://youtu.be/FGDK0i-beho,543
+Economics,Module 2: Economic Growth,Labor supply,https://youtu.be/dd7CmxnIOyY,558
+Economics,Module 2: Economic Growth,"ICT, non-ICT, and technology and public infrastructure",https://youtu.be/c3A_XIkhnDA,836
+Economics,Module 2: Economic Growth,Theories of growth,https://youtu.be/PWqP5G1QqoA,2545
+Economics,Module 2: Economic Growth,Implications of the neoclassical model,https://youtu.be/8IR6-LdbILU,776
+Economics,Module 2: Economic Growth,Extensions of the neoclassical model,https://youtu.be/XQ-T9M5W2R8,579
+Economics,Module 2: Economic Growth,Endogenous growth model,https://youtu.be/BhHTvNwbKrg,1776
+Economics,Module 2: Economic Growth,Convergence hypothesis,https://youtu.be/YxA2bML9R2A,1281
+Economics,Module 2: Economic Growth,Growth in an open economy,https://youtu.be/SOVaaPnbQKM,1202
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Dividends: forms and effects on shareholder wealth and financial ratios,https://youtu.be/V2iVEsPbrWc,2668
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Dividend policy and company value: theories,https://youtu.be/UM8M6QYljb4,1622
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Dividend signaling,https://youtu.be/Dj0HLkqvDCg,1339
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Factors affecting dividend policy in practice,https://youtu.be/J0mwU-li9Sg,2241
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Payout policies,https://youtu.be/15n5ds6Hq_4,824
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Share repurchases,https://youtu.be/s601GQM4f2I,2188
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,The dividend versus share repurchase decision,https://youtu.be/jGyLe5R6Asc,1093
+Corporate Finance,Module 1: Analysis of Dividends and Share Repurchases,Analysis of dividend safety,https://youtu.be/QAyQFebFHeU,536
+Corporate Finance,"Module 2: Environmental, Social, and Governance (ESG) Considerations in Investment Analysis",Ownership structures and their effects on corporate governance,https://youtu.be/fA6_Zk-vT4M,2286
+Corporate Finance,"Module 2: Environmental, Social, and Governance (ESG) Considerations in Investment Analysis",Evaluating corporate governance policies and procedures,https://youtu.be/FoRA-bUJuIo,532
+Corporate Finance,"Module 2: Environmental, Social, and Governance (ESG) Considerations in Investment Analysis",ESG-related risks and opportunities,https://youtu.be/ivz0ayMM8lM,595
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,Cost of capital factors,https://youtu.be/8aKVzioANaQ,2246
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,Estimating the cost of debt,https://youtu.be/miJNhz7jhRA,779
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,The ERP,https://youtu.be/D4Lm0T1AHBo,2475
+Corporate Finance,Module 3: Cost of Capital: Advanced Topics,The cost of equity,https://youtu.be/fuzQeyFUi-U,2646
+Corporate Finance,Module 4: Corporate Restructuring,"Corporate evolution, actions, and motivations",https://youtu.be/q-D6fTqRqzc,3498
+Corporate Finance,Module 4: Corporate Restructuring,Evaluating corporate restructurings,https://youtu.be/9It4-7tE7cI,1290
+Corporate Finance,Module 4: Corporate Restructuring,Modeling and valuation,https://youtu.be/1MKeJ5M_W2M,673
+Financial Statement Analysis,Module 1: Intercorporate Investments,Corporate investment categories and financial assets,https://youtu.be/c_VFrxTdS-o,1800
+Financial Statement Analysis,Module 1: Intercorporate Investments,Investments in associates and joint ventures,https://youtu.be/xuig4nC8GhE,1624
+Financial Statement Analysis,Module 1: Intercorporate Investments,Associates - amortization of excess purchase price,https://youtu.be/ZP74BsZHYeQ,2445
+Financial Statement Analysis,Module 1: Intercorporate Investments,Transactions with associates,https://youtu.be/3QnzKFyMxpw,1375
+Financial Statement Analysis,Module 1: Intercorporate Investments,Acquisition method - full and partial goodwill,https://youtu.be/Y86HQj2MgOk,2478
+Financial Statement Analysis,Module 1: Intercorporate Investments,Acquisition method and the consolidation process,https://youtu.be/pzYehwHG0m4,2667
+Financial Statement Analysis,Module 1: Intercorporate Investments,Variable interest and special purpose entities,https://youtu.be/fe5J_2Meacc,1029
+Financial Statement Analysis,Module 1: Intercorporate Investments,Additional issues in business combinations,https://youtu.be/BcFCWwJX2UQ,1655
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Types of employee compensation,https://youtu.be/wswEaSVsjxI,1402
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Financial reporting for share-based compensation,https://youtu.be/LMbMTjiy7Tw,2504
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Share-based compensation: tax and share count effects,https://youtu.be/z3mKeoCXvwY,2109
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Share-based compensation: financial statement modeling,https://youtu.be/5_CZiu-hNUw,1365
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Financial reporting for DC plans,https://youtu.be/cX3H5kigRo8,1290
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Financial reporting for DB plans under IFRS,https://youtu.be/S8mpsBSBLlc,4971
+Financial Statement Analysis,Module 2: Employee Compensation: Post-Employment and Share-Based,Financial reporting for DB plans under US GAAP,https://youtu.be/sisQz-pqDYM,2051
+Financial Statement Analysis,Module 3: Multinational Operations,Foreign currency transactions,https://youtu.be/yQeWC1zw9_8,1538
+Financial Statement Analysis,Module 3: Multinational Operations,Current rate method,https://youtu.be/rpWv4-N4rq8,1741
+Financial Statement Analysis,Module 3: Multinational Operations,Temporal method,https://youtu.be/N5QlT_xQ1co,2457
+Financial Statement Analysis,Module 3: Multinational Operations,Translation in an hyperinflationary economy,https://youtu.be/_Hr0ubx2L8s,2951
+Financial Statement Analysis,Module 3: Multinational Operations,Translation analytical issues,https://youtu.be/QEeobYPvdtI,1508
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,What makes financial institutions different,https://youtu.be/5DJaRLe6wNU,1362
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,The CAMELS approach to bank analysis,https://youtu.be/WiJAcys5hmg,2512
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Non-CAMELS factors,https://youtu.be/NaK9bN5nCcE,1458
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Analyzing property and casualty insurers,https://youtu.be/c_vPJsjJEns,2054
+Financial Statement Analysis,Module 4: Analysis of Financial Institutions,Analyzing life and health insurers,https://youtu.be/_B-LP5Xnlls,712
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Conceptual framework for assessing financial reporting quality,https://youtu.be/8DXV4JFH5ss,1276
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,M&A issues and divergence from economic reality,https://youtu.be/LCdUXN8ChkE,1216
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,General steps of evaluation,https://youtu.be/11TDfT7IQyI,660
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Quantitative tools to assess the likelihood of misreporting,https://youtu.be/7BFRW2N5X4E,954
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Earnings quality indicators,https://youtu.be/CpiGxMBmvdw,508
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Earnings persistence,https://youtu.be/WQydNoiEPLg,770
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Mean reversion in earnings,https://youtu.be/3EuGXZgYNns,609
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Bankruptcy prediction models,https://youtu.be/Aitx7Htlgfw,541
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Cash flow quality,https://youtu.be/QHitJuN98KA,856
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Balance sheet quality,https://youtu.be/_luJx5NnShQ,1517
+Financial Statement Analysis,Module 5: Evaluating Quality of Financial Reports,Sources of information about risk,https://youtu.be/GG3L990HXAM,922
+Financial Statement Analysis,Module 6: Integration of Financial Statement Analysis Techniques,Companion to the Nestle case study,https://youtu.be/LF9AgYgSkfk,953
+Equities,Module 1: Equity Valuation: Applications and Processes,Applications of equity valuation,https://youtu.be/VTU9hSppO2A,1486
+Equities,Module 1: Equity Valuation: Applications and Processes,Understanding the business,https://youtu.be/7tkiCqvub1g,630
+Equities,Module 1: Equity Valuation: Applications and Processes,Analysis of financial reports and sources of information,https://youtu.be/16eEuM_lalY,1204
+Equities,Module 1: Equity Valuation: Applications and Processes,Selecting the appropriate valuation method,https://youtu.be/EWntWh51rms,1355
+Equities,Module 1: Equity Valuation: Applications and Processes,Issues in model selection and interpretation,https://youtu.be/yh3S7zVss6E,1037
+Equities,Module 1: Equity Valuation: Applications and Processes,The analyst's role and responsibilities,https://youtu.be/kAOeL9FCv00,942
+Equities,Module 1: Equity Valuation: Applications and Processes,Communicating valuation results,https://youtu.be/mccw1ecpi38,579
+Equities,Module 2: Discounted Dividend Valuation,Present value models overview,https://youtu.be/_uJRCCvdw1w,2529
+Equities,Module 2: Discounted Dividend Valuation,The dividend discount model,https://youtu.be/HXC_rTXTlYc,707
+Equities,Module 2: Discounted Dividend Valuation,The Gordon growth model,https://youtu.be/efThQaWSqm4,1158
+Equities,Module 2: Discounted Dividend Valuation,Share repurchases and the implied dividend growth rate,https://youtu.be/do1mfY1toWs,807
+Equities,Module 2: Discounted Dividend Valuation,The Gordon growth model: other issues,https://youtu.be/YPutJOo7hB8,1769
+Equities,Module 2: Discounted Dividend Valuation,Multistage dividend discount models,https://youtu.be/4cG-SMuRkPY,1180
+Equities,Module 2: Discounted Dividend Valuation,The H-model and three-stage DDMs,https://youtu.be/HVYls2Al4SU,1882
+Equities,Module 2: Discounted Dividend Valuation,Estimating the required rate of return,https://youtu.be/L5SnCiJXdVY,452
+Equities,Module 2: Discounted Dividend Valuation,The financial determinants of growth rates,https://youtu.be/h8S68GedHHs,865
+Equities,Module 3: Free Cash Flow Valuation,FCFF and FCFE valuation,https://youtu.be/ru1TeYafVUo,1080
+Equities,Module 3: Free Cash Flow Valuation,Computing FCFF from Net Income and the cash flow statement,https://youtu.be/m4Fw1sOo4Vw,1326
+Equities,Module 3: Free Cash Flow Valuation,Additional considerations in computing FCFF,https://youtu.be/hJzJ6C4Kuj4,761
+Equities,Module 3: Free Cash Flow Valuation,Computing FCFE from FCFF,https://youtu.be/OU1_wwm6mu0,589
+Equities,Module 3: Free Cash Flow Valuation,Finding FCFF and FCFE from EBITA or EBITDA,https://youtu.be/_CMxnQkuijo,956
+Equities,Module 3: Free Cash Flow Valuation,FCFF and FCFE on uses-of-free-cash-flow basis,https://youtu.be/N3UsFa1pzlo,589
+Equities,Module 3: Free Cash Flow Valuation,Forecasting FCFF and FCFE,https://youtu.be/xWkWghMOF18,1019
+Equities,Module 3: Free Cash Flow Valuation,Other issues in free cash flow analysis,https://youtu.be/PJGLuFzhFWA,1259
+Equities,Module 3: Free Cash Flow Valuation,Free cash flow model variations,https://youtu.be/tR1epZg1xkQ,419
+Equities,Module 3: Free Cash Flow Valuation,Two- and three-stage free cash flow models,https://youtu.be/Yb9qlTEAwr0,1765
+Equities,Module 3: Free Cash Flow Valuation,Integrating ESG in free cash flow models and non-operating assets,https://youtu.be/-f7Betim6eU,428
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price and enterprise value multiples,https://youtu.be/gCEdndb9FZU,654
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Earnings: the basics,https://youtu.be/pX9GojEKzYM,2044
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Earnings: valuation based on forecasted fundamentals,https://youtu.be/w0VjYaDruks,787
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Earnings: using the P/E in valuation,https://youtu.be/oDMKTNNgmkM,2694
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Book value,https://youtu.be/_qIHcF4ng-w,1937
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Sales,https://youtu.be/BTzLI-aZzAw,854
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Cash Flow,https://youtu.be/R2Zw1s8LADA,1039
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Price/Dividends and dividend yield,https://youtu.be/lE5l_yhxgTk,1024
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Enterprise value/EBITDA,https://youtu.be/m8VWcb6oFaI,1222
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Other enterprise value multiples,https://youtu.be/tg6fQ8j9USc,528
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,International considerations when using multiples,https://youtu.be/6Amn4mY3DXk,282
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Momentum valuation indicators,https://youtu.be/TRRPOL-rU6Q,589
+Equities,Module 4: Market-Based Valuation: Price and Enterprise Value Multiples,Valuation indicators: issues in practice,https://youtu.be/a6b-Wjhugtw,843
+Equities,Module 5: Residual Income Valuation,Residual income,https://youtu.be/RzTY7VFYwrU,1649
+Equities,Module 5: Residual Income Valuation,The residual income model,https://youtu.be/bmLIPGaNhKw,1030
+Equities,Module 5: Residual Income Valuation,Single-stage and multistage residual income valuation,https://youtu.be/LhJL8iFYUO8,3310
+Equities,Module 5: Residual Income Valuation,Relationship to other approaches,https://youtu.be/zrdOkdDNA5g,852
+Equities,Module 5: Residual Income Valuation,Accounting and international considerations,https://youtu.be/PLItlH_CQHI,899
+Equities,Module 6: Private Company Valuation,Public versus private company valuation,https://youtu.be/TrXjozUN1YQ,498
+Equities,Module 6: Private Company Valuation,Private company valuation uses and areas of focus,https://youtu.be/JSx4paR8xZk,414
+Equities,Module 6: Private Company Valuation,Earnings normalization and cash flow estimation,https://youtu.be/LiyFV1cbGYY,1354
+Equities,Module 6: Private Company Valuation,Private company discount rates and required rates of return,https://youtu.be/Y_SaQQq0Ti0,916
+Equities,Module 6: Private Company Valuation,Valuation discounts and premiums,https://youtu.be/dNQOt5IfJ7g,1077
+Equities,Module 6: Private Company Valuation,Private company valuation: income-based approach,https://youtu.be/h1htkdT6mlQ,1385
+Equities,Module 6: Private Company Valuation,Private company valuation: market-based approach,https://youtu.be/XRJWiKCAqPc,997
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,"Spot rates, forward rates, and the forward rate model",https://youtu.be/eYQD5ZKPu8Y,3884
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,YTM in relation to spot and forward rates,https://youtu.be/yoBtKPaUqD0,2266
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Active bond portfolio management,https://youtu.be/iHW4RkvEamo,1525
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,The swap rate curve,https://youtu.be/kfuaL9IzOg8,1467
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,The swap spread and spreads as a price quotation convention,https://youtu.be/x8Q2keOscmc,901
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Traditional theories of the term structure of interest rates,https://youtu.be/P7WhMsDkXwk,1505
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Yield curve factor models,https://youtu.be/M6wuO1El86o,499
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,The maturity structure of yield curve volatilities,https://youtu.be/_HpYqmGb-NM,695
+Fixed Income,Module 1: The Term Structure and Interest Rate Dynamics,Developing interest rate views using macroeconomic variables,https://youtu.be/7D-E6BKjcGg,1648
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Arbitrage-free valuation for an option-free bond,https://youtu.be/64FqDdNQOk0,3403
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Valuing an option-free bond with a binomial tree,https://youtu.be/PVEsXHdhi1c,935
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Calibrating the binomial interest rate tree to the term structure,https://youtu.be/xB9qggbXRc0,633
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Valuing an option-free bond with pathwise valuation,https://youtu.be/nCz6ax0t-W0,869
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,The Monte Carlo method,https://youtu.be/sAPCR68a8QU,757
+Fixed Income,Module 2: The Arbitrage-Free Valuation Framework,Term structure models,https://youtu.be/38pCgRWNiQw,2236
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Overview of embedded options,https://youtu.be/ZOACa84j0HQ,1721
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Callable and putable bonds,https://youtu.be/rtZJGJkpp28,1428
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Effects of interest rate volatility,https://youtu.be/FezBmr_H6Q4,631
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Valuation of default-free callable and putable bonds with interest rate volatility,https://youtu.be/z4k48G44zy4,1176
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Valuation of risky callable and putable bonds,https://youtu.be/K44e_VfI6P4,875
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Bonds with embedded options: effective duration,https://youtu.be/-4swYAml-5g,1412
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,One-sided and key rate duration,https://youtu.be/agMXvKMClYg,593
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Effective convexity,https://youtu.be/Goe15_SDzgY,314
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Capped and floored floating-rate bonds,https://youtu.be/gMJgwytLp2I,1003
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Convertible bonds,https://youtu.be/4iGq36SIfXY,2782
+Fixed Income,Module 3: Valuation and Analysis of Bonds with Embedded Options,Comparison of risk-return characteristics,https://youtu.be/HDn1vXALt1s,774
+Fixed Income,Module 4: Credit Analysis Models,Modeling credit risk and the credit valuation adjustment,https://youtu.be/I0ZWgP5irEw,2277
+Fixed Income,Module 4: Credit Analysis Models,Credit scores and credit ratings,https://youtu.be/5wGFpfqIkMM,952
+Fixed Income,Module 4: Credit Analysis Models,Structural and reduced-form credit models,https://youtu.be/gpthnXGxQBA,1592
+Fixed Income,Module 4: Credit Analysis Models,Valuing risky bonds in an arbitrage-free framework,https://youtu.be/mKZh1hbPJ6E,4975
+Fixed Income,Module 4: Credit Analysis Models,Interpreting changes in credit spreads,https://youtu.be/DfZubYcxov8,479
+Fixed Income,Module 4: Credit Analysis Models,The term structure of credit spreads,https://youtu.be/PB1ZooUoBOg,1107
+Fixed Income,Module 4: Credit Analysis Models,Credit analysis for securitized debt,https://youtu.be/ZUIUqe0PtoY,1384
+Fixed Income,Module 5: Credit Default Swaps,CDS overview,https://youtu.be/Tmg2whqiSyM,1373
+Fixed Income,Module 5: Credit Default Swaps,Important features of CDS markets,https://youtu.be/xEuk8Brd2JI,2430
+Fixed Income,Module 5: Credit Default Swaps,Basics of CDS valuation and pricing,https://youtu.be/K-Jsh6dwhJc,1157
+Fixed Income,Module 5: Credit Default Swaps,Applications of CDS,https://youtu.be/6r0o8L30oTw,733
+Fixed Income,Module 5: Credit Default Swaps,Valuation differences and basis trading,https://youtu.be/u5MqSw0houI,357
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and valuation of generic forward and futures contracts,https://youtu.be/Mquns3J9_Os,1464
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Carry arbitrage,https://youtu.be/qfPnEmVZdBg,2926
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and valuing equity and interest rate forwards,https://youtu.be/_dx1gco4V6E,3508
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing fixed-income forward and futures contracts,https://youtu.be/2jGZhAtJXPI,2157
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and valuing swap contracts,https://youtu.be/aL0zPKD4wcI,1454
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and valuing currency swap contracts,https://youtu.be/DcPEKbzO3Jw,1288
+Derivatives,Module 1: Pricing and Valuation of Forward Commitments,Pricing and valuing equity swap contracts,https://youtu.be/qtuwmCx84LU,1951
+Derivatives,Module 2: Valuation of Contingent Claims,Binomial option valuation model,https://youtu.be/yv1DXp575tA,507
+Derivatives,Module 2: Valuation of Contingent Claims,One-period binomial model,https://youtu.be/IMLKL2coPPg,3001
+Derivatives,Module 2: Valuation of Contingent Claims,Two-period binomial model: call options,https://youtu.be/7cNTkVwq2X4,996
+Derivatives,Module 2: Valuation of Contingent Claims,Two-period binomial model: put options,https://youtu.be/pL1tU06i58k,503
+Derivatives,Module 2: Valuation of Contingent Claims,Two-period binomial model: role of dividends,https://youtu.be/w1GRrfDsjng,342
+Derivatives,Module 2: Valuation of Contingent Claims,Interest rate options and multiperiod model,https://youtu.be/zDWnmsCn9dY,806
+Derivatives,Module 2: Valuation of Contingent Claims,BSM option valuation model,https://youtu.be/W6ydy7gHVtI,644
+Derivatives,Module 2: Valuation of Contingent Claims,BSM model: components,https://youtu.be/oZMm2rscATo,1885
+Derivatives,Module 2: Valuation of Contingent Claims,BSM model: carry benefits and applications,https://youtu.be/q2ChgyXwj3Y,977
+Derivatives,Module 2: Valuation of Contingent Claims,Black option valuation model and European options on futures,https://youtu.be/4bWb3qqhskA,385
+Derivatives,Module 2: Valuation of Contingent Claims,Interest rate options,https://youtu.be/pj6DCIvpS5Q,1257
+Derivatives,Module 2: Valuation of Contingent Claims,Swaptions,https://youtu.be/dfZTbR-GUgQ,686
+Derivatives,Module 2: Valuation of Contingent Claims,Delta,https://youtu.be/mm46a70veOI,1112
+Derivatives,Module 2: Valuation of Contingent Claims,Gamma,https://youtu.be/xV_3XDXD9aA,936
+Derivatives,Module 2: Valuation of Contingent Claims,Theta,https://youtu.be/4xWVU3CcMe8,376
+Derivatives,Module 2: Valuation of Contingent Claims,Vega,https://youtu.be/j_5Y3VZxIqQ,345
+Derivatives,Module 2: Valuation of Contingent Claims,Rho,https://youtu.be/clkDZPtloiA,461
+Derivatives,Module 2: Valuation of Contingent Claims,Implied volatility,https://youtu.be/uCmAFasfF1k,655
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity sectors,https://youtu.be/4kuVb5v15VE,1679
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Life cycle of commodities,https://youtu.be/hK2RatbIeJA,1334
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Valuation of commodities,https://youtu.be/eio2whKdeX4,376
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodities futures markets: participants,https://youtu.be/2ngoWJ_fVuY,587
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity spot and futures pricing,https://youtu.be/37VzuodedPQ,505
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Theories of futures returns,https://youtu.be/m_GeHEkW2z4,1648
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Components of futures returns,https://youtu.be/MwKTijNWFSw,876
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity swaps,https://youtu.be/35QO_rPAnGE,1105
+Alternative Investments,Module 1: Introduction to Commodities and Commodity Derivatives,Commodity indexes,https://youtu.be/J8m_5sjRamk,926
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Real estate investment features,https://youtu.be/RNh2rnsn7Kg,1786
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Economic value drivers and portfolio characteristics of real estate investments,https://youtu.be/PWogRAdN_7E,1653
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Commercial property investment characteristics,https://youtu.be/RM7vqvzAUHo,718
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Real estate due diligence and valuation approaches,https://youtu.be/11BIPgOO9Rs,1400
+Alternative Investments,Module 2: Overview of Types of Real Estate Investment,Real estate indexes,https://youtu.be/WBZG3Gs6IbA,1507
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Types of publicly traded real estate securities,https://youtu.be/9aVTv5YQcNo,1619
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Valuation: net asset value approach,https://youtu.be/m3bF8JiKy_A,1343
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Valuation: relative value (price multiple) approach,https://youtu.be/x6IpAhHavOE,947
+Alternative Investments,Module 3: Investments in Real Estate through Publicly Traded Securities,Private versus public: a comparison,https://youtu.be/xZav3foL0oM,726
+Alternative Investments,Module 4: Hedge Fund Strategies,Classification of hedge fund strategies,https://youtu.be/MZArw7RNJNA,1265
+Alternative Investments,Module 4: Hedge Fund Strategies,Equity strategies: long/short equity,https://youtu.be/J1mk9AgfRg0,534
+Alternative Investments,Module 4: Hedge Fund Strategies,Equity strategies: dedicated short selling and short-biased,https://youtu.be/QcCWpV8J8MQ,686
+Alternative Investments,Module 4: Hedge Fund Strategies,Equity strategies: equity market neutral,https://youtu.be/W-uhc3pp2xI,1114
+Alternative Investments,Module 4: Hedge Fund Strategies,Event-driven strategies: merger arbitrage,https://youtu.be/uBdFq7lDp0E,1249
+Alternative Investments,Module 4: Hedge Fund Strategies,Event-driven strategies: distressed securities,https://youtu.be/gM2xgAbpLg8,847
+Alternative Investments,Module 4: Hedge Fund Strategies,Relative value strategies: fixed-income arbitrage,https://youtu.be/8SI4xBtQ9wU,793
+Alternative Investments,Module 4: Hedge Fund Strategies,Relative value strategies: convertible bond arbitrage,https://youtu.be/J0Q6SeYTvjU,690
+Alternative Investments,Module 4: Hedge Fund Strategies,Opportunistic strategies: global macro strategies,https://youtu.be/8_79tSmc3_A,632
+Alternative Investments,Module 4: Hedge Fund Strategies,Opportunistic strategies: managed futures,https://youtu.be/usrTg47evTA,531
+Alternative Investments,Module 4: Hedge Fund Strategies,Specialist strategies,https://youtu.be/MDivkOpF3lM,1539
+Alternative Investments,Module 4: Hedge Fund Strategies,Multi-manager strategies,https://youtu.be/HrWdINiA93w,852
+Alternative Investments,Module 4: Hedge Fund Strategies,Analysis of hedge fund strategies using a conditional risk factor model,https://youtu.be/nSgQOikE7cw,908
+Alternative Investments,Module 4: Hedge Fund Strategies,Portfolio contribution of hedge fund strategies,https://youtu.be/zVXiJZJpZmE,432
+Portfolio Construction,Module 1: Economics and Investment Markets,The present value model,https://youtu.be/7UaTmsQ7lD0,457
+Portfolio Construction,Module 1: Economics and Investment Markets,Expectations and asset values,https://youtu.be/9Qxaz_8zyZA,423
+Portfolio Construction,Module 1: Economics and Investment Markets,The discount rate on real default-free bonds: interest rates,https://youtu.be/trT12T7nnE0,990
+Portfolio Construction,Module 1: Economics and Investment Markets,The discount rate on real default-free bonds: uncertainty and risk premiums,https://youtu.be/9KGFMV9nijI,287
+Portfolio Construction,Module 1: Economics and Investment Markets,The discount rate on real default-free bonds: risk premiums on risky assets,https://youtu.be/nnaF4MkcVpo,235
+Portfolio Construction,Module 1: Economics and Investment Markets,Default-free interest rates and economic growth,https://youtu.be/axaGzxfhxxU,431
+Portfolio Construction,Module 1: Economics and Investment Markets,The yield curve and the business cycle,https://youtu.be/PBezqzL0EHI,490
+Portfolio Construction,Module 1: Economics and Investment Markets,Treasury bills and the business cycle,https://youtu.be/gt5lEbW_U3g,986
+Portfolio Construction,Module 1: Economics and Investment Markets,Conventional government bonds and break-even inflation rates,https://youtu.be/PhSDBslgCKI,208
+Portfolio Construction,Module 1: Economics and Investment Markets,The default-free yield curve and the business cycle,https://youtu.be/XNC0-4dgjqI,250
+Portfolio Construction,Module 1: Economics and Investment Markets,The slope of the yield curve and the term spread,https://youtu.be/y5CdFnvm80Q,552
+Portfolio Construction,Module 1: Economics and Investment Markets,Evidence on risk premiums for default-free bonds,https://youtu.be/bgSP8hF4Yqs,351
+Portfolio Construction,Module 1: Economics and Investment Markets,Other factors,https://youtu.be/wZOygACu5d8,369
+Portfolio Construction,Module 1: Economics and Investment Markets,Credit premiums and the business cycle,https://youtu.be/LdgGVfCh7YA,491
+Portfolio Construction,Module 1: Economics and Investment Markets,Industry- and company-specific credit quality,https://youtu.be/s2MQAr14_2Y,307
+Portfolio Construction,Module 1: Economics and Investment Markets,Sovereign credit risk,https://youtu.be/XPIgjZetyJI,230
+Portfolio Construction,Module 1: Economics and Investment Markets,Equities and the equity risk premium,https://youtu.be/CAZZ95xYb4I,536
+Portfolio Construction,Module 1: Economics and Investment Markets,Earnings growth and the economic cycle,https://youtu.be/ikgLzfG9xa0,240
+Portfolio Construction,Module 1: Economics and Investment Markets,How big is the equity risk premium?,https://youtu.be/1sZQzQUvbYo,198
+Portfolio Construction,Module 1: Economics and Investment Markets,Valuation multiples,https://youtu.be/m7kXPuEjmI0,407
+Portfolio Construction,Module 1: Economics and Investment Markets,Commercial real estate,https://youtu.be/G4BeSfbywmg,645
+Portfolio Construction,Module 1: Economics and Investment Markets,Commercial real estate and the business cycle,https://youtu.be/WIhwA7XaehE,336
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Active management and value added,https://youtu.be/SWQNt5h-o1c,2940
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,The Sharpe ratio and the information ratio,https://youtu.be/P_h-UBohVbY,1612
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Constructing optimal portfolios,https://youtu.be/-nMwTAcLXLA,1041
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Active security returns and the fundamental law of active management,https://youtu.be/ob8bWEXKF1o,2023
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,The full fundamental law,https://youtu.be/hQ2VQiSQXLo,2429
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Applications of the fundamental law,https://youtu.be/CLlPQVY9x3M,591
+Portfolio Construction,Module 2: Analysis of Active Portfolio Management,Practical limitations,https://youtu.be/prjGaKamEAs,417
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,ETF mechanics,https://youtu.be/0qxO-v0uprA,4196
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,Understanding ETFs,https://youtu.be/rRT_5UVGF1Y,2376
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,ETF risks,https://youtu.be/LkvgVhYlY9I,957
+Portfolio Construction,Module 3: Exchange-Traded Funds: Mechanics and Applications,ETFs in portfolio management,https://youtu.be/2k_1XE5XlTc,1099
+Portfolio Construction,Module 4: Using Multifactor Models,Arbitrage pricing theory and multifactor models,https://youtu.be/f4lxS6gdhZE,1047
+Portfolio Construction,Module 4: Using Multifactor Models,Types of multifactor models,https://youtu.be/l_VuhMeFPBU,1551
+Portfolio Construction,Module 4: Using Multifactor Models,Factor models in return attribution,https://youtu.be/0DltxMglXyI,364
+Portfolio Construction,Module 4: Using Multifactor Models,Factor models in risk attribution,https://youtu.be/gpYuzQcp1Qk,664
+Portfolio Construction,Module 4: Using Multifactor Models,Factor models in portfolio construction,https://youtu.be/nanDgQSxlYU,388
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Understanding VaR,https://youtu.be/pSco7tlQGEY,368
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Estimating VaR,https://youtu.be/348JLCA3iHA,506
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,The parametric method of VaR estimation,https://youtu.be/QeCtN5D1yus,1325
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,The historical simulation method of VaR estimation,https://youtu.be/r3FaFx41g0o,427
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,The Monte Carlo simulation method of VaR estimation,https://youtu.be/BGH3m4xF6d4,309
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,"Advantages, limitations, and extensions of VaR",https://youtu.be/bZVK_aggRBM,1328
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Other key risk measures,https://youtu.be/ShxQCK9OkrA,840
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Scenario risk measures,https://youtu.be/fSycg5j57xo,511
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Sensitivity and scenario risk measures and VAR,https://youtu.be/nuNNiQ0O72E,1262
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Using constraints in market risk management,https://youtu.be/LxTFn7vQycs,935
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Market participants and the risk measures they use,https://youtu.be/RLv5kdjgBN4,1226
+Portfolio Construction,Module 5: Measuring and Managing Market Risk,Pension funds and insurers,https://youtu.be/TYVGQ8VTUoQ,958
+Portfolio Construction,Module 6: Backtesting and Simulation,The backtesting process,https://youtu.be/XTlul57SYww,1353
+Portfolio Construction,Module 6: Backtesting and Simulation,Common problems in backtesting,https://youtu.be/VmDmi4l2t6M,758
+Portfolio Construction,Module 6: Backtesting and Simulation,Historical scenario and simulation analysis,https://youtu.be/xutddPaojpU,1192
+Portfolio Construction,Module 6: Backtesting and Simulation,Sensitivity analysis,https://youtu.be/cfSqwleCx-Q,443
+Ethical and Professional Standards,Module 1: Code of Ethics and Standards of Professional Conduct,Code of Ethics and Standards of Professional Conduct,https://youtu.be/zGRPVrEh1Js,970
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard I(A): Professionalism - Knowledge of the law,https://youtu.be/syeNuv23LH0,2258
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard I(B): Professionalism - Independence and Objectivity,https://youtu.be/qay2LwSAxM8,2033
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard I(C): Professionalism - Misrepresentation,https://youtu.be/IeZIYXP47Xs,1115
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard I(D): Professionalism - Misconduct,https://youtu.be/ZMcJmBpGq34,539
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard I(E): Professionalism - Competence,https://youtu.be/v5URX9c2hOQ,454
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard II(A): Integrity of Capital Markets - Material Nonpublic Information,https://youtu.be/Yphbhu9h1Qs,2547
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard II(B): Integrity of Capital Markets - Market Manipulation,https://youtu.be/IQCNPmjaWvg,447
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,"Standard III(A): Duties to Clients - Loyalty, Prudence, and Care",https://youtu.be/LN2kP3q6h1A,901
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard III(B): Duties to Clients - Fair Dealing,https://youtu.be/jKyKYmFjnuQ,779
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard III(C): Duties to Clients - Suitability,https://youtu.be/JvpNOOErqbc,499
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard III(D): Duties to Clients - Performance Presentation,https://youtu.be/Icb4lofpUvw,547
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard III(E): Duties to Clients - Preservation of Confidentiality,https://youtu.be/udp_g8LlsVo,550
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard IV(A): Duties to Employers - Loyalty,https://youtu.be/l_pW893og3Y,1509
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard IV(B): Duties to Employers - Additional Compensation Arrangements,https://youtu.be/fXJ2zajasHA,254
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard IV(C): Duties to Employers - Responsibilities of Supervisors,https://youtu.be/9H72qI7ZzQo,312
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard V(A): Diligence and Reasonable Basis,https://youtu.be/3Y2FkRmcFBQ,872
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard V(B): Communication with Clients and Prospective Clients,https://youtu.be/adbMP6uZeFU,382
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard V(C): Record Retention,https://youtu.be/Vgv9C6lLG1k,264
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard VI(A): Conflicts of Interest - Avoid or Disclose Conflicts,https://youtu.be/QtVXQI017ZQ,683
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard VI(B): Conflicts of Interest - Priority of Transactions,https://youtu.be/2c0AHvbF2ug,562
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard VI(C): Conflicts of Interest - Referral Fees,https://youtu.be/AqCWg8ZrjE4,161
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard VII(A): Conduct as Participants in CFA Institute Programs,https://youtu.be/4EdBZLoSdM4,386
+Ethical and Professional Standards,Module 2: Guidance for Standards I-VII,Standard VII(B): Reference to CFA Institute,https://youtu.be/Rgs4DwmLX6c,662
+Ethical and Professional Standards,Module 3: Application of the Code and Standards: Level II,Serengeti Advisory Services,https://youtu.be/WkXzNvwL_oU,1141
+Ethical and Professional Standards,Module 3: Application of the Code and Standards: Level II,Banco Libertad,https://youtu.be/yhdvS7L4lro,521
+Ethical and Professional Standards,Module 3: Application of the Code and Standards: Level II,QuantHouse,https://youtu.be/9IPQZ0xb_fk,358
+Ethical and Professional Standards,Module 3: Application of the Code and Standards: Level II,"Jacobs, Riccio, and Associates",https://youtu.be/dkZO6TCBuzI,442
+Ethical and Professional Standards,Module 3: Application of the Code and Standards: Level II,Magadi Asset Management,https://youtu.be/q5yGsn_4Im0,338
+Ethical and Professional Standards,Module 3: Application of the Code and Standards: Level II,Syyark,https://youtu.be/8pZT2oToxdA,647
+Ethical and Professional Standards,Module 3: Application of the Code and Standards: Level II,Agarway,https://youtu.be/7_NDHTVBY3U,373

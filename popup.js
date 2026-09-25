@@ -1,11 +1,13 @@
-// Each level has its own index file and its own favorites
+// Each level has its own video index and its own favorites. A level can also have the CFA
+// curriculum outline, whose section titles help recognize which module the open page is about.
 const LEVELS = {
   '1': { title: 'CFA Level 1 Index', csv: 'CFA_Level1_LetMeExplain_Index.csv', favKey: 'cfaFavorites', modFavKey: 'cfaModFavorites' },
-  '2': { title: 'CFA Level 2 Index', csv: 'CFA_Level2_Index.csv', favKey: 'cfaFavoritesL2', modFavKey: 'cfaModFavoritesL2' }
+  '2': { title: 'CFA Level 2 Index', csv: 'CFA_Level2_LetMeExplain_Index.csv', curriculumCsv: 'CFA_Level2_Curriculum.csv', favKey: 'cfaFavoritesL2', modFavKey: 'cfaModFavoritesL2' }
 };
 
 let currentLevel = '1';
 let fullCfaData = {};
+let curriculumData = {};
 let favorites = new Set();
 let favModules = new Set();
 let currentSearchTerm = '';
@@ -68,11 +70,13 @@ async function loadLevel(level) {
     const response = await fetch(config.csv);
     if (!response.ok) throw new Error("CSV missing");
     const text = await response.text();
+    const curriculumText = config.curriculumCsv ? await (await fetch(config.curriculumCsv)).text() : '';
     if (level !== currentLevel) return; // Switched level while this one was loading
 
     favorites = new Set(stored[config.favKey] || []);
     favModules = new Set(stored[config.modFavKey] || []);
     fullCfaData = parseCSV(text);
+    curriculumData = parseCSV(curriculumText);
     openState = { classes: new Set(), modules: new Set() };
     suggested = { className: null, moduleName: null };
 
@@ -96,21 +100,36 @@ async function findSuggestionForActiveTab() {
   // --- SMARTER TAB SCANNER ---
   try {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+
+    // STRATEGY 0: The tab is one of the indexed videos - match its YouTube video ID exactly
+    const videoId = youtubeId(tab.url);
+    if (videoId) {
+      for (const className in fullCfaData) {
+        for (const moduleName in fullCfaData[className]) {
+          if (fullCfaData[className][moduleName].some(lesson => youtubeId(lesson.url) === videoId)) {
+            return { className, moduleName };
+          }
+        }
+      }
+    }
+
     if (tab.url && tab.url.startsWith("http")) {
 
       // Extract the page text FIRST, then process it in the popup
       const injectionResults = await chrome.scripting.executeScript({
         target: { tabId: tab.id },
         func: () => {
-          const titleText = document.title.toLowerCase();
+          // Lowercase, with curly quotes and long dashes made plain like in the CSVs
+          const plain = text => text.toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[\u2013\u2014]/g, '-');
+          const titleText = plain(document.title);
           const h1Element = document.querySelector('h1');
-          const h1Text = h1Element ? h1Element.innerText.toLowerCase() : "";
+          const h1Text = h1Element ? plain(h1Element.innerText) : "";
           const combinedTitle = titleText + " " + h1Text;
 
           const headingsText = Array.from(document.querySelectorAll('h2, h3'))
-            .map(h => h.innerText.toLowerCase())
+            .map(h => plain(h.innerText))
             .join(' ');
-          const bodyText = document.body.innerText.toLowerCase();
+          const bodyText = plain(document.body.innerText);
 
           return { combinedTitle, headingsText, bodyText };
         }
@@ -122,28 +141,32 @@ async function findSuggestionForActiveTab() {
         let foundMod = null;
         let foundByLesson = false;
 
-        // STRATEGY 1: Reverse Lookup - Check if a CSV Lesson Name is inside the YouTube Title
-        for (const className in fullCfaData) {
-          for (const moduleName in fullCfaData[className]) {
-            // Level 2 modules carry their title ("Module 3: Model Misspecification"), so check that too
-            const moduleTitle = moduleName.match(/^Module \d+: (.+)$/);
-            if (moduleTitle && moduleTitle[1].length > 10 && combinedTitle.includes(moduleTitle[1].toLowerCase())) {
-              foundGroup = className;
-              foundMod = moduleName;
-              foundByLesson = true;
-              break;
-            }
-
-            for (const lesson of fullCfaData[className][moduleName]) {
-              const lessonLower = lesson.name.toLowerCase().trim();
-
-              // Only match if lesson string has some length (prevents matching single tiny words)
-              if (lessonLower.length > 10 && combinedTitle.includes(lessonLower)) {
+        // STRATEGY 1: Reverse Lookup - Check if a CSV Lesson Name is inside the page title.
+        // The CFA curriculum outline (Level 2) is checked the same way, after the videos.
+        for (const data of [fullCfaData, curriculumData]) {
+          for (const className in data) {
+            for (const moduleName in data[className]) {
+              // Level 2 modules carry their title ("Module 3: Model Misspecification"), so check that too
+              const moduleTitle = moduleName.match(/^Module \d+: (.+)$/);
+              if (moduleTitle && moduleTitle[1].length > 10 && combinedTitle.includes(moduleTitle[1].toLowerCase())) {
                 foundGroup = className;
                 foundMod = moduleName;
                 foundByLesson = true;
                 break;
               }
+
+              for (const lesson of data[className][moduleName]) {
+                const lessonLower = lesson.name.toLowerCase().trim();
+
+                // Only match if lesson string has some length (prevents matching single tiny words)
+                if (lessonLower.length > 10 && combinedTitle.includes(lessonLower)) {
+                  foundGroup = className;
+                  foundMod = moduleName;
+                  foundByLesson = true;
+                  break;
+                }
+              }
+              if (foundByLesson) break;
             }
             if (foundByLesson) break;
           }
@@ -440,12 +463,6 @@ function renderGroup(container, dataObj, sortedKeys) {
           badge.className = 'duration-badge lesson-duration';
           badge.innerText = formatDuration(lesson.duration);
           row.appendChild(badge);
-        } else if (lesson.page > 0) {
-          const badge = document.createElement('span');
-          badge.className = 'duration-badge lesson-duration';
-          badge.title = 'Curriculum page';
-          badge.innerText = `p. ${lesson.page}`;
-          row.appendChild(badge);
         }
 
         lessonDiv.appendChild(row);
@@ -579,6 +596,12 @@ function formatDuration(seconds) {
   }
 }
 
+// The 11-character video ID in a YouTube link (youtu.be/ID, watch?v=ID, embed/, shorts/, live/)
+function youtubeId(url) {
+  const match = (url || '').match(/(?:youtu\.be\/|[?&]v=|\/(?:embed|shorts|live)\/)([\w-]{11})/);
+  return match ? match[1] : null;
+}
+
 function addIfValid(row, data) {
   if (row.length >= 4 && !row[0].includes('Group Name') && row[0].trim() !== '') {
     const group = row[0];
@@ -586,10 +609,9 @@ function addIfValid(row, data) {
     const lesson = row[2];
     const link = row[3];
     const duration = row.length >= 5 ? parseInt(row[4]) || 0 : 0;
-    const page = row.length >= 6 ? parseInt(row[5]) || 0 : 0;
 
     if (!data[group]) data[group] = {};
     if (!data[group][module]) data[group][module] = [];
-    data[group][module].push({ name: lesson, url: link, duration: duration, page: page });
+    data[group][module].push({ name: lesson, url: link, duration: duration });
   }
 }

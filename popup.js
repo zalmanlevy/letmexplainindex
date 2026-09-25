@@ -76,12 +76,10 @@ async function loadLevel(level) {
     openState = { classes: new Set(), modules: new Set() };
     suggested = { className: null, moduleName: null };
 
-    // "Suggested For This Page" only covers Level 1 for now
-    if (level === '1') {
-      const found = await findSuggestionForActiveTab();
-      if (level !== currentLevel) return;
-      if (found) suggested = found;
-    }
+    // "Suggested For This Page": match the open tab against this level's modules
+    const found = await findSuggestionForActiveTab();
+    if (level !== currentLevel) return;
+    if (found) suggested = found;
 
     loading.classList.add('hidden');
     renderMain();
@@ -127,6 +125,15 @@ async function findSuggestionForActiveTab() {
         // STRATEGY 1: Reverse Lookup - Check if a CSV Lesson Name is inside the YouTube Title
         for (const className in fullCfaData) {
           for (const moduleName in fullCfaData[className]) {
+            // Level 2 modules carry their title ("Module 3: Model Misspecification"), so check that too
+            const moduleTitle = moduleName.match(/^Module \d+: (.+)$/);
+            if (moduleTitle && moduleTitle[1].length > 10 && combinedTitle.includes(moduleTitle[1].toLowerCase())) {
+              foundGroup = className;
+              foundMod = moduleName;
+              foundByLesson = true;
+              break;
+            }
+
             for (const lesson of fullCfaData[className][moduleName]) {
               const lessonLower = lesson.name.toLowerCase().trim();
 
@@ -178,6 +185,11 @@ async function findSuggestionForActiveTab() {
             if (match) {
               foundMod = "Module " + match[1];
             }
+          }
+
+          // Level 2 names are "Module 3: <title>", so map "Module 3" onto the full name
+          if (foundGroup && foundMod && fullCfaData[foundGroup] && !fullCfaData[foundGroup][foundMod]) {
+            foundMod = Object.keys(fullCfaData[foundGroup]).find(m => m.startsWith(foundMod + ':')) || foundMod;
           }
         }
 
